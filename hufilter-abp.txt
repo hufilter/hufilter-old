@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uy8k2Xw8O3FlzYc828f9HQ
-! Version: 202108121059
+! Checksum: 6X7JExdklBNvDM+f1k8jHg
+! Version: 202108121958
 ! Title: hufilter
-! Last modified: 12 Aug 2021 10:59 UTC
+! Last modified: 12 Aug 2021 19:58 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -165,6 +165,7 @@ motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
 mult-kor.hu##[class^="ui-dialog"]
+mult-kor.hu##[align="center"] > a[href*="banner"]
 multiplay.hu##[id*="banner"]
 myvip.com##[id*="banner"]
 napi.hu##[id*="billboard"]
@@ -422,6 +423,7 @@ origo.hu,gphirek.hu##[id^="zone"]
 origo.hu##.origo-jatek-randi-bottom
 origo.hu###ac
 origo.hu##div.mme-doboz
+origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
 ||origo.hu/banner/
 ||origo.hu/p/sales/
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
@@ -924,6 +926,7 @@ egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
+egeszsegkalauz.hu##a[title="Hirdetés"]
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
@@ -987,6 +990,7 @@ bien.hu##.tapeta.fixed
 bien.hu#?#.hidden-xs:-abp-has(> .weboldal_felett)
 bien.hu#?#.hidden-xs:-abp-has(> .lablec_alatt)
 bien.hu##blockquote
+bien.hu##[data-ai]
 !
 moly.hu##[class*="banner"]
 !
@@ -1703,10 +1707,21 @@ szeged365.hu##[id^="stream-item-"]
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 szeged365.hu##.stream-item
 !
+wikiszotar.hu##[id*="sense-"]
+!
+maszol.ro###article > section > div:not(.article_content)
+!
+noizz.hu##[data-placeholder-caption="hirdetés"]
+!
+szekelyfold.ma##div[id^="ga_g"]
+!
+koroshircentrum.hu#?#div:-abp-has(> a + h6)
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
+||adfair.hu
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
 ||ad.pphungary.hu

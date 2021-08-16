@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6X7JExdklBNvDM+f1k8jHg
-! Version: 202108121958
+! Checksum: DU4iUaWD8J1e2AXtUrhqDA
+! Version: 202108160808
 ! Title: hufilter
-! Last modified: 12 Aug 2021 19:58 UTC
+! Last modified: 16 Aug 2021 08:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -424,6 +424,8 @@ origo.hu##.origo-jatek-randi-bottom
 origo.hu###ac
 origo.hu##div.mme-doboz
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
+origo.hu##div.article-recommendation-zones
+origo.hu##div[class$="widget"][data-adblockonly="1"]
 ||origo.hu/banner/
 ||origo.hu/p/sales/
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
@@ -672,6 +674,9 @@ life.hu###pr-box
 life.hu##[id^="szponz-"]
 life.hu###ac
 life.hu###mc-holder
+life.hu##.col-visible-xl.r-side.col-xl-4
+life.hu##div[class$="widget"]
+life.hu##div.article-recommendation-zones
 !
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]

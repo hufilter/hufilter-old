@@ -1,7 +1,7 @@
-! Checksum: 4FtHITLeJ+O4m6+CgizCDA
-! Version: 202108180918
+! Checksum: 5K1eO5/AGik0cT4phg6Y5A
+! Version: 202108180952
 ! Title: hufilter
-! Last modified: 18 Aug 2021 09:18 UTC
+! Last modified: 18 Aug 2021 09:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2266,6 +2266,10 @@ egeszsegkalauz.hu###articleOfferFlag
 wikiszotar.hu###cookie-bar
 !
 szekelyfold.ma##.Cookie--bottom
+!
+pestisracok.hu###onesignal-slidedown-container
+pestisracok.hu###onesignal-bell-container
+pestisracok.hu###qc-cmp2-container
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!

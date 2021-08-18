@@ -1,7 +1,7 @@
-! Checksum: qdd7UOpKXeAC7J4Xy3q34Q
-! Version: 202108160808
+! Checksum: 4FtHITLeJ+O4m6+CgizCDA
+! Version: 202108180918
 ! Title: hufilter
-! Last modified: 16 Aug 2021 08:08 UTC
+! Last modified: 18 Aug 2021 09:18 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -676,6 +676,7 @@ life.hu###mc-holder
 life.hu##.col-visible-xl.r-side.col-xl-4
 life.hu##div[class$="widget"]
 life.hu##div.article-recommendation-zones
+life.hu##.panorama-wrapper
 !
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]

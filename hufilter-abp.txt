@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KSLr0gSSB3H37yfw6k737Q
-! Version: 202108181006
+! Checksum: 99LndkCWqCCw96/w8dBcUw
+! Version: 202108190818
 ! Title: hufilter
-! Last modified: 18 Aug 2021 10:06 UTC
+! Last modified: 19 Aug 2021 08:18 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -68,11 +68,11 @@ rp5.ru#@#[id^="aswift_"]
 !glassdoor.com###HardsellOverlay
 !glassdoor.com###PageBot
 !glassdoor.com###CovidInfoBanner
-!||glassdoor.com/app/static/js/dist/gd-user-hardsell-overlay*^
-!||glassdoor.com/app/static/js/gd-ei-upsell*^
-||glassdoor.com/app/static/js/gd-fj-ads-init*^
-!||glassdoor.com/app/static/js/gd-ei-employer-targeting*^
-!||glassdoor.com/app/static/js/dist/gd-covid19Banner*^
+!||glassdoor.com/app/static/js/dist/gd-user-hardsell-overlay
+!||glassdoor.com/app/static/js/gd-ei-upsell
+||glassdoor.com/app/static/js/gd-fj-ads-init
+!||glassdoor.com/app/static/js/gd-ei-employer-targeting
+!||glassdoor.com/app/static/js/dist/gd-covid19Banner
 !
 babaszoba.hu##.rubAd
 bookline.hu##.o-banner--hirdetes
@@ -86,8 +86,8 @@ dehir.hu##[class*="advert"]
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
-eoldal.hu/*eoldal_banner*
-cegmarketing.hu/banner*
+eoldal.hu/*eoldal_banner
+cegmarketing.hu/banner
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
@@ -120,7 +120,7 @@ infoajka.hu##[class^="banner"]
 infodunaujvaros.hu##[class*="banner"]
 ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
-ingyenweb.hu/felso/*.*
+ingyenweb.hu/felso/*.
 internet-marketing.hu###bottompopup
 intima.hu##[class*="banner"]
 investor.hu###magnum
@@ -149,7 +149,7 @@ manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
 meska.hu##.sticky
 metazin.hu##DIV[class*="etarget"]
-metropol.hu/*/images/sponsor_*.*
+metropol.hu/*/images/sponsor_*.
 miabonyunk.hu/hirdetesek/
 mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
@@ -167,7 +167,7 @@ myvip.com##[id*="banner"]
 napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
-napocska.hu/images/*_advert*.*
+napocska.hu/images/*_advert*.
 nemzetisport.hu##[id^="ad_"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
@@ -294,7 +294,6 @@ totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##.microsite
 totalcar.hu###ads
-totalcar.hu###bannerHeaderLink
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
@@ -306,7 +305,7 @@ chat.hu##[class*="banner"]
 chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 ||chat.hu/Client/banner
-||chat.hu/imgadverts*
+||chat.hu/imgadverts
 !
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
@@ -350,8 +349,8 @@ vg.hu##DIV[id*="etarget"]
 !
 hirado.hu##DIV[id*="Banner"]
 hirado.hu##DIV[id*="zone-wallbanner-header"]
-||hirado.hu*/microsites/*wallpaper*.*
-||hirado.hu/Newsreel/*_bg_*.*
+||hirado.hu*/microsites/*wallpaper*.
+||hirado.hu/Newsreel/*_bg_*.
 !
 nlcafe.hu##H3[class*="adlabel"]
 nlcafe.hu##.cikk_vegi_google
@@ -369,7 +368,7 @@ nlcafe.hu##.pr
 nlcafe.hu##[id*="hirdetes"]
 ||nlcafe.hu/*hirdetes
 ||nlcafe.hu/data/files/rovatszponzoracio/
-||nlcafe.hu/data/files/*_hatter*.*
+||nlcafe.hu/data/files/*_hatter*.
 !
 ! this hides the whole img element with border
 sg.hu##IMG[src="images/hirdetes.gif"]
@@ -435,7 +434,7 @@ fn.hu##DIV[class*="Etarget"]
 fn.hu##[class*="Advert"]
 fn.hu##[class*="banner"]
 fn.hu###felso_tavtarto
-||fn.hu/*szponzor*/*.*
+||fn.hu/*szponzor*/*.
 !
 citromail.hu##DIV[class*="hirdetes"]
 citromail.hu###oldal
@@ -451,7 +450,7 @@ mandiner.hu##div[style*="fiskars"]
 mandiner.hu##html body div#all div#mainbgbg div#mainbg>div[style^="width: 125px"]
 mandiner.hu##[class*="hirdetes"]
 ||mandiner.hu/*/banner/
-||mandiner.hu/images/design/*-bg.*
+||mandiner.hu/images/design/*-bg.
 !
 port.hu##[class*="_spon"]
 port.hu##.articleMetadata
@@ -486,7 +485,7 @@ blog.hu##.meropixel-hide
 ||pixel.blog.hu^
 ||blog.hu/pixel
 ||blog.hu/media/image/hird/
-||blog.hu/*/hird/*.*
+||blog.hu/*/hird/*.
 !
 csajoknak.com###rstbox_2
 !
@@ -569,7 +568,7 @@ startlap.hu##[class^="adact"]
 startlap.hu##[id*="Advert"]
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.left
-startlap.hu##div.container.banner-container.wide > *
+startlap.hu##div.container.banner-container.wide > 
 startlap.hu##[box-name="Hirdetés"]
 startlap.hu##.kezdo-kereso
 kereso.startlap.hu###google-display
@@ -736,9 +735,9 @@ nemzetisport.hu##div#wallpaper_left
 nemzetisport.hu##div#wallpaper_right
 nemzetisport.hu##.bet365_connect
 ||static.nemzetisport.hu//style/nso/i/betclic.gif
-||static.nemzetisport.hu//style/nso/i/*banner*
+||static.nemzetisport.hu//style/nso/i/*banner
 !
-nso.hu/*/sponsoration/*.*
+nso.hu/*/sponsoration/*.
 !
 farm.hu##[class*="banner"]
 farm.hu##[id*="banner"]
@@ -866,10 +865,10 @@ love.hu##[id^="banner_"]
 love.hu##[class^="banner_"]
 love.hu##.nobanner
 ||ad.love.hu^
-||love.hu/design/*hirdetes*.*
+||love.hu/design/*hirdetes*.
 ||static.love.hu/design/ad/
 !
-||freeweb.hu/*_banner*.*
+||freeweb.hu/*_banner*.
 !
 noplaza.hu##[class*="banner"]
 ||noplaza.hu/banner/
@@ -1005,7 +1004,7 @@ szoftverbazis.hu##.ad-wrap-100
 szoftverbazis.hu###ecom_pr
 !
 geeks.hu##[id*="banner"]
-||geeks.hu/*body-bg-*.*
+||geeks.hu/*body-bg-*.
 !
 automotor.hu##[class*="hirdetes"]
 automotor.hu##div.mw-banner-zone
@@ -1053,7 +1052,7 @@ hosszupuskasub.com##a[href*="adf.ly"]
 sikerado.hu##.Hirdetes
 ||sikerado.hu/banner/
 !
-||zeneszoveg.hu/gfx/skin-*/*.*
+||zeneszoveg.hu/gfx/skin-*/*.
 !
 mfor.hu##[class*="banner"]
 mfor.hu##.article-textlinkbox
@@ -1188,8 +1187,8 @@ penzcentrum.hu##[class^="f10"]
 penzcentrum.hu##[class^="grbox"]
 penzcentrum.hu##.frame-center
 !
-||p3k.hu/*_hatter*.*
-||p3k.hu/*szponz*.*
+||p3k.hu/*_hatter*.
+||p3k.hu/*szponz*.
 !
 magyarhirlap.hu##[class*="simpleads"]
 !
@@ -1240,7 +1239,7 @@ est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
 !
 demotivalo.net##[id*="banner"]
-||demotivalo.net/*banner_*.*
+||demotivalo.net/*banner_*.
 !
 delmagyar.hu##[class*="prbox"]
 delmagyar.hu##.billboard
@@ -1347,7 +1346,7 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside-automatic
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > 
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
@@ -1401,7 +1400,7 @@ online.budapestbank.hu##.ext-el-mask-banner
 ##.optimonk-middle
 ###optimonk-overlay-campaign-12
 ##.optimonk-container
-||cdn-dynamic.optimonk.com*
+||cdn-dynamic.optimonk.com
 !
 mavcsoport.hu###cboxOverlay
 mavcsoport.hu###colorbox
@@ -1441,8 +1440,8 @@ napidroid.hu###primary-sidebar
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
-||napidroid.hu/*/*hird*
-||napidroid.hu/*/*logo*
+||napidroid.hu/*/*hird
+||napidroid.hu/*/*logo
 !
 szineshir.net#?#div.grid_item:-abp-has(> div:-abp-contains(Hirdetés))
 szineshir.net#?#div.grid_item:-abp-contains(Google Hirdetés)
@@ -1731,7 +1730,7 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 ||keymedia.hu/keymediajs.cgi
 ||media.netpositive.hu
 ||playertise.com^$third-party
-||szegedma.hu/*banners/*.*
+||szegedma.hu/*banners/*.
 ||szepsegbroker.hu/banner/
 ||talalka.hu/hirdetes/
 ||talilap.hu/banner/
@@ -1793,13 +1792,13 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 ||advantage.as^$third-party
 ||adverbs.napilapcsoport.hu^
 ||adversalservers.com^
-||adverticum.*
+||adverticum.
 ||advertiserurl.com^
 ||advertshot.ru^$third-party
 ||affiliate.hu$subdocument
 ||affiliate.hu^$third-party
 ||affiliation.arukereso.hu/pbox/
-||aori.hu/banner*
+||aori.hu/banner
 ||audit.median.hu^
 ||audtd.com^$third-party
 ||avatraffic.com^
@@ -1821,12 +1820,12 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 ||ctnsnet.com^
 ||data.bookline.hu^$third-party
 ||et.twyn.com^
-||etargetnet.*
+||etargetnet.
 ||feeds.videosz.com^$third-party
 ||fourtwentytradingcompany.net^
 ||fruitflan.com
 ||hitelkereso.hu^$third-party
-||hungariantop1000.com/cgi-bin/counter.cgi*
+||hungariantop1000.com/cgi-bin/counter.cgi
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
 ||ingatlannet.hu^$third-party
@@ -1848,7 +1847,7 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 ||pixel.sojern.com^
 ||po.st^$third-party
 ||pornedup.com^$third-party
-||pornolize.com/*?clickTAG=*
+||pornolize.com/*?clickTAG=
 ||predictivadnetwork.com^
 ||preissuchmaschine.de/banner/
 ||premads.info^$third-party
@@ -1887,6 +1886,7 @@ bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right
 c-press.hu###topsect_right_bottom_3
+totalcar.hu###bannerHeaderLink
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!

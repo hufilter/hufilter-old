@@ -1,7 +1,7 @@
-! Checksum: /ZJP/Hpk2d7fWy80BLHtaA
-! Version: 202108181006
+! Checksum: oq8Frt1NLFhM1Sc4DfL/VQ
+! Version: 202108190818
 ! Title: hufilter
-! Last modified: 18 Aug 2021 10:06 UTC
+! Last modified: 19 Aug 2021 08:18 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -27,6 +27,7 @@ banner.terminal.hu
 pixel.blog.hu
 ads.nepszava.com
 ad.love.hu
+cdn-dynamic.optimonk.com
 adfair.hu
 ad.kapos.hu
 ad.napilapcsoport.hu

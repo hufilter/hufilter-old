@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SSKIL4wRKXl+GdCF4puHug
-! Version: 202109011532
+! Checksum: gb1VjgdbDqe5xVvDzmAF6w
+! Version: 202109011612
 ! Title: hufilter
-! Last modified: 01 Sep 2021 15:32 UTC
+! Last modified: 01 Sep 2021 16:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1885,3 +1885,5 @@ huaweiblog.hu###custom_html-3
 !
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ||onlinestream.live/js/adb.js
+! Anti Anti Adblock
+||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu

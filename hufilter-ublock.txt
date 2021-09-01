@@ -1,7 +1,7 @@
-! Checksum: qDibwX/GhsD34O8z5h5rCA
-! Version: 202109011532
+! Checksum: nuqnSkUN6wE7XpXsHZx6zg
+! Version: 202109011612
 ! Title: hufilter
-! Last modified: 01 Sep 2021 15:32 UTC
+! Last modified: 01 Sep 2021 16:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1887,6 +1887,10 @@ bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right
 c-press.hu###topsect_right_bottom_3
+leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
+leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
+leet.hu###article + #offer
+pestisracok.hu###head-wrap + .code-block
 totalcar.hu###bannerHeaderLink
 !---------------------------------------------------------------------------!
 !-------------- Annoyances -------------------------------------------------!
@@ -2342,6 +2346,8 @@ pestisracok.hu###qc-cmp2-container
 !
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ||onlinestream.live/js/adb.js
+! Anti Anti Adblock
+||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu
 !---------------------------------------------------------------------------!
 !-------------- uBlock-specific rules --------------------------------------!
 !---------------------------------------------------------------------------!

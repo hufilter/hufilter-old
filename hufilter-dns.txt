@@ -1,7 +1,7 @@
-! Checksum: pp238Wuz5l7mxgeB3LSCmQ
-! Version: 202109011532
+! Checksum: lEMNVoW6u0O4MsOlgucT3w
+! Version: 202109011612
 ! Title: hufilter
-! Last modified: 01 Sep 2021 15:32 UTC
+! Last modified: 01 Sep 2021 16:12 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

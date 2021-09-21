@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gb1VjgdbDqe5xVvDzmAF6w
-! Version: 202109011612
+! Checksum: tB00pBT+Vr+tCsWMjgbWBw
+! Version: 202109211426
 ! Title: hufilter
-! Last modified: 01 Sep 2021 16:12 UTC
+! Last modified: 21 Sep 2021 14:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1716,6 +1716,10 @@ szekelyfold.ma##div[id^="ga_g"]
 koroshircentrum.hu#?#div:-abp-has(> a + h6)
 !
 huaweiblog.hu###custom_html-3
+!
+napiszex.hu##.list-item.has-banner
+napiszex.hu##.banner-bottom
+napiszex.hu##.banner
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!

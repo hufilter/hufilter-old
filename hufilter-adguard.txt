@@ -1,7 +1,7 @@
-! Checksum: 1m8w9U9+RDm5PYqQQUoNQg
-! Version: 202109211426
+! Checksum: WUmONXqsLZSVoPiBkQjjTw
+! Version: 202109240903
 ! Title: hufilter
-! Last modified: 21 Sep 2021 14:26 UTC
+! Last modified: 24 Sep 2021 09:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1719,6 +1719,9 @@ huaweiblog.hu###custom_html-3
 napiszex.hu##.list-item.has-banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.banner
+!
+ceginformacio.hu##.advert
+ceginformacio.hu##.occsz-banner
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!

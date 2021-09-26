@@ -2292,6 +2292,9 @@ pestisracok.hu###onesignal-bell-container
 pestisracok.hu###qc-cmp2-container
 !
 napiszex.hu##.ckwrap
+!
+www.jofogas.hu###adverticum_r_above_container
+www.jofogas.hu###page-content:style(margin-top: 0px !important;)
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!

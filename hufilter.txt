@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e73OGkpYo79mFK3xkNrZ9A
-! Version: 202109240903
+! Checksum: IBgKHiD10I7dMRPXgYgb8g
+! Version: 202109281153
 ! Title: hufilter
-! Last modified: 24 Sep 2021 09:03 UTC
+! Last modified: 28 Sep 2021 11:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1723,6 +1723,8 @@ napiszex.hu##.banner
 !
 ceginformacio.hu##.advert
 ceginformacio.hu##.occsz-banner
+!
+jofogas.hu###adsense_r_side_sticky_container
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!

@@ -1,7 +1,7 @@
-! Checksum: 4mjYQ5+k29Y6eR+aA7eo6w
-! Version: 202109240903
+! Checksum: THKfB5KKYgW20j4WuBwwQg
+! Version: 202109281153
 ! Title: hufilter
-! Last modified: 24 Sep 2021 09:03 UTC
+! Last modified: 28 Sep 2021 11:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1723,6 +1723,8 @@ napiszex.hu##.banner
 ceginformacio.hu##.advert
 ceginformacio.hu##.occsz-banner
 !
+jofogas.hu###adsense_r_side_sticky_container
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2466,6 +2468,8 @@ keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 kekvillogo.hu##body:style(padding-top: 0 !important;)
 !
 hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
+!
+jofogas.hu###page-content:style(margin-top: 0px !important;)
 !
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.

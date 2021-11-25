@@ -1,7 +1,7 @@
-! Checksum: 6RTxzrulYaoeXEV7dmKC7Q
-! Version: 202110100818
+! Checksum: Yn1URm3wCWhJ6eN9tLC6gA
+! Version: 202111251014
 ! Title: hufilter
-! Last modified: 10 Oct 2021 08:18 UTC
+! Last modified: 25 Nov 2021 10:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1730,6 +1730,8 @@ ceginformacio.hu##.occsz-banner
 jofogas.hu###adsense_r_side_sticky_container
 !
 777blog.hu###oldalreklam
+777blog.hu###cikkreklam
+777blog.hu###galsoreklam
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
@@ -1870,6 +1872,7 @@ jofogas.hu###adsense_r_side_sticky_container
 ||rc.rc.hu^
 ||rc.rootclick.com^
 ||redwolfmoon.com^
+||related.hu^
 ||salesmanago.pl^$third-party
 ||seedr.com^$third-party
 ||seedr.ru^$third-party

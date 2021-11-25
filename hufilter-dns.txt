@@ -1,7 +1,7 @@
-! Checksum: HPWSq+6R0Lkk1ncqDc4W6w
-! Version: 202110100818
+! Checksum: 4gn0E9z2Cu9jFI5tujCH+g
+! Version: 202111251014
 ! Title: hufilter
-! Last modified: 10 Oct 2021 08:18 UTC
+! Last modified: 25 Nov 2021 10:14 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -72,6 +72,7 @@ predictivadnetwork.com
 rc.rc.hu
 rc.rootclick.com
 redwolfmoon.com
+related.hu
 smartcj.com
 srv1.srv-stat.com
 stat.adultium.com

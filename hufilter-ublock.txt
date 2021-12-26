@@ -1,7 +1,7 @@
-! Checksum: Q3P+fEC1OKG7lwAK6yFytg
-! Version: 202111291046
+! Checksum: wGvHTg2Yxu1NF472Zcgs5Q
+! Version: 202112261323
 ! Title: hufilter
-! Last modified: 29 Nov 2021 10:46 UTC
+! Last modified: 26 Dec 2021 13:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1119,6 +1119,7 @@ hir.ma##[class^="ad"]
 ||444.hu/*/ease/
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
+444.hu##div.k4.g7.en.gs.gr.ek.dX > .k4.k0.g7.en.gs.gr.ek.dX
 !
 ||888.hu^*/autoalkatreszek24$image
 !

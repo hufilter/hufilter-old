@@ -1,7 +1,7 @@
-! Checksum: 0aOOgrnNJox972LoIihdlA
-! Version: 202201161013
+! Checksum: eKO2sDxEQUUIqjWqtdReiA
+! Version: 202201161018
 ! Title: hufilter
-! Last modified: 16 Jan 2022 10:13 UTC
+! Last modified: 16 Jan 2022 10:18 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -296,6 +296,8 @@ totalcar.hu###ads
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+totalcar.hu,totalbike.hu##.cross-site-programmatic-zones
+totalcar.hu##.cikk-torzs-content-container > .kep_szeles.kep
 !
 divany.hu##.menu-sponsor_link
 !
@@ -1116,6 +1118,7 @@ hir.ma##[class^="ad"]
 444.hu##.pr-box
 444.hu##.d1912cka
 444.hu##.d1912cza
+444.hu##[class*="xmas"]
 ||444.hu/*/ease/
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
@@ -1739,6 +1742,11 @@ starity.hu##div[style="width:100%;height:14px;text-align:left;font-size:9px;lett
 starity.hu##script[async] + [data-widget-id]
 ||widget.blck4d.com/js/block/widget.js^$domain=starity.hu
 !
+mkbnetbankar.hu###app-advice
+mkbnetbankar.hu###app-commission
+mkbnetbankar.hu##.x-marketing
+||mkbnetbankar.hu/banner*
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -1917,7 +1925,16 @@ leet.hu###article + #offer
 napiszex.hu###logo + .partner
 pestisracok.hu###head-wrap + .code-block
 totalcar.hu###bannerHeaderLink
-!---------------------------------------------------------------------------!
+vezess.hu##.katalog
+vezess.hu##.wpb_wrapper > a
+hang.hu##.widget-tamogatas-box
+24.hu##[class*=szponzibox]
+upc.hu##.callback-overlay
+upc.hu##.segithetunk-container
+telex.hu##.support
+telex.hu##.kari
+telex.hu##[href*="tamogatas"]
+24.hu##.m-donationBottomLine!---------------------------------------------------------------------------!
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
@@ -2310,13 +2327,23 @@ pestisracok.hu###qc-cmp2-container
 !
 napiszex.hu##.ckwrap
 !
-www.szotar.net##.cc-bottom.cc-type-info.cc-banner.cc-window
+szotar.net##.cc-bottom.cc-type-info.cc-banner.cc-window
 !
 kfc.hu##.cookies-message-container
 !
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 !
 starity.hu###upprev_box
+!
+fressnapf.hu##.grey-popup-layer
+webshop.fressnapf.hu##.grey-popup-layer
+!
+||chatrobot.mia.gov.hu^
+||chimpstatic.com^
+!
+elmuhalozat.hu##.cookiepanel_overlay
+elmuhalozat.hu###tab-widget-wrapper
+||*.chatbot.elmuemasz.hu
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
@@ -2375,6 +2402,9 @@ starity.hu###upprev_box
 ||va.v.liveperson.net^$third-party,script
 ||zanox.com^
 ||zemanta.com^$third-party
+!
+||fogyasztobarat.hu^$third-party
+||arukereso.hu^$third-party
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2499,6 +2529,8 @@ hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
 jofogas.hu###page-content:style(margin-top: 0px !important;)
 !
+mkb.hu##html,body:style(overflow:auto !important)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
@@ -2525,4 +2557,5 @@ ncore.pro###x-pop
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-
+444.hu##article:has(a[href*="hirdetes"])
+444.hu##div.item:has(a[href*="hirdetes"])

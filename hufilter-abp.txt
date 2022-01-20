@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pUBYpgD2hdEdbxnAtK2GKQ
-! Version: 202201181214
+! Checksum: bHe7HE0NGLsQr0MaAoxVPg
+! Version: 202201201101
 ! Title: hufilter
-! Last modified: 18 Jan 2022 12:14 UTC
+! Last modified: 20 Jan 2022 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1748,6 +1748,10 @@ mkbnetbankar.hu###app-commission
 mkbnetbankar.hu##.x-marketing
 ||mkbnetbankar.hu/banner*
 !
+! https://github.com/hufilter/hufilter/issues/5
+||szepsegbroker.hu/banner/
+||szepsegbroker.hu/elements/bannerz.2019.js^$script
+szepsegbroker.hu##.rightContent + [style]
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -1764,7 +1768,6 @@ mkbnetbankar.hu##.x-marketing
 ||media.netpositive.hu
 ||playertise.com^$third-party
 ||szegedma.hu/*banners/*.
-||szepsegbroker.hu/banner/
 ||talalka.hu/hirdetes/
 ||talilap.hu/banner/
 ||ultraweb.hu/ad*.php
@@ -1848,7 +1851,8 @@ mkbnetbankar.hu##.x-marketing
 ||clicksure.com^$third-party
 ||counter.hitslink.com^$third-party
 ||counter.megagroup.ru
-||ctag.hu/dc/
+! https://github.com/hufilter/hufilter/issues/5
+!||ctag.hu/dc/
 ||ctnetwork.hu^$third-party
 ||ctnsnet.com^
 ||data.bookline.hu^$third-party
@@ -1902,7 +1906,8 @@ mkbnetbankar.hu##.x-marketing
 ||sumome.com^$third-party
 ||syndication.globaltraffico.com^
 ||syndication.trafficreps.com^
-||szv.lsdev.hu
+! https://github.com/hufilter/hufilter/issues/5
+!||szv.lsdev.hu
 ||trafficshop.com^
 ||tripod.com^$third-party
 ||tripod.lycos.com^$third-party

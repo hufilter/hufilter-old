@@ -1,7 +1,7 @@
-! Checksum: 47NUFk7EIxwNVzuNMFk8DA
-! Version: 202201181214
+! Checksum: V+B9RxEYqRQmyB41JvfLiA
+! Version: 202201201101
 ! Title: hufilter
-! Last modified: 18 Jan 2022 12:14 UTC
+! Last modified: 20 Jan 2022 11:01 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -79,7 +79,6 @@ stat.adultium.com
 stats.badoostats.com
 syndication.globaltraffico.com
 syndication.trafficreps.com
-szv.lsdev.hu
 trafficshop.com
 up-banner.wavecdn.de
 vid4u.org

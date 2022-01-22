@@ -1,7 +1,7 @@
-! Checksum: covPeDr40y9w1wWooQj+gQ
-! Version: 202201201101
+! Checksum: J98xxxxM77qMpPVcBlcqtQ
+! Version: 202201221408
 ! Title: hufilter
-! Last modified: 20 Jan 2022 11:01 UTC
+! Last modified: 22 Jan 2022 14:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2413,8 +2413,10 @@ szepsegbroker.hu###popup
 ||zanox.com^
 ||zemanta.com^$third-party
 !
-||fogyasztobarat.hu^$third-party
-||arukereso.hu^$third-party
+! TEMP https://github.com/hufilter/hufilter-dev/issues/243
+!||fogyasztobarat.hu^$third-party
+!||arukereso.hu^$third-party
+!
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!

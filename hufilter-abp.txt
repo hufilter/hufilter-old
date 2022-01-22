@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bHe7HE0NGLsQr0MaAoxVPg
-! Version: 202201201101
+! Checksum: BtNW4Jx8/QY8ymxHd98Jiw
+! Version: 202201221408
 ! Title: hufilter
-! Last modified: 20 Jan 2022 11:01 UTC
+! Last modified: 22 Jan 2022 14:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1998,8 +1998,10 @@ telex.hu##[href*="tamogatas"]
 ||zanox.com^
 ||zemanta.com^$third-party
 !
-||fogyasztobarat.hu^$third-party
-||arukereso.hu^$third-party
+! TEMP https://github.com/hufilter/hufilter-dev/issues/243
+!||fogyasztobarat.hu^$third-party
+!||arukereso.hu^$third-party
+!
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!

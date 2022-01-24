@@ -1,7 +1,7 @@
-! Checksum: zFC5MmQVfdrR8+okJYrpzQ
-! Version: 202201241103
+! Checksum: wirlInOXYgPf5Aqvb2j8IQ
+! Version: 202201241119
 ! Title: hufilter
-! Last modified: 24 Jan 2022 11:03 UTC
+! Last modified: 24 Jan 2022 11:19 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -94,7 +94,6 @@ track.trackbyme.info
 tracker.azet.sk
 tracking.binarypromos.com
 tracking.tchibo.hu
-ad.doubleclick.net
 ad.yieldmanager.com
 adocean.pl
 bs.serving-sys.com
@@ -103,6 +102,4 @@ fastclick.net
 fwmrm.net
 googletagservices.com
 smartadserver.com
-spe.atdmt.com
-ssl.google-analytics.com
 zanox.com

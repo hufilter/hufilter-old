@@ -1,7 +1,7 @@
-! Checksum: UY3j2qwgFO+86JZK9eWBDw
-! Version: 202201241103
+! Checksum: NslyaKaoZHfzIoVrb1dy1Q
+! Version: 202201241119
 ! Title: hufilter
-! Last modified: 24 Jan 2022 11:03 UTC
+! Last modified: 24 Jan 2022 11:19 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -507,7 +507,6 @@ gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 ||gyakorikerdesek.hu/pic/bannerek/
-||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu
 !
 klubradio.hu##DIV[id*="banner"]
 ||klubradio.hu/data/files/banner
@@ -572,7 +571,7 @@ startlap.hu##[class^="adact"]
 startlap.hu##[id*="Advert"]
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.left
-startlap.hu##div.container.banner-container.wide > 
+startlap.hu##div.container.banner-container.wide > *
 startlap.hu##[box-name="Hirdetés"]
 startlap.hu##.kezdo-kereso
 kereso.startlap.hu###google-display
@@ -1352,7 +1351,7 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside-automatic
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > 
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
@@ -1705,7 +1704,6 @@ angol-magyar-szotar.hu##[id^="hird_"]
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
 hoxa.hu##[data-adblockonly]
-||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
 !
 szeged365.hu##[id^="stream-item-"]
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
@@ -1761,6 +1759,7 @@ szepsegbroker.hu##.rightContent + [style]
 ||ad.pphungary.hu
 ||advert*.ultraweb.hu
 ||as*.prog.hu^
+||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
 ||banner.webtar.hu
 ||daserver.ultraweb.hu
 ||keymedia.hu/keymediajs.cgi
@@ -1800,7 +1799,6 @@ szepsegbroker.hu##.rightContent + [style]
 ||pcworld.hu/bannerek/
 ||*/eu-banned-popup/
 ||*/empty.json
-||*.hit.gemius.pl^
 ||9klikk.com^$third-party
 ||a.adnium.com^
 ||abmr.net^$third-party
@@ -1808,7 +1806,6 @@ szepsegbroker.hu##.rightContent + [style]
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
-||ad.hu/g3t.js
 ||ad.hu^$third-party
 ||ad.netmedia.hu^
 ||ad.onadozo.hu^
@@ -2386,7 +2383,6 @@ szepsegbroker.hu###popup
 ||*/userip.php
 !
 ||2mdn.net^$third-party
-||ad.doubleclick.net^
 ||ad.yieldlab.net^$third-party
 ||ad.yieldmanager.com^
 ||adocean.pl^
@@ -2407,8 +2403,6 @@ szepsegbroker.hu###popup
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
 ||smartadserver.com^
-||spe.atdmt.com^
-||ssl.google-analytics.com^
 ||targetix.net^$third-party
 ||va.v.liveperson.net^$third-party,script
 ||zanox.com^

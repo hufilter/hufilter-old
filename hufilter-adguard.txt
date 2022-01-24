@@ -1,7 +1,7 @@
-! Checksum: licfhBY+Wa7tYP2E6MWv0w
-! Version: 202201241119
+! Checksum: v3RDqEw57NUbLqCOSHJqwQ
+! Version: 202201241253
 ! Title: hufilter
-! Last modified: 24 Jan 2022 11:19 UTC
+! Last modified: 24 Jan 2022 12:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -993,6 +993,7 @@ bien.hu#?#.hidden-xs:-abp-has(> .weboldal_felett)
 bien.hu#?#.hidden-xs:-abp-has(> .lablec_alatt)
 bien.hu##blockquote
 bien.hu##[data-ai]
+bien.hu##.ads_show_ad_title
 !
 moly.hu##[class*="banner"]
 !

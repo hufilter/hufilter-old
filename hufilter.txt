@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: n19D4IpSjRu0kpSZho/ZXg
-! Version: 202201221408
+! Checksum: vAO3SgrW7SMtLUVV4XW4hQ
+! Version: 202201241103
 ! Title: hufilter
-! Last modified: 22 Jan 2022 14:08 UTC
+! Last modified: 24 Jan 2022 11:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1927,4 +1927,3 @@ szepsegbroker.hu##.rightContent + [style]
 !
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
-

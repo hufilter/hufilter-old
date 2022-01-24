@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BtNW4Jx8/QY8ymxHd98Jiw
-! Version: 202201221408
+! Checksum: H6IyYXgdZOvcGKYIz4jWow
+! Version: 202201241103
 ! Title: hufilter
-! Last modified: 22 Jan 2022 14:08 UTC
+! Last modified: 24 Jan 2022 11:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1940,7 +1940,8 @@ upc.hu##.segithetunk-container
 telex.hu##.support
 telex.hu##.kari
 telex.hu##[href*="tamogatas"]
-24.hu##.m-donationBottomLine!---------------------------------------------------------------------------!
+24.hu##.m-donationBottomLine
+!---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
@@ -2013,4 +2014,3 @@ telex.hu##[href*="tamogatas"]
 !
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
-

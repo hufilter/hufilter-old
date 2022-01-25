@@ -1,7 +1,7 @@
-! Checksum: hWCYXUJcVw8MGUucOzrF0Q
-! Version: 202201241253
+! Checksum: Aojnj9U75SZrlG4C5sL2DQ
+! Version: 202201251052
 ! Title: hufilter
-! Last modified: 24 Jan 2022 12:53 UTC
+! Last modified: 25 Jan 2022 10:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1649,6 +1649,7 @@ forbes.hu##p + [class*="-bekezdes-utan-"]
 forbes.hu##div[id^="forbesad"]
 !
 azonnali.hu##.bannpos
+azonnali.hu##.addd
 !
 ! issue #198
 vasarnap.hu###cikkreklam

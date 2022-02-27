@@ -1,7 +1,7 @@
-! Checksum: 6WxDaxL52JpbmANFVsWtVQ
-! Version: 202201281738
+! Checksum: aWQy4D1rfPKgm7SbkxNgNA
+! Version: 202202271214
 ! Title: hufilter
-! Last modified: 28 Jan 2022 17:38 UTC
+! Last modified: 27 Feb 2022 12:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2356,6 +2356,10 @@ elmuhalozat.hu###tab-widget-wrapper
 szepsegbroker.hu###cookie
 szepsegbroker.hu###popup
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
+!
+elemi.hu##.sgpb-popup-dialog-main-div-wrapper
+elemi.hu##.sgpb-popup-overlay
+elemi.hu##.penci-wrap-gprd-law
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!

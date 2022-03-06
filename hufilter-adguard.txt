@@ -1,7 +1,7 @@
-! Checksum: b6G4K4Lwo9el+oxiMMTvgA
-! Version: 202203031854
+! Checksum: RdnlPB8ok4NzvmCAeMhN4A
+! Version: 202203060936
 ! Title: hufilter
-! Last modified: 03 Mar 2022 18:54 UTC
+! Last modified: 06 Mar 2022 09:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1756,6 +1756,9 @@ mkbnetbankar.hu##.x-marketing
 ||szepsegbroker.hu/banner/
 ||szepsegbroker.hu/elements/bannerz.2019.js^$script
 szepsegbroker.hu##.rightContent + [style]
+!
+pannonrtv.com##[id^="block-views-block-banners-"]
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2366,6 +2369,12 @@ szepsegbroker.hu###popup
 elemi.hu##.sgpb-popup-dialog-main-div-wrapper
 elemi.hu##.sgpb-popup-overlay
 elemi.hu##.penci-wrap-gprd-law
+!
+itthonrolhaza.hu###cookie-law-info-bar
+itthonrolhaza.hu###cookie-law-info-again
+||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
+!
+pannonrtv.com###sliding-popup
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!

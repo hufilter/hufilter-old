@@ -1,7 +1,7 @@
-! Checksum: s3Fv8jIW3kdsAkhsXCaRNw
-! Version: 202203060936
+! Checksum: eewhoBVbocyfkZQbxnbnXA
+! Version: 202203071247
 ! Title: hufilter
-! Last modified: 06 Mar 2022 09:36 UTC
+! Last modified: 07 Mar 2022 12:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -27,6 +27,14 @@
 !-------------- Ads --------------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
+##.hirdetes
+##.hirdetes-linkek
+###etarget
+##.ad__main
+##.ad
+###cemp_doboz
+###cenmg
+###google_hirdetesek
 ##A[href*="ad.eval.hu"]
 ##A[href*="ad.netmedia.hu"]
 ##A[href*="adverticum.net"]
@@ -34,47 +42,23 @@
 ##A[href*="dealcent.com"]
 ##A[href*="etargetnet.com"]
 ##A[href*="internetespenzkereses.net"]
-##DIV[href*="ad.adverticum.net"]
-###cemp_doboz
-###cenmg
-###google_hirdetesek
-##DIV[id^="googlead"]
+##[href*="ad.adverticum.net"]
+##[id^="googlead"]
 ##IFRAME[id*="ETARGET-hu-"]
 ##IFRAME[id^="ETARGET-"]
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
-!##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
 ##[id*="google_ads"]
-!##[id*="overlayBg"]
 ##[id^="ad_zone_"]
 ##[id^="adocean"]
 ! issue #150
 rp5.ru#@#[id^="aswift_"]
 ##[id^="aswift_"]
 ##[name*="google_ads"]
-!##.canvasRecommended
 ##div[data-campaign-name^="ads"]
-##.hirdetes
-##.hirdetes-linkek
-###etarget
-##.ad__main
-!##.newsletter
-##.ad
-!##.mail-chimp-popup
-!
-!glassdoor.com###HardsellOverlay
-!glassdoor.com###PageBot
-!glassdoor.com###CovidInfoBanner
-!||glassdoor.com/app/static/js/dist/gd-user-hardsell-overlay
-!||glassdoor.com/app/static/js/gd-ei-upsell
-||glassdoor.com/app/static/js/gd-fj-ads-init
-!||glassdoor.com/app/static/js/gd-ei-employer-targeting
-!||glassdoor.com/app/static/js/dist/gd-covid19Banner
-!
-||ado.hu/*/szaklap_banner/
-ado.hu###lapSlider
+ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 babaszoba.hu##.rubAd
 bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]
@@ -86,7 +70,10 @@ cartourmagazin.hu###sp-right>.sp-column>.sp-module.hidden-mobile
 csongradihirek.hu##.art-sidebar1
 csongradihirek.hu##.art-sidebar2
 ||csongradihirek.hu/portal/images/stories/_reklamok/
-dehir.hu##[class*="advert"]
+dehir.hu##.slidingBanner
+dehir.hu###headerBanner
+dehir.hu##.widgetDefault
+dehir.hu##.tablet-advert
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
@@ -1857,8 +1844,6 @@ pannonrtv.com##[id^="block-views-block-banners-"]
 ||clicksure.com^$third-party
 ||counter.hitslink.com^$third-party
 ||counter.megagroup.ru
-! https://github.com/hufilter/hufilter/issues/5
-!||ctag.hu/dc/
 ||ctnetwork.hu^$third-party
 ||ctnsnet.com^
 ||data.bookline.hu^$third-party
@@ -1867,6 +1852,7 @@ pannonrtv.com##[id^="block-views-block-banners-"]
 ||feeds.videosz.com^$third-party
 ||fourtwentytradingcompany.net^
 ||fruitflan.com
+||glassdoor.com/app/static/js/gd-fj-ads-init
 ||hitelkereso.hu^$third-party
 ||hungariantop1000.com/cgi-bin/counter.cgi
 ||iforex.com^$third-party
@@ -1926,6 +1912,8 @@ pannonrtv.com##[id^="block-views-block-banners-"]
 !-------------- Self promotion rules ---------------------------------------!
 !---------------------------------------------------------------------------!
 !
+ado.hu###custom_html-8
+ado.hu##a[href^="https://bit.ly"]
 bestmarkt.hu##.ddModal
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
@@ -1951,7 +1939,13 @@ telex.hu##[href*="tamogatas"]
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
-###qc-cmp2-container
+hu###qc-cmp2-container
+!
+ado.hu###cookieBox
+ado.hu###cookieBox_bg
+!
+babaszoba.hu###qc-cmp2-container
+babaszoba.hu###facebook-sharebar
 !
 bankmonitor.hu##main + .ok-prerender
 !

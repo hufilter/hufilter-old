@@ -1,7 +1,7 @@
-! Checksum: eewhoBVbocyfkZQbxnbnXA
-! Version: 202203071247
+! Checksum: GI6yz/iMcLOkuUR2/nnsuQ
+! Version: 202203111314
 ! Title: hufilter
-! Last modified: 07 Mar 2022 12:47 UTC
+! Last modified: 11 Mar 2022 13:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -60,6 +60,8 @@ rp5.ru#@#[id^="aswift_"]
 ##div[data-campaign-name^="ads"]
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 babaszoba.hu##.rubAd
+! https://github.com/hufilter/hufilter-dev/issues/255
+baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]
 borsa.hu##.blockright
@@ -74,6 +76,9 @@ dehir.hu##.slidingBanner
 dehir.hu###headerBanner
 dehir.hu##.widgetDefault
 dehir.hu##.tablet-advert
+dehir.hu##.totop
+dehir.hu##.col-md-4.blog-sidebar:nth-child(even)
+dehir.hu##.col-md-4.sidebar.widgetDefault
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
@@ -916,11 +921,14 @@ egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[id*="banner"]
 egeszsegkalauz.hu##div.wrapAds
 egeszsegkalauz.hu#?#div.wrapRectangle:-abp-has(#ad-cikk)
-egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
-egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
+egeszsegkalauz.hu#?#.row:-abp-has(>#onet-ad-top)
+egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(>div>span:-abp-contains(Hirdetés))
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 egeszsegkalauz.hu##a[title="Hirdetés"]
+! https://github.com/hufilter/hufilter-dev/issues/248
+egeszsegkalauz.hu###ad-fekvo0
+egeszsegkalauz.hu##.ibb-banner-decor
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
@@ -1489,6 +1497,8 @@ muhelynet.hu###header
 !
 magyarhang.org,hang.hu#?#[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
 magyarhang.org,hang.hu#?#.mc-modal:-abp-has(iframe)
+! https://github.com/hufilter/hufilter-dev/issues/249
+hang.hu##.banner-widget-container
 !
 telekom.hu##.ads
 !
@@ -1632,11 +1642,6 @@ travelo.hu##div.facebook-layer-box
 !
 ncore.pro##.banner
 !
-dehir.hu##.totop
-dehir.hu##.slidingBanner
-dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
-dehir.hu##.col-md-4 .sidebar.widgetDefault
-!
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forbes.hu##div[id^="forbesad"]
 !
@@ -1745,6 +1750,12 @@ mkbnetbankar.hu##.x-marketing
 szepsegbroker.hu##.rightContent + [style]
 !
 pannonrtv.com##[id^="block-views-block-banners-"]
+!
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu##.highlighted-banner
+!
+! https://github.com/hufilter/hufilter-dev/issues/253
+telefonguru.hu##[style="height: 250px"]
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
@@ -1935,6 +1946,10 @@ telex.hu##.support
 telex.hu##.kari
 telex.hu##[href*="tamogatas"]
 24.hu##.m-donationBottomLine
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu##a[href="https://onroad.hu/tamogatas"]
+! https://github.com/hufilter/hufilter-dev/issues/252
+infostart.hu##.article>.live-wrapper
 !---------------------------------------------------------------------------!
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2128,6 +2143,9 @@ szoljon.hu###cookie-window
 !
 hazipatika.com###webaruhaz-ajanlo
 hazipatika.com###facebook-sharebar
+! https://github.com/hufilter/hufilter-dev/issues/256
+hazipatika.com###qc-cmp2-container
+hazipatika.com##.fb-exit-popup-container
 !
 888.hu###cookieconsent
 !
@@ -2204,6 +2222,10 @@ kisalfold.hu##div.endless-shared-area
 !
 infostart.hu##.cc-window
 infostart.hu###ajanlo
+! https://github.com/hufilter/hufilter-dev/issues/252
+infostart.hu###_ao-cmp-ui
+infostart.hu##.notification-popup
+infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !
 portfolio.hu###BlockCikkajanlo
 portfolio.hu##.notification-popup
@@ -2297,6 +2319,8 @@ hupont.hu##[class*="cc_banner"]
 online-filmek.me##[class*="cc_banner"]
 !
 magyarnemzet.hu##div.gdprBoxContainer
+! https://github.com/hufilter/hufilter-dev/issues/251
+magyarnemzet.hu##.newsletter-box
 !
 forbes.hu###catapult-cookie-bar
 forbes.hu##.crp_related
@@ -2326,6 +2350,8 @@ obi.hu##.colorbox-cookiepolicy
 hoxa.hu###cookiekezeles
 !
 egeszsegkalauz.hu###articleOfferFlag
+! https://github.com/hufilter/hufilter-dev/issues/248
+egeszsegkalauz.hu###pe_confirm_optin_1
 !
 wikiszotar.hu###cookie-bar
 !
@@ -2369,6 +2395,13 @@ itthonrolhaza.hu###cookie-law-info-again
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 !
 pannonrtv.com###sliding-popup
+!
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu###slidebox
+!
+! https://github.com/hufilter/hufilter-dev/issues/250
+vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
+vg.hu##.newsletter-box
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ELuOFVWqpTnLvuxiC20bkw
-! Version: 202203111319
+! Checksum: 5s02AAoxNCrhuYodLP03sQ
+! Version: 202203111511
 ! Title: hufilter
-! Last modified: 11 Mar 2022 13:19 UTC
+! Last modified: 11 Mar 2022 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1503,6 +1503,8 @@ hang.hu##.banner-widget-container
 telekom.hu##.ads
 !
 gepigeny.hu##.adt_hun
+! https://github.com/AdguardTeam/AdguardFilters/issues/112570
+gepigeny.hu##.act_hun
 !
 hiros.hu##.banner_widget
 hiros.hu##.sy-box

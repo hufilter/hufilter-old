@@ -1,7 +1,7 @@
-! Checksum: Wu9YctoBIKZCmGTndRLIgA
-! Version: 202203111511
+! Checksum: c58ksJiQHzU/SO1U6cuhXA
+! Version: 202203121142
 ! Title: hufilter
-! Last modified: 11 Mar 2022 15:11 UTC
+! Last modified: 12 Mar 2022 11:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -161,6 +161,8 @@ multiplay.hu##[id*="banner"]
 myvip.com##[id*="banner"]
 napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
+! https://github.com/hufilter/hufilter/issues/8
+napiszar.com##[style="width:300px;height:250px;"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.
 nemzetisport.hu##[id^="ad_"]
@@ -2548,6 +2550,10 @@ femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
 angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
 !
 huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefined')
+!
+! https://github.com/hufilter/hufilter/issues/8
+napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
+napiszar.com$$script[data-cfasync="false"]
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !

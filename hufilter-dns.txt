@@ -1,7 +1,7 @@
-! Checksum: NYmwkTaSw75/4Ra+M0X6Ew
-! Version: 202203121142
+! Checksum: taq+VywDY9F/b+7MtP1sfA
+! Version: 202203131125
 ! Title: hufilter
-! Last modified: 12 Mar 2022 11:42 UTC
+! Last modified: 13 Mar 2022 11:25 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -16,35 +16,31 @@
 ! About filter policy and usage terms please see the homepage above.
 ! By using the filter you automatically accept the terms of use.
 !
-! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a Github issue trackerben.
+! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a GitHub issue trackerben.
 ! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 ! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 !
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-banner.terminal.hu
-pixel.blog.hu
-ads.nepszava.com
 ad.love.hu
+ads.nepszava.com
 cdn-dynamic.optimonk.com
-adfair.hu
-ad.kapos.hu
-ad.napilapcsoport.hu
-ad.pphungary.hu
-banner.webtar.hu
-daserver.ultraweb.hu
-media.netpositive.hu
-app.livechatoo.com
+pixel.blog.hu
 a.adnium.com
 ad.depo.hu
 ad.gyermekevek.hu
 ad.hirekmedia.hu
+ad.kapos.hu
+ad.napilapcsoport.hu
 ad.netmedia.hu
 ad.onadozo.hu
 ad.parom.hu
+ad.pphungary.hu
 ad.supportal.hu
 ad.szexneked.hu
+ad.yieldmanager.com
+adfair.hu
 adk2x.com
 ads.geeks.hu
 adv.forpsi.hu
@@ -52,18 +48,23 @@ adv.hu
 adverbs.napilapcsoport.hu
 adversalservers.com
 advertiserurl.com
+app.livechatoo.com
 audit.median.hu
 avatraffic.com
+banner.terminal.hu
+banner.webtar.hu
 boxzsak.kirowski.com
 brostraffic.com
 choice.microsoft.com
 counter.megagroup.ru
 ctnsnet.com
+daserver.ultraweb.hu
 et.twyn.com
 fourtwentytradingcompany.net
 fruitflan.com
 iofferphoto.com
 loading-delivery2.com
+media.netpositive.hu
 netadclick.com
 netexs.com
 new-bigpenn.com
@@ -85,21 +86,20 @@ vid4u.org
 wstat.ozon.ru
 chatrobot.mia.gov.hu
 chimpstatic.com
+adocean.pl
+adtrackeraa.com
+bs.serving-sys.com
+doubleclick.net
+fastclick.net
+fwmrm.net
 gemius.hu
 gemius.pl
-adtrackeraa.com
+googletagservices.com
+smartadserver.com
 track.calithornia.com
 track.rtb-media.me
 track.trackbyme.info
 tracker.azet.sk
 tracking.binarypromos.com
 tracking.tchibo.hu
-ad.yieldmanager.com
-adocean.pl
-bs.serving-sys.com
-doubleclick.net
-fastclick.net
-fwmrm.net
-googletagservices.com
-smartadserver.com
 zanox.com

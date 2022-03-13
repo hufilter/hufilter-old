@@ -1,7 +1,7 @@
-! Checksum: JTD80ttbaR26tqdRKFD+Mw
-! Version: 202203131308
+! Checksum: dv/enSDbCqnN1gscqRHDoA
+! Version: 202203131511
 ! Title: hufilter
-! Last modified: 13 Mar 2022 13:08 UTC
+! Last modified: 13 Mar 2022 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1593,38 +1593,6 @@ randihely.hu/adnews/
 ||tulajdonostol.com^$third-party
 ||xxxshort.com^$third-party
 !---------------------------------------------------------------------------!
-!-------------- Self promotion rules ---------------------------------------!
-!---------------------------------------------------------------------------!
-! Section: Specific hide
-24.hu##.m-donationBottomLine
-24.hu##[class*=szponzibox]
-ado.hu###custom_html-8
-ado.hu##a[href^="https://bit.ly"]
-bestmarkt.hu##.ddModal
-bookline.hu##.l-container--full
-bookline.hu##a.c-skin--left
-bookline.hu##a.c-skin--right
-c-press.hu###topsect_right_bottom_3
-hang.hu##.widget-tamogatas-box
-! https://github.com/hufilter/hufilter-dev/issues/252
-infostart.hu##.article>.live-wrapper
-leet.hu###article + #offer
-leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
-leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
-napiszex.hu###logo + .partner
-! https://github.com/hufilter/hufilter-dev/issues/254
-onroad.hu##a[href="https://onroad.hu/tamogatas"]
-pestisracok.hu###head-wrap + .code-block
-telex.hu##.kari
-telex.hu##.support
-! TODO! https://github.com/hufilter/hufilter/discussions/7
-!telex.hu##[href*="tamogatas"]
-totalcar.hu###bannerHeaderLink
-upc.hu##.callback-overlay
-upc.hu##.segithetunk-container
-vezess.hu##.katalog
-vezess.hu##.wpb_wrapper > a
-!---------------------------------------------------------------------------!
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! Section: General hide
@@ -2035,7 +2003,7 @@ hosszupuskasub.com#$# * { cursor: auto !important; }
 hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
 hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }
-jofogas.hu###page-content:style(margin-top: 0px !important;)
+jofogas.hu#$##page-content { margin-top: 0px !important; }
 kekvillogo.hu#$#body { padding-top: 0 !important; }
 ! There is no need to add padding on small devices, so we need to add media query.
 ! .content_start is the start page view, .content_content is the article view.
@@ -2050,7 +2018,7 @@ startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; hei
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu#$##wrapfabtest { height: 1px!important; }
 ! Section: Related ABP rules
-! Description: These regular ABP rules dont't work properly without specific rules.
+! Description: These regular ABP rules dont't work properly without Adguard-specific rules!
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]

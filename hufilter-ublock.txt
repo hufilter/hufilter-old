@@ -1,7 +1,7 @@
-! Checksum: 4lShq9hjOkBtatGnZVzssA
-! Version: 202203131511
-! Title: hufilter
-! Last modified: 13 Mar 2022 15:11 UTC
+! Checksum: eZmjBMdQZ936/liOVrPIsA
+! Version: 202203131526
+! Title: Hufilter for uBO
+! Last modified: 13 Mar 2022 15:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

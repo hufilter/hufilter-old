@@ -1,7 +1,7 @@
-! Checksum: 13rmLkG6DwQxLaSI1ErnSA
-! Version: 202203141442
+! Checksum: ccdThgDr57E+ilYwRZ5RIw
+! Version: 202203141736
 ! Title: Hufilter DNS
-! Last modified: 14 Mar 2022 14:42 UTC
+! Last modified: 14 Mar 2022 17:36 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -23,15 +23,13 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-ad.love.hu
 ads.nepszava.com
-cdn-dynamic.optimonk.com
-pixel.blog.hu
 a.adnium.com
 ad.depo.hu
 ad.gyermekevek.hu
 ad.hirekmedia.hu
 ad.kapos.hu
+ad.love.hu
 ad.napilapcsoport.hu
 ad.netmedia.hu
 ad.onadozo.hu
@@ -43,6 +41,7 @@ ad.yieldmanager.com
 adfair.hu
 adfree-stat.p3g.hu
 adk2x.com
+adocean.pl
 ads.geeks.hu
 adv.forpsi.hu
 adv.hu
@@ -56,8 +55,7 @@ banner.terminal.hu
 banner.webtar.hu
 boxzsak.kirowski.com
 brostraffic.com
-choice.microsoft.com
-counter.megagroup.ru
+cdn-dynamic.optimonk.com
 ctnsnet.com
 daserver.ultraweb.hu
 et.twyn.com
@@ -69,6 +67,7 @@ media.netpositive.hu
 netadclick.com
 netexs.com
 new-bigpenn.com
+pixel.blog.hu
 pixel.sojern.com
 predictivadnetwork.com
 rc.rc.hu
@@ -87,9 +86,9 @@ vid4u.org
 wstat.ozon.ru
 chatrobot.mia.gov.hu
 chimpstatic.com
-adocean.pl
 adtrackeraa.com
 bs.serving-sys.com
+counter.megagroup.ru
 doubleclick.net
 fastclick.net
 fwmrm.net

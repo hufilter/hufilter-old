@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5/FGaKIoZr0Usn+xZf1tKg
-! Version: 202203141435
+! Checksum: S+h+Vc6x2n51h+qyxF92MQ
+! Version: 202203141442
 ! Title: Hufilter Basic
-! Last modified: 14 Mar 2022 14:35 UTC
+! Last modified: 14 Mar 2022 14:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -140,7 +140,6 @@
 5mp.eu###alsobox
 5percblog.hu###text-5
 5percblog.hu###text-6
-777blog.hu###cikkreklam
 777blog.hu###galsoreklam
 777blog.hu###oldalreklam
 adoforum.hu##[class^="zone_"]
@@ -272,8 +271,6 @@ budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###media_image-17
 budapestkornyeke.hu###upprev_box
 budapestkornyeke.hu##div.bpkad
-budapestkornyeke.hu##div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
-budapestkornyeke.hu##div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 budapestkornyeke.hu##div[style="margin-top:20px;"]
 budapestpark.hu##.banner_main_page_wrapper
 builder.hu##[class*="banner"]
@@ -529,7 +526,6 @@ hazipatika.com##TD[id*="l_sponsor"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
-hetek.hu##div.row:-abp-has(>div.ads)
 hg.hu##[id*="banner"]
 hg.hu##[id*="interstitial"]
 hir-24.eu###text-3
@@ -774,7 +770,6 @@ kossuth.hu##.mini_slider_div0
 kreativ.hu##[class*="Banner"]
 kreativ.hu##[id*="banner"]
 kronika.ro##[class*="banner"]
-kulturpart.hu##.hird
 kulturpart.hu##[name*="banner"]
 kuruc.info##.logopic2 + .fll
 kuruc.info##.overlay
@@ -934,7 +929,6 @@ napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
 napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
-nemkutya.com##.hird
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
 nemzetisport.hu##.bet365_connect
@@ -1110,7 +1104,6 @@ romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
 ! https://github.com/hufilter/hufilter-dev/issues/150
 rp5.ru#@#[id^="aswift_"]
-rtlklub.hu##.hird
 rtlklub.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
 sg.hu##.std0
@@ -1118,7 +1111,6 @@ sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
 sielok.hu##[class*="AdWrap"]
 sielok.hu##[id*="AdWrap"]
-sikerado.hu##.Hirdetes
 site88.net##.popup
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
@@ -1250,8 +1242,6 @@ valasz.hu##[class*="banner"]
 valaszonline.hu##.hird-cont
 vasarnap.hu##.banner-commercial
 vasarnap.hu##.reklamnagy
-! https://github.com/hufilter/hufilter-dev/issues/198
-vasarnap.hu###cikkreklam
 vatera.hu##.page-rightside-advert
 vatera.hu##div[id*="advert-container"]
 vehir.hu##[class*="szovegkozi"]
@@ -1323,6 +1313,8 @@ bpiautosok.hu#?#center:-abp-has(>font[size=1])
 bpiautosok.hu#?#center:-abp-has(>iframe[scrolling=no])
 bpiautosok.hu#?#div[class*="rltd_item"]:-abp-has(.rltd_tag)
 bpiautosok.hu#?#font[size=1]:-abp-has(>center)
+budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
+budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))
 egeszsegkalauz.hu#?#.row:-abp-has(>#onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(>div>span:-abp-contains(Hirdetés))
@@ -1331,6 +1323,7 @@ femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.femina-shop-ajanlo-slider-hi
 femina.hu#?#.szelso-jobb > div:-abp-has(>a)
 gyakorikerdesek.hu#?#td.txtcenter:-abp-has(>script+ins)
 harmonikum.co#?#div:-abp-has(>.ai-attributes+script+ins)
+hetek.hu#?#div.row:-abp-has(>div.ads)
 hiros.hu#?#.frame:-abp-has(>span[style^="font-size: 11px;"])
 hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])

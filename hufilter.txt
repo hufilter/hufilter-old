@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M2NmIRi8XcKYbsRIZKKE0w
-! Version: 202203141338
+! Checksum: SKmMWFUmr092BnDW/zV18A
+! Version: 202203141401
 ! Title: Hufilter Basic
-! Last modified: 14 Mar 2022 13:38 UTC
+! Last modified: 14 Mar 2022 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -116,13 +116,7 @@ arukereso.hu##.brandbox
 astronet.hu##[class*="ads-"]
 atlatszo.hu##.tamogatoi
 atlatszo.hu##.wp-caption
-atv.hu##DIV[class*="banner"]
-atv.hu##header > .top-content
-automenedzser.hu##.adcloud
-automenedzser.hu##.monocle
-automenedzser.hu##DIV[class*="banner"]
-automenedzser.hu##DIV[id*="advert"]
-automenedzser.hu##DIV[id*="banner"]
+atv.hu##.plus-wrapper
 automotor.hu##[class*="hirdetes"]
 automotor.hu###_aloldali_header_banner
 automotor.hu###_fooldali_header_banner

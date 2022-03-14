@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RDMxNMZ+cYOy9ferSC7t7Q
-! Version: 202203141401
+! Checksum: ZNCFikhgZGhIgv15YlV9/g
+! Version: 202203141435
 ! Title: Hufilter Self-promotions
-! Last modified: 14 Mar 2022 14:01 UTC
+! Last modified: 14 Mar 2022 14:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -34,6 +34,8 @@
 24.hu##[class*=szponzibox]
 ado.hu###custom_html-8
 ado.hu##a[href^="https://bit.ly"]
+automotor.hu##[data-foo="cikk_jobbhasab_"]
+automotor.hu##[data-foo="fooldali_jobbhasab_"]
 bestmarkt.hu##.ddModal
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left

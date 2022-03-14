@@ -1,7 +1,7 @@
-! Checksum: vOHnx1oBYG3F1sl7En+2hg
-! Version: 202203141401
+! Checksum: jbRaa6UDQLRYDvozPnGCfg
+! Version: 202203141435
 ! Title: Hufilter for AdGuard
-! Last modified: 14 Mar 2022 14:01 UTC
+! Last modified: 14 Mar 2022 14:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -29,11 +29,37 @@
 ! Section: General hide
 ##.ad
 ##.ad__main
+##.adblokk
+##.cikk_reklam
+##.cikk-reklam
+##.cikkreklam
+##.google_hirdetes
+##.google_hirdetesek
+##.google-hirdetes
+##.google-hirdetesek
+##.googlehirdetes
+##.googlehirdetesek
+##.hird
 ##.hirdetes
+##.hirdetes_box
+##.hirdetes_container
+##.hirdetes_doboz
+##.hirdetes-box
+##.hirdetes-container
+##.hirdetes-doboz
 ##.hirdetes-linkek
+##.hirdetesek
+##.hirdetesek_box
+##.hirdetesek_container
+##.hirdetesek_doboz
+##.hirdetesek-box
+##.hirdetesek-container
+##.hirdetesek-doboz
 ##.optimonk-container
 ##.optimonk-iframe-container
 ##.optimonk-middle
+##.reklam-doboz
+##.reklamok
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
@@ -46,12 +72,39 @@
 ##[id^="aswift_"]
 ##[id^="googlead"]
 ##[name*="google_ads"]
+###adblokk
 ###cemp_doboz
 ###cenmg
+###cikk_reklam
+###cikk-reklam
+###cikkreklam
 ###etarget
+###google_hirdetes
 ###google_hirdetesek
+###google-hirdetes
+###google-hirdetesek
+###googlehirdetes
+###googlehirdetesek
+###hirdetes
+###hirdetes_box
+###hirdetes_container
+###hirdetes_doboz
+###hirdetes_linkek
+###hirdetes-box
+###hirdetes-container
+###hirdetes-doboz
+###hirdetes-linkek
+###hirdetesek
+###hirdetesek_box
+###hirdetesek_container
+###hirdetesek_doboz
+###hirdetesek-box
+###hirdetesek-container
+###hirdetesek-doboz
 ###optimonk-iframe-container-campaign-12
 ###optimonk-overlay-campaign-12
+###reklam-doboz
+###reklamok
 ##a[href*="ad.eval.hu"]
 ##a[href*="ad.netmedia.hu"]
 ##a[href*="adverticum.net"]
@@ -106,20 +159,29 @@ androgeek.hu##div.cikk_zona
 androgeek.hu##div.rightside > iframe
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
 angol-magyar-szotar.hu##[id^="hird_"]
-anyuci.hu##[class*="banner"]
-anyuci.hu##[id*="banner"]
 aranyoldalak.hu##.mask
 aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
 arukereso.hu##.brandbox
-astronet.hu##[class*="ads-"]
 atlatszo.hu##.tamogatoi
 atlatszo.hu##.wp-caption
 atv.hu##.plus-wrapper
-automotor.hu##[class*="hirdetes"]
-automotor.hu###_aloldali_header_banner
+automotor.hu###_cikk_jobbhasab_2
+automotor.hu###_cikk_jobbhasab_3
+automotor.hu###_fooldali_header_alatti_banner
 automotor.hu###_fooldali_header_banner
-automotor.hu##div.mw-banner-zone
+automotor.hu###_fooldali_jobbhasab_2
+automotor.hu###_fooldali_jobbhasab_3
+automotor.hu###custom_html-10
+automotor.hu###custom_html-18
+automotor.hu###custom_html-19
+automotor.hu###custom_html-2
+automotor.hu###custom_html-20
+automotor.hu###custom_html-21
+automotor.hu###custom_html-23
+automotor.hu###custom_html-26
+automotor.hu###custom_html-7
+automotor.hu###custom_html-8
 autonavigator.hu##[class*="Advert"]
 autonavigator.hu##[class*="etarget"]
 autonavigator.hu##[class*="hirdetes"]
@@ -139,7 +201,6 @@ autoszektor.hu###block-block-30
 autoszektor.hu###block-block-60
 azonnali.hu##.addd
 azonnali.hu##.bannpos
-babanet.hu##[class*="hirdetes"]
 babaszoba.hu##.rubAd
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
@@ -1876,7 +1937,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 ! Section: Specific block
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
-||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu
 ||onlinestream.live/js/adb.js
 ! Section: Specific allow
 @@||meszotar.hu/scripts/advertising.js

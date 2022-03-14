@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Axiyf4AMYQHWXFhbwJeznA
-! Version: 202203131542
+! Checksum: TtUGxOLZPSzabzpFGe5aLw
+! Version: 202203141336
 ! Title: Hufilter Self-promotions
-! Last modified: 13 Mar 2022 15:42 UTC
+! Last modified: 14 Mar 2022 13:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -28,6 +28,8 @@
 !-------------- Self promotion rules ---------------------------------------!
 !---------------------------------------------------------------------------!
 ! Section: Specific hide
+! Donate box
+112press.hu###right > .box + .box
 24.hu##.m-donationBottomLine
 24.hu##[class*=szponzibox]
 ado.hu###custom_html-8

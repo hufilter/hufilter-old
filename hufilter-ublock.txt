@@ -1,7 +1,7 @@
-! Checksum: /l7fqyMJllh/Q4gzYBRw7g
-! Version: 202203131542
+! Checksum: H81Fyc48B3NPNYhalmkSiQ
+! Version: 202203141336
 ! Title: Hufilter for uBO
-! Last modified: 13 Mar 2022 15:42 UTC
+! Last modified: 14 Mar 2022 13:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -63,16 +63,11 @@
 ! Section: General block
 ! Empty section
 ! Section: Specific hide
-112press.hu##div.banner_middle
+112press.hu##.banner_middle
+168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
-168ora.hu##[class*="banner"]
-168ora.hu##[class^="ads"]
-168ora.hu##[id*="etarget"]
-1helyen.eu###jobb_side_friss
-1helyen.eu###now_jobb
-1helyen.eu###tpost>div:nth-child(2)
-1helyen.eu###tpost>div:nth-child(3)
-24.hu##[class*="banner-"]
+24.hu##.banner-container
+24.hu##.spklw-post-attr[data-type="ad"]
 444.hu##.d1912cka
 444.hu##.d1912cza
 444.hu##.d2020kv
@@ -1493,6 +1488,7 @@ randihely.hu/adnews/
 ||ad.yieldmanager.com^
 ||ad*.mellesleg.hu^
 ||adfair.hu
+||adfree-stat.p3g.hu^
 ||adk2x.com^
 ||ads.geeks.hu^
 ||adsfac.eu/*.asp
@@ -1600,15 +1596,13 @@ hu##.qc-cmp2-container
 hu###qc-cmp2-container
 ! Section: Specific hide
 112press.hu###cookie-law
-168ora.hu###gdpr_box
-24.hu##.cc_container--open.cc_container.cc_gccp
-24.hu##.m-fbExitPopup
-24.hu##.u-overlayFullScreen
+24.hu##.fb-exit-popup-container
+24.hu##.m-donationBottomLine
 24.hu##.widget-mini-article
+24.hu###overlay_readers_letter
 24.hu###stickyHomePageRecommender
-24.hu###stickyMobileNotification
-24.hu##div.m-donationBottomLine
-24.hu##div#webPushPopup
+24.hu###stickyHomePageRecommender
+24.hu###webPushPopup
 444.hu###cookie_popup_container
 5mp.eu##.cc_banner
 888.hu###cookieconsent
@@ -1944,7 +1938,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ! Section: HTML filters
 ! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters
 ! Description: Only works on Firefox
-24.hu##^body > script:has-text(2blck)
+24.hu##^body > script:has-text(a2blckLayer)
 divany.hu##^body>script:has-text(window.onload = window.onfocus)
 gamer.hu##^body>script:has-text(cli_cookiebar_)
 grundoajandek.hu##^script:has-text(contextmenu)
@@ -1961,6 +1955,7 @@ totalbike.hu##^body>script:has-text(window.onload = window.onfocus)
 totalcar.hu##^body>script:has-text(window.onload = window.onfocus)
 ! Section: Scriptlets
 ! Description: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
+24.hu##+js(acis, window._ceCTSData, hirdetések)
 ! angol-magyar-szotar.hu antiadblock
 angol-magyar-szotar.hu##+js(set, adblock, false)
 ! calculat.org antiadblock

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 207SSTOezZqjw8K0dJ9nKQ
-! Version: 202203141736
+! Checksum: iGn8eJBzzA3fSKYlHif6Jw
+! Version: 202203201308
 ! Title: Hufilter Basic
-! Last modified: 14 Mar 2022 17:36 UTC
+! Last modified: 20 Mar 2022 13:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -256,13 +256,7 @@ borsonline.hu##[class*="__ad"]
 borsonline.hu##[class*="adContainer"]
 borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
-bpiautosok.hu##.post > p + center
-bpiautosok.hu##.post > p + center + hr
-bpiautosok.hu##.post ins + h6
-bpiautosok.hu##.single-content p + center > iframe
-bpiautosok.hu##div.post > *:not(.single-title):not(.news-thumb):not(.posted-date):not(.comments-meta):not(.author-meta):not(.single-content):not(.entry-footer):not(.news-item)
-bpiautosok.hu##noscript + div.top-menu
-bpiautosok.hu##script[async] + table[width="100%"]
+bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
 budapestkornyeke.hu###custom_html-6
@@ -809,6 +803,8 @@ likenews.hu##div.bpkad
 linkcenter.hu##[class*="adserver"]
 linkcenter.hu##[id*="hirdetes"]
 litera.hu##[class*="-ad"]
+logout.hu###navi_btm + div
+logout.hu##img[src^="https://logout.hu/muvelet/hozzaferes/kapcsolodas.php"]
 love.hu##.nobanner
 love.hu##[class^="banner_"]
 love.hu##[id^="banner_"]
@@ -1301,10 +1297,8 @@ ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
 bien.hu#?#.hidden-xs:-abp-has(>.lablec_alatt)
 bien.hu#?#.hidden-xs:-abp-has(>.weboldal_felett)
-bpiautosok.hu#?#center:-abp-has(>font[size=1])
-bpiautosok.hu#?#center:-abp-has(>iframe[scrolling=no])
-bpiautosok.hu#?#div[class*="rltd_item"]:-abp-has(.rltd_tag)
-bpiautosok.hu#?#font[size=1]:-abp-has(>center)
+bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
+bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))

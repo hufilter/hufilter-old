@@ -1,7 +1,7 @@
-! Checksum: AtBOWlEX9pLnXxudR/aFGg
-! Version: 202203210940
+! Checksum: 3en1BwdhQFXBaYckgmkH1g
+! Version: 202203211012
 ! Title: Hufilter for uBO
-! Last modified: 21 Mar 2022 09:40 UTC
+! Last modified: 21 Mar 2022 10:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1070,6 +1070,8 @@ profession.hu###newsletter_footer
 profession.hu###twister-banner
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spleft
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spright
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##[class$="responsive-300px-600px"]
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##a[onclick*="/muvelet/hozzaferes/kapcsolodas.php?id="]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##body > style
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.partners
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.xabrecontainer
@@ -1327,6 +1329,7 @@ napjainkportal.hu#?#.code-block:-abp-has(>div+ins.adsbygoogle+script)
 nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
 origo.hu#?#a:-abp-has(>div[class*="adLabel"])
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu#?#div:-abp-has(>[style*="calc"])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 szineshir.net#?#div.grid_item:-abp-contains(Google Hirdetés)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: elFhOPtVT38K8WYZlHx7Cg
-! Version: 202203201308
+! Checksum: P5p2HoqckensTmEnyOTn8w
+! Version: 202203210940
 ! Title: Hufilter for ABP
-! Last modified: 20 Mar 2022 13:08 UTC
+! Last modified: 21 Mar 2022 09:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -606,7 +606,8 @@ hvg.hu##.cimlap-ajanlat.elem-1180.cimlap-grid-elem
 hvg.hu##.hosting
 hvg.hu##.jobline-palyakezdo-feed
 hvg.hu##.lh-calc.bm-caxlc-bo
-hvg.hu##.panelgap > .caption
+! https://github.com/AdguardTeam/AdguardFilters/issues/111757
+hvg.hu##.list-article + style + .panelgap
 hvg.hu##.selectWidget
 hvg.hu##.support-stripe
 hvg.hu##[class*="adsense"]
@@ -1688,6 +1689,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||onlinestream.live/js/adb.js
 ! Section: Specific allow
+! https://github.com/AdguardTeam/AdguardFilters/issues/113211
+@@||apro.bikemag.hu/static/js/adx_blacklist.js^$script
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 !---------------------------------------------------------------------------!

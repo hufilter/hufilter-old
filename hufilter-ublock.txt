@@ -1,7 +1,7 @@
-! Checksum: 6yuG+g1sthy9a6ciqopzvQ
-! Version: 202203231316
+! Checksum: znpWDItcTbr8iI3VqamMBA
+! Version: 202203231322
 ! Title: Hufilter for uBO
-! Last modified: 23 Mar 2022 13:16 UTC
+! Last modified: 23 Mar 2022 13:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1658,6 +1658,9 @@ ado.hu###cookieBox
 ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert
 adozona.hu##.floating-help-wrapper
+! https://github.com/AdguardTeam/AdguardFilters/issues/113594
+americantourister.hu##.ui-widget-overlay
+americantourister.hu##[aria-describedby="cookies-dialog"]
 arukereso.hu###cookie-disclaimer
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground

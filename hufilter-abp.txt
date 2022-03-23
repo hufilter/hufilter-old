@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +5FVHxMefM07pYDDkrFb9A
-! Version: 202203211012
+! Checksum: BLL5XqCJpaF2nfbMG2Budw
+! Version: 202203231316
 ! Title: Hufilter for ABP
-! Last modified: 21 Mar 2022 10:12 UTC
+! Last modified: 23 Mar 2022 13:16 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1693,7 +1693,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||onlinestream.live/js/adb.js
 ! Section: Specific allow
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
-@@||apro.bikemag.hu/static/js/adx_blacklist.js^$script
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 !---------------------------------------------------------------------------!

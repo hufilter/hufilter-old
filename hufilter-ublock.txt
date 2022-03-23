@@ -1,7 +1,7 @@
-! Checksum: 3en1BwdhQFXBaYckgmkH1g
-! Version: 202203211012
+! Checksum: 6yuG+g1sthy9a6ciqopzvQ
+! Version: 202203231316
 ! Title: Hufilter for uBO
-! Last modified: 21 Mar 2022 10:12 UTC
+! Last modified: 23 Mar 2022 13:16 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1927,7 +1927,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||onlinestream.live/js/adb.js
 ! Section: Specific allow
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
-@@||apro.bikemag.hu/static/js/adx_blacklist.js^$script
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 !---------------------------------------------------------------------------!

@@ -1,7 +1,7 @@
-! Checksum: K++2lEXFlVwopRn/jnUvKw
-! Version: 202203231322
+! Checksum: YbzaI3GILeC8ckWew/x1MA
+! Version: 202203231340
 ! Title: Hufilter for AdGuard
-! Last modified: 23 Mar 2022 13:22 UTC
+! Last modified: 23 Mar 2022 13:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1931,6 +1931,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ! Section: Specific allow
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
+@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 !---------------------------------------------------------------------------!

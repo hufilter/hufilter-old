@@ -1,7 +1,7 @@
-! Checksum: py9+mNh4EaQ2Tk8ORgvRHQ
-! Version: 202203231340
+! Checksum: 7K/sdx0oLS/r7B0HFShRJA
+! Version: 202203231429
 ! Title: Hufilter for uBO
-! Last modified: 23 Mar 2022 13:40 UTC
+! Last modified: 23 Mar 2022 14:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1028,6 +1028,7 @@ otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]
 partyponty.hu##[id*="banner"]
+pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
@@ -1814,9 +1815,9 @@ privatbankar.hu##.mfor_cikk_beuszo
 privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profession.hu##.cookie-layer
 prog.hu,pcforum.hu##.slidein.popup.closeablenotification.scripted
+prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
-prog.hu###cookieconsentbar
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###accept-container
 propeller.hu##.popup
 raketa.hu##.ui-widget-overlay

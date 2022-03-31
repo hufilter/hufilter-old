@@ -1,7 +1,7 @@
-! Checksum: oZ1W0LuNzawWTzfpHjevgA
-! Version: 202203231429
+! Checksum: j73kYc1wVFY9DjzUlmhhMA
+! Version: 202203311324
 ! Title: Hufilter for AdGuard
-! Last modified: 23 Mar 2022 14:29 UTC
+! Last modified: 31 Mar 2022 13:24 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -27,7 +27,6 @@
 !-------------- Ads --------------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! Section: General hide
-##.ad
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -39,8 +38,6 @@
 ##.google-hirdetesek
 ##.googlehirdetes
 ##.googlehirdetesek
-##.hird
-##.hirdetes
 ##.hirdetes_box
 ##.hirdetes_container
 ##.hirdetes_doboz
@@ -48,7 +45,6 @@
 ##.hirdetes-container
 ##.hirdetes-doboz
 ##.hirdetes-linkek
-##.hirdetesek
 ##.hirdetesek_box
 ##.hirdetesek_container
 ##.hirdetesek_doboz
@@ -85,7 +81,6 @@
 ###google-hirdetesek
 ###googlehirdetes
 ###googlehirdetesek
-###hirdetes
 ###hirdetes_box
 ###hirdetes_container
 ###hirdetes_doboz
@@ -94,7 +89,6 @@
 ###hirdetes-container
 ###hirdetes-doboz
 ###hirdetes-linkek
-###hirdetesek
 ###hirdetesek_box
 ###hirdetesek_container
 ###hirdetesek_doboz
@@ -113,6 +107,12 @@
 ##a[href*="etargetnet.com"]
 ##a[href*="internetespenzkereses.net"]
 ##iframe[id*="ETARGET-"]
+hu##.ad
+hu##.hird
+hu##.hirdetes
+hu##.hirdetesek
+hu###hirdetes
+hu###hirdetesek
 ! Section: Specific hide
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title

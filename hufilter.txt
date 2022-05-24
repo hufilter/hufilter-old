@@ -1053,6 +1053,7 @@ player.hu###pushpushgo-container
 politaktika.hu###popup
 polusonline.com###HTML5
 polusonline.com###HTML9
+prog.hu###zone-roaddblock
 port.hu##.articleMetadata
 port.hu##.container.css-table>div:not(.container)
 port.hu##.edgebox-widget.show

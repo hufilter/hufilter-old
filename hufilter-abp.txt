@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iTZ+RF4tC3NlrsigMqXe8w
-! Version: 202205251112
+! Checksum: b/Vzu3nBwlFGgC5EHV4dFQ
+! Version: 202205270953
 ! Title: Hufilter for ABP
-! Last modified: 25 May 2022 11:12 UTC
+! Last modified: 27 May 2022 09:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1025,6 +1025,7 @@ origo.hu##DIV[class*="Advert"]
 origo.hu##div[class$="widget"][data-adblockonly="1"]
 origo.hu##DIV[id*="magnum"]
 origo.hu##IFRAME[id*="bookline"]
+origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]

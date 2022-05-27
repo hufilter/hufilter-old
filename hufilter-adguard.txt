@@ -1,7 +1,7 @@
-! Checksum: 5PxgCxYecru3WIoXuHKNlQ
-! Version: 202205251112
+! Checksum: KPTeawRhUDLKhN/L/rRCHg
+! Version: 202205270953
 ! Title: Hufilter for AdGuard
-! Last modified: 25 May 2022 11:12 UTC
+! Last modified: 27 May 2022 09:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1024,6 +1024,7 @@ origo.hu##DIV[class*="Advert"]
 origo.hu##div[class$="widget"][data-adblockonly="1"]
 origo.hu##DIV[id*="magnum"]
 origo.hu##IFRAME[id*="bookline"]
+origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]
@@ -1721,6 +1722,8 @@ femina.hu###femina-shop-ajanlo-slider
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
 fressnapf.hu##.grey-popup-layer
+glamour.hu###articleOfferFlag
+glamour.hu###pe_confirm_optin_6
 grundoajandek.hu###cookie-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
@@ -1798,6 +1801,7 @@ offline.hu###catapult-cookie-bar
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu###slidebox
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
+origo.hu##.mw-allow-notification-dialog
 origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup

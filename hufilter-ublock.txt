@@ -1,7 +1,7 @@
-! Checksum: 8ahOjUIO9p/egK7BpV9Liw
-! Version: 202205270953
+! Checksum: I5lt0TaLBO2PeX7jWnHdog
+! Version: 202205291147
 ! Title: Hufilter for uBO
-! Last modified: 27 May 2022 09:53 UTC
+! Last modified: 29 May 2022 11:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1802,6 +1802,7 @@ offline.hu###catapult-cookie-bar
 onroad.hu###slidebox
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
 origo.hu##.mw-allow-notification-dialog
+origo.hu##.newsletter-layer
 origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
@@ -2017,6 +2018,7 @@ keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80
 magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
 mkb.hu##html,body:style(overflow:auto !important)
 origo.hu##.first-section:style(margin-top: 0 !important;)
+origo.hu##.oh-holder.open:style(z-index: 9999!important;)
 port.hu##body:style(overflow: auto !important)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; height: auto!important;)
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WgMMFHzGQNwEnbdNWULnZA
-! Version: 202205270953
+! Checksum: atRMow42bJMMPNdcj+tiLA
+! Version: 202205291147
 ! Title: Hufilter Basic
-! Last modified: 27 May 2022 09:53 UTC
+! Last modified: 29 May 2022 11:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +gaolQpywkCF5tAvNFnUeA
-! Version: 202205301910
+! Checksum: g1D5v1lgD1fSkvx67r4oLg
+! Version: 202206011027
 ! Title: Hufilter for ABP
-! Last modified: 30 May 2022 19:10 UTC
+! Last modified: 01 Jun 2022 10:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -426,6 +426,8 @@ femina.hu##[id*="etarget"]
 figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##DIV[class*="reklam"]
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[href^="https://rosszlanyok.hu/"]
 firstman.hu##[class*="banner"]
 fn.hu##.fn9_separator
 fn.hu##.rovatszponzor
@@ -635,7 +637,6 @@ index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##.adbd-layer
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu##._iph_brk
-index.hu##.adocean
 index.hu##.cikk-vegi-ajanlo-reklamok
 index.hu##.cikk-vegi-ajanlo-reklamok-container
 index.hu##.glr_advert
@@ -693,7 +694,6 @@ ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim t
 itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
-jofogas.hu###adsense_r_side_sticky_container
 jogiforum.hu##[class*="banner"]
 joy.hu##[class*="Adverticum"]
 joy.hu##[class^="ad-"]
@@ -1352,7 +1352,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||888.hu^*/autoalkatreszek24$image
 ||ado.hu/banners/$image
 ||ads.nepszava.com^
-||adsfac.eu/*.asp
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
 ||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
@@ -1415,12 +1414,12 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hu-swingers.com/img/banners/$image
 ||hungariantop1000.com/cgi-bin/counter.cgi
 ||hupont.hu/hirdetes/
-||hwsw.hu/images/bodybgs/*$image
+||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
 ||i.cdn29.hu/apix_collect/ads
 ||iho.hu/img/banner/
 ||image.arukereso.hu/ad$image
-||img.hunbasket.webpont.com/kosarsport/art/*banner*$image
+||img.hunbasket.webpont.com/kosarsport/art/*banner$image
 ||infogyor.hu/*_banners/
 ||informed.hu/*banner
 ||ingyenweb.hu/felso/*.
@@ -1447,7 +1446,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||metropol.hu/*/images/sponsor_*.$image
 ||miabonyunk.hu/hirdetesek/
 ||mindmegette.hu/images/294/O/nyerjagyulaival_2020_background_300x300.jpg$image
-||mkbnetbankar.hu/banner*
+||mkbnetbankar.hu/banner
 ||mlzphoto.hu/bannerek/$image
 ||mobilarena.hu/ajanlo/lapcsalad.html
 ||napidroid.hu/*/*hird
@@ -1483,7 +1482,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||sg.hu/sg.wgt
 ||sielok.hu/kampanybanner/$image
 ||sikerado.hu/banner/$image
-||stat.profession.hu/static/assets/images/prize-game*$image
+||stat.profession.hu/static/assets/images/prize-game$image
 ||static.lhp.hu/lhp.hu/bannerek/$image
 ||static.love.hu/design/ad/
 ||static.nemzetisport.hu//style/nso/i/*banner
@@ -1519,27 +1518,22 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.kapos.hu^
 ||ad.love.hu^
 ||ad.napilapcsoport.hu^
-||ad.netmedia.hu^
 ||ad.onadozo.hu^
 ||ad.parom.hu^
 ||ad.pphungary.hu^
 ||ad.supportal.hu^
 ||ad.szexneked.hu^
-||ad.yieldmanager.com^
 ||ad*.gyaloglo.hu^
 ||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
 ||adk2x.com^
-||adocean.pl^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
 ||adverbs.napilapcsoport.hu^
-||adversalservers.com^
 ||advert*.ultraweb.hu^
 ||adverticum.*.hu^
-||advertiserurl.com^
 ||app.livechatoo.com^
 ||as*.prog.hu^
 ||audit.median.hu^
@@ -1563,7 +1557,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||new-bigpenn.com^
 ||pixel.blog.hu^
 ||pixel.sojern.com^
-||predictivadnetwork.com^
 ||rc.rc.hu^
 ||rc.rootclick.com^
 ||redwolfmoon.com^
@@ -1574,10 +1567,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||srv1.srv-stat.com^
 ||stat.adultium.com^
 ||stats.badoostats.com^
-||syndication.globaltraffico.com^
 ||syndication.trafficreps.com^
 ||szemezgeto*.ingatlan.com^
-||trafficshop.com^
 ||up-banner.wavecdn.de^
 ||vid4u.org^
 ||wstat.ozon.ru^
@@ -1585,12 +1576,10 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||9klikk.com^$third-party
 ||abmr.net^$third-party
 ||ad.hu^$third-party
-||ad.yieldlab.net^$third-party
 ||ad4mat.net^$third-party
 ||adfox.ru^$third-party
 ||ads.sg.hu^$third-party
 ||ads.ventivmedia.com^$third-party
-||adswizz.com^$third-party
 ||advantage.as^$third-party
 ||advertshot.ru^$third-party
 ||affiliate.hu^$third-party
@@ -1603,7 +1592,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||clicksure.com^$third-party
 ||ctnetwork.hu^$third-party
 ||data.bookline.hu^$third-party
-||feeds.videosz.com^$third-party
 ||hitelkereso.hu^$third-party
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
@@ -1612,7 +1600,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||klix.hu^$third-party
 ||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
-||megaclick.com/ad.code*$third-party
+||megaclick.com/ad.code$third-party
 ||mytarget.hu^$third-party
 ||napiaszhirdetesek^$third-party
 ||out.pladform.ru^$third-party
@@ -1636,56 +1624,43 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! Section: General block
-*/traffic.js
-*/traffic.min.js
 /gemius.js^
 /gemius.min.js^
+/traffic.js
+/traffic.min.js
 /xgemius.js^
 /xgemius.min.js^
 ||*.hu/userip.php
 ! Section: Specific block
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js$script
-||clicksor.net/newServing/
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||myroitracking.com/newServing/
 ||websas.hu/statistics/
 ! Section: Tracking servers
 ||adtrackeraa.com^
-||bs.serving-sys.com^
 ||counter.megagroup.ru^
 ||doubleclick.net^
-||fastclick.net^
-||fwmrm.net^
 ||gemius.hu^
 ||gemius.pl^
-||googletagservices.com^
 ||smartadserver.com^
 ||track.calithornia.com^
-||track.rtb-media.me^
 ||track.trackbyme.info^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
 ||zanox.com^
 ! Section: Tracking servers third-party
-||2mdn.net^$third-party
-||a.rvttrack.com^$third-party
 ||analytics.yahoo.com^$third-party
-||atdmt.com^$third-party
-||bannerflow.com^$third-party
-||bbelements.com^$third-party
 ||counter.hitslink.com^$third-party
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party
-||insticator.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
 ||targetix.net^$third-party
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
-||zemanta.com^$third-party
 !---------------------------------------------------------------------------!
 !-------------- Antiadblock ------------------------------------------------!
 !---------------------------------------------------------------------------!

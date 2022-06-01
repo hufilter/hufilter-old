@@ -1,7 +1,7 @@
-! Checksum: m7lWKLX2we2pCEo9mvE22w
-! Version: 202205301910
+! Checksum: 8EnIFzgrYE91WzrHoW01Zw
+! Version: 202206011027
 ! Title: Hufilter DNS
-! Last modified: 30 May 2022 19:10 UTC
+! Last modified: 01 Jun 2022 10:27 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -31,23 +31,18 @@ ad.hirekmedia.hu
 ad.kapos.hu
 ad.love.hu
 ad.napilapcsoport.hu
-ad.netmedia.hu
 ad.onadozo.hu
 ad.parom.hu
 ad.pphungary.hu
 ad.supportal.hu
 ad.szexneked.hu
-ad.yieldmanager.com
 adfair.hu
 adfree-stat.p3g.hu
 adk2x.com
-adocean.pl
 ads.geeks.hu
 adv.forpsi.hu
 adv.hu
 adverbs.napilapcsoport.hu
-adversalservers.com
-advertiserurl.com
 app.livechatoo.com
 audit.median.hu
 avatraffic.com
@@ -69,7 +64,6 @@ netexs.com
 new-bigpenn.com
 pixel.blog.hu
 pixel.sojern.com
-predictivadnetwork.com
 rc.rc.hu
 rc.rootclick.com
 redwolfmoon.com
@@ -78,26 +72,19 @@ smartcj.com
 srv1.srv-stat.com
 stat.adultium.com
 stats.badoostats.com
-syndication.globaltraffico.com
 syndication.trafficreps.com
-trafficshop.com
 up-banner.wavecdn.de
 vid4u.org
 wstat.ozon.ru
 chatrobot.mia.gov.hu
 chimpstatic.com
 adtrackeraa.com
-bs.serving-sys.com
 counter.megagroup.ru
 doubleclick.net
-fastclick.net
-fwmrm.net
 gemius.hu
 gemius.pl
-googletagservices.com
 smartadserver.com
 track.calithornia.com
-track.rtb-media.me
 track.trackbyme.info
 tracker.azet.sk
 tracking.binarypromos.com

@@ -1,7 +1,7 @@
-! Checksum: uQAerY3r+NH68kzEXBum2g
-! Version: 202206011027
+! Checksum: DXlMipSyHyqUr/x7ctDJCQ
+! Version: 202206031651
 ! Title: Hufilter for AdGuard
-! Last modified: 01 Jun 2022 10:27 UTC
+! Last modified: 03 Jun 2022 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1675,6 +1675,7 @@ blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
 borsonline.hu##.cookie__wrapper
+borsonline.hu##.newsletter-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
 budapestbank.hu###header_cookie_container

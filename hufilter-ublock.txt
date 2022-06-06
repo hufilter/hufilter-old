@@ -1,7 +1,7 @@
-! Checksum: koVKXekTYh1V/X5B8XWmpA
-! Version: 202206031651
+! Checksum: 8rPtfeGGJtWS9zvSBEIXfw
+! Version: 202206062353
 ! Title: Hufilter for uBO
-! Last modified: 03 Jun 2022 16:51 UTC
+! Last modified: 06 Jun 2022 23:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1748,6 +1748,7 @@ itthonrolhaza.hu###cookie-law-info-bar
 kalohirek.hu###cookie_container
 kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
+kektura.hu###cookie-consent-dialog
 keol.hu###social
 keol.hu##div.subscribe_module
 keol.hu##div[class="fb-like fb_iframe_widget"]
@@ -1989,6 +1990,7 @@ hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto !important)
 jofogas.hu###page-content:style(margin-top: 0px !important;)
+kektura.hu##body:style(overflow: auto!important;)
 kekvillogo.hu##body:style(padding-top: 0 !important;)
 keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 keol.hu##section[id="content_left"][class="content_content"]:style(width: auto !important; padding: 0 45px 0 46px !important;)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KuavmWuf/PIdGk7j/xhO5w
-! Version: 202206062353
+! Checksum: N8fnPIX+uWccvwITzFaOJA
+! Version: 202206131754
 ! Title: Hufilter Self-promotions
-! Last modified: 06 Jun 2022 23:53 UTC
+! Last modified: 13 Jun 2022 17:54 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

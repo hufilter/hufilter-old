@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Qi/y9iRgkvKKzzFdd4otNQ
-! Version: 202206062353
+! Checksum: wA//M2gyvqLYNwlCj52ETQ
+! Version: 202206131754
 ! Title: Hufilter Basic
-! Last modified: 06 Jun 2022 23:53 UTC
+! Last modified: 13 Jun 2022 17:54 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1306,6 +1306,7 @@ bien.hu#?#.hidden-xs:-abp-has(>.lablec_alatt)
 bien.hu#?#.hidden-xs:-abp-has(>.weboldal_felett)
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
+bpiautosok.hu#?#center:-abp-has(>font)
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))

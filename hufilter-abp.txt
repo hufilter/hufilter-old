@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dImqcLtOdIg2CpkfROqTIw
-! Version: 202206220913
+! Checksum: 6WC9jSKkGtyV0MRYpHEKmg
+! Version: 202207081502
 ! Title: Hufilter for ABP
-! Last modified: 22 Jun 2022 09:13 UTC
+! Last modified: 08 Jul 2022 15:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1668,6 +1668,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ! Section: Specific hide
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
+onvideo.hu###detect + .wrapper
 ! Section: Specific block
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||onlinestream.live/js/adb.js

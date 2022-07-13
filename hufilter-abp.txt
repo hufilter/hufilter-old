@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dos7ejkzTPSnYl5N4QsoQA
-! Version: 202207111836
+! Checksum: zIb4QnNvuVboCZskbc7nhA
+! Version: 202207131510
 ! Title: Hufilter for ABP
-! Last modified: 11 Jul 2022 18:36 UTC
+! Last modified: 13 Jul 2022 15:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -947,6 +947,7 @@ netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup
+nlc.hu##.rubAd
 nlcafe.hu##.boxcontent
 nlcafe.hu##.cikk_vegi_google
 nlcafe.hu##.ctsGadx

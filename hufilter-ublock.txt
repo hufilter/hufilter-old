@@ -1,7 +1,7 @@
-! Checksum: k4kXB08cGN755ztqORfK0Q
-! Version: 202207131510
+! Checksum: i/hiOolSCgmrQO0DgAcFjA
+! Version: 202207241120
 ! Title: Hufilter for uBO
-! Last modified: 13 Jul 2022 15:10 UTC
+! Last modified: 24 Jul 2022 11:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -228,6 +228,12 @@ blikk.hu###footerLogos
 blikk.hu###underArticleAdvertisement
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikkruzs.blikk.hu###ad-cikk1
+blikkruzs.blikk.hu###ad-cikk2
+blikkruzs.blikk.hu###ad-fekvo1
+blikkruzs.blikk.hu###ad-fekvo2
+blikkruzs.blikk.hu###ad-jobb1
+blikkruzs.blikk.hu###ad-jobb2
 blog.hu##.living-earth
 blog.hu##.meropixel-hide
 blog.hu##.share
@@ -1303,6 +1309,7 @@ ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
 bien.hu#?#.hidden-xs:-abp-has(>.lablec_alatt)
 bien.hu#?#.hidden-xs:-abp-has(>.weboldal_felett)
+blikkruzs.blikk.hu#?#div:-abp-has(>div[id^="div-gpt-ad-"])
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 bpiautosok.hu#?#center:-abp-has(>font)
@@ -1672,6 +1679,7 @@ baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.h
 bebiztositva.hu##.pea_cook_wrapper
 blikk.hu###pe_confirm
 blikk.hu###qc-cmp2-ui
+blikkruzs.blikk.hu###pe_confirm_optin_1
 blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
@@ -1768,6 +1776,7 @@ magyarhirlap.hu###eucookielaw
 ! https://github.com/hufilter/hufilter-dev/issues/251
 magyarnemzet.hu##.newsletter-box
 magyarnemzet.hu##div.gdprBoxContainer
+mandiner.hu###newsletter-box
 mediacenter.hu###cookie-msg
 medicalonline.hu##.accept-cookies
 menshealth.hu###fbpopup

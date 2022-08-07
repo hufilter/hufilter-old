@@ -1,7 +1,7 @@
-! Checksum: g+9No2wDCHd91kRBvLL4aA
-! Version: 202208071045
+! Checksum: kzH0r7iInJ9qUcLGwlcR2Q
+! Version: 202208071419
 ! Title: Hufilter for uBO
-! Last modified: 07 Aug 2022 10:45 UTC
+! Last modified: 07 Aug 2022 14:19 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1955,7 +1955,8 @@ angol-magyar-szotar.hu##+js(set, adblock, false)
 calculat.org##+js(nostif, adstest, 4000)
 ! totalcar.hu antiadblock
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
-! indavideo.hu antiadblock
+embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
+embed.indavideo.hu##+js(set, AdHandler.adBlockEnabled, 0)
 embed.indavideo.hu##+js(set, AdHandler.checkAdblock, noopFunc)
 ! https://github.com/hufilter/hufilter/issues/215
 femina.hu##+js(set, window.ado, null)

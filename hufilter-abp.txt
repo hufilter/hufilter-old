@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uh2ADztpp8Py2YqfEpo6Tg
-! Version: 202208071419
+! Checksum: +KDRDNJSpeJFo23l3IhV2A
+! Version: 202208071538
 ! Title: Hufilter for ABP
-! Last modified: 07 Aug 2022 14:19 UTC
+! Last modified: 07 Aug 2022 15:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1921,6 +1921,9 @@ onvideo.hu###detect + .wrapper
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
+! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
+videa.hu#@#.adBanner
+videa.hu##.top-video-container-banner
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!

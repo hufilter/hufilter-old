@@ -1,7 +1,7 @@
-! Checksum: CvhhOhGY6ove/kRaVUr5DA
-! Version: 202208071419
+! Checksum: RL6PbPSrqbSzpCL5KQv3GA
+! Version: 202208071538
 ! Title: Hufilter for AdGuard
-! Last modified: 07 Aug 2022 14:19 UTC
+! Last modified: 07 Aug 2022 15:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1920,6 +1920,9 @@ onvideo.hu###detect + .wrapper
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
+! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
+videa.hu#@#.adBanner
+videa.hu##.top-video-container-banner
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2007,9 +2010,6 @@ origo.hu#$#.first-section { margin-top: 0 !important; }
 origo.hu#$#.oh-holder.open { z-index: 9999!important; }
 port.hu#$#body { overflow: auto !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
-! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
-! Author: AdamWr (https://github.com/AdamWr)
-videa.hu#$##wrapfabtest { height: 1px!important; }
 ! Section: Related ABP rules
 ! Description: These regular ABP rules dont't work properly without Adguard-specific rules!
 hetek.hu##[class="modal-backdrop fade show"]
@@ -2021,9 +2021,6 @@ player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
-! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
-! Author: AdamWr (https://github.com/AdamWr)
-videa.hu#@#.adBanner
 ! End of iOS limitations
 !#endif
 ! Section: Other

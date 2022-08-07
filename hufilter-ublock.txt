@@ -1,7 +1,7 @@
-! Checksum: i/hiOolSCgmrQO0DgAcFjA
-! Version: 202207241120
+! Checksum: CSACKGSB02lEbcdYThoOZQ
+! Version: 202208071015
 ! Title: Hufilter for uBO
-! Last modified: 24 Jul 2022 11:20 UTC
+! Last modified: 07 Aug 2022 10:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1199,6 +1199,7 @@ tenyek24.eu###text-4
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]
+titkokszigete.hu##[style="margin: 8px 0; clear: both;"]
 titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
 topark.hu##.sgpb-popup-dialog-main-div-wrapper
@@ -1850,6 +1851,8 @@ szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
 tarhely.eu###sutik
 telekom.hu###app-cookie-policy
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
+titkokszigete.hu##.spu-bg
+titkokszigete.hu##.spu-box
 totalcar.hu###_iph_cp_popup
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
@@ -1985,6 +1988,8 @@ napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
 pcworld.hu##+js(rc, have-ad, body)
+! https://github.com/AdguardTeam/AdguardFilters/issues/126377
+port.hu##+js(aopr, window.ado.blocked)
 sorozatwiki.hu##+js(ra, style, body)
 traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)

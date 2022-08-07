@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ryrkghk5ZLc206VnX26bjQ
-! Version: 202207241120
+! Checksum: D9Ne23u3mXjTRxfnmsUnKw
+! Version: 202208071015
 ! Title: Hufilter Basic
-! Last modified: 24 Jul 2022 11:20 UTC
+! Last modified: 07 Aug 2022 10:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1200,6 +1200,7 @@ tenyek24.eu###text-4
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]
+titkokszigete.hu##[style="margin: 8px 0; clear: both;"]
 titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
 topark.hu##.sgpb-popup-dialog-main-div-wrapper

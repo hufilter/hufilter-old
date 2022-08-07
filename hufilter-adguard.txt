@@ -1,7 +1,7 @@
-! Checksum: vUAmQdSEt3KsWVuHtnuZ7A
-! Version: 202207241120
+! Checksum: ULyt6bBilm/13IMulTOvcg
+! Version: 202208071015
 ! Title: Hufilter for AdGuard
-! Last modified: 24 Jul 2022 11:20 UTC
+! Last modified: 07 Aug 2022 10:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1199,6 +1199,7 @@ tenyek24.eu###text-4
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]
+titkokszigete.hu##[style="margin: 8px 0; clear: both;"]
 titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
 topark.hu##.sgpb-popup-dialog-main-div-wrapper
@@ -1850,6 +1851,8 @@ szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
 tarhely.eu###sutik
 telekom.hu###app-cookie-policy
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
+titkokszigete.hu##.spu-bg
+titkokszigete.hu##.spu-box
 totalcar.hu###_iph_cp_popup
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
@@ -1988,6 +1991,8 @@ magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.ge
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
+! https://github.com/AdguardTeam/AdguardFilters/issues/126377
+port.hu#%#//scriptlet('abort-on-property-read', 'window.ado.blocked')
 sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')

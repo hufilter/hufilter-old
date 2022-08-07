@@ -1,7 +1,7 @@
-! Checksum: ULyt6bBilm/13IMulTOvcg
-! Version: 202208071015
+! Checksum: qTB4uR53ZQ5w9FYoilEaSA
+! Version: 202208071045
 ! Title: Hufilter for AdGuard
-! Last modified: 07 Aug 2022 10:15 UTC
+! Last modified: 07 Aug 2022 10:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -675,14 +675,9 @@ index.hu###index_shopline
 index.hu###interstitial
 index.hu##DIV[class*="guestbox"]
 index.hu##DIV[id*="banner"]
-infoajka.hu##[class^="banner"]
-infodunaujvaros.hu##[class*="banner"]
-infogyor.hu##[class*="banner"]
-infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
-infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
-infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
-infopapa.hu##.banner_300_600
-infopapa.hu##.banner_468_120
+infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
+infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
+infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
 ingatlan.com##DIV[id*="banner"]
 ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
@@ -1639,6 +1634,7 @@ hu##.cc-banner
 hu##.cc-banner-wrapper
 hu##.cc-window
 hu##.qc-cmp2-container
+hu###_iph_cp_popup
 hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
@@ -1650,7 +1646,6 @@ hu###qc-cmp2-container
 24.hu##.m-donationBottomLine
 24.hu##.widget-mini-article
 24.hu###overlay_readers_letter
-24.hu###stickyHomePageRecommender
 24.hu###stickyHomePageRecommender
 24.hu###webPushPopup
 444.hu###cookie_popup_container
@@ -1676,7 +1671,6 @@ babanet.hu###popupajanlo
 babaszoba.hu###facebook-sharebar
 bankmonitor.hu##main + .ok-prerender
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##.articleInArticleOfferer
-baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu###cookie-window
 bebiztositva.hu##.pea_cook_wrapper
 blikk.hu###pe_confirm
 blikk.hu###qc-cmp2-ui
@@ -1700,7 +1694,6 @@ csaladinet.hu###cikkajanlo
 csaladinet.hu###CookieAcceptLayer
 csupasport.hu##.enews-article-content .endless-shared-area
 cyberpress.hu###cookie-law-info-bar
-divany.hu,totalcar.hu,totalbike.hu,femina.hu###_iph_cp_popup
 egeszsegkalauz.hu###articleOfferFlag
 ! https://github.com/hufilter/hufilter-dev/issues/248
 egeszsegkalauz.hu###pe_confirm_optin_1
@@ -1716,7 +1709,6 @@ esport1.hu##.overlay-popup
 esport1.hu###article-recommend-popup
 f1vilag.hu###catapult-cookie-bar
 f1vilag.hu##div[id*="elementor-popup-modal-"]
-femina.hu###_iph_cp_popup
 femina.hu###femina-shop-ajanlo-slider
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
@@ -1736,7 +1728,6 @@ hasznaltauto.hu###CybotCookiebotDialog
 haziallat.hu##[id^="cookieconsent"]
 hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
-hazipatika.com###facebook-sharebar
 ! https://github.com/hufilter/hufilter-dev/issues/256
 hazipatika.com###webaruhaz-ajanlo
 hbogo.hu##.cookie-consent
@@ -1747,7 +1738,6 @@ hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
 hwsw.hu###cookiealert
-index.hu###_iph_cp_popup
 infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter-dev/issues/252
 infostart.hu###_ao-cmp-ui
@@ -1764,7 +1754,6 @@ keol.hu##div[class="fb-like fb_iframe_widget"]
 kfc.hu##.cookies-message-container
 kh.hu###cookieAcceptanceContainer
 kisalfold.hu###nap_ajanlata
-kisalfold.hu##div.articleInArticleOfferer
 kisalfold.hu##div.endless-shared-area
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
@@ -1786,7 +1775,6 @@ merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
-napi.hu###_iph_cp_popup
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe
@@ -1808,13 +1796,12 @@ origo.hu##.newsletter-layer
 origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
-penzcentrum.hu###_iph_cp_popup
+pcforum.hu##.slidein.popup.closeablenotification.scripted
 penzcentrum.hu###ajanlo
 pestisracok.hu###onesignal-bell-container
 pestisracok.hu###onesignal-slidedown-container
 piacesprofit.hu###cikkertesito-reg-form
 player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
-player.hu##.ui-widget-overlay.ui-front
 player.hu##.ui-widget-overlay.ui-front
 player.hu##[aria-describedby="dialog-welcome"]
 player.hu##[class*="c_banner"]
@@ -1823,7 +1810,6 @@ portfolio.hu###BlockCikkajanlo
 privatbankar.hu##.mfor_cikk_beuszo
 privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profession.hu##.cookie-layer
-prog.hu,pcforum.hu##.slidein.popup.closeablenotification.scripted
 prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
@@ -1853,7 +1839,6 @@ telekom.hu###app-cookie-policy
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 titkokszigete.hu##.spu-bg
 titkokszigete.hu##.spu-box
-totalcar.hu###_iph_cp_popup
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
 unilife.hu##.facebook-layer-box
@@ -1864,7 +1849,6 @@ vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
 vilaglato.info##.state-fb-pop-up
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
-webshop.fressnapf.hu##.grey-popup-layer
 widescreen.hu##div.penci-wrap-gprd-law
 ! Section: Specific hide (extended ABP selectors)
 azonnali.hu#?#div:-abp-has(>.fb-like)

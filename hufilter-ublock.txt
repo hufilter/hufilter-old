@@ -1,7 +1,7 @@
-! Checksum: wuqbQfRLDUOi6FWnudCJZg
-! Version: 202208091408
+! Checksum: CCgIqtjCcUV2GCk/MedVOQ
+! Version: 202208141224
 ! Title: Hufilter for uBO
-! Last modified: 09 Aug 2022 14:08 UTC
+! Last modified: 14 Aug 2022 12:24 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1805,6 +1805,9 @@ player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
 player.hu##.ui-widget-overlay.ui-front
 player.hu##[aria-describedby="dialog-welcome"]
 player.hu##[class*="c_banner"]
+port.hu##.introjs-helperLayer
+port.hu##.introjs-overlay
+port.hu##.introjs-tooltip
 portfolio.hu##.notification-popup
 portfolio.hu###BlockCikkajanlo
 privatbankar.hu##.mfor_cikk_beuszo

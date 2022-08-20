@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1e2KShtc0smBeNvx5eDRaA
-! Version: 202208141224
+! Checksum: MuBSylBjNyCQQsUXdGlsEQ
+! Version: 202208200839
 ! Title: Hufilter for ABP
-! Last modified: 14 Aug 2022 12:24 UTC
+! Last modified: 20 Aug 2022 08:39 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -139,6 +139,7 @@ hu###hirdetesek
 5percblog.hu###text-6
 777blog.hu###galsoreklam
 777blog.hu###oldalreklam
+888.hu##.AdW
 adoforum.hu##[class^="zone_"]
 adozona.hu##.az-layer
 adozona.hu##.big_badge
@@ -223,6 +224,7 @@ bkv.hu##.modal
 bkv.hu##.modal-backdrop
 bkv.hu##.modal-dialog
 bkv.hu###karrier
+blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
 blikk.hu##[id^="rltd-ad-"]
 blikk.hu###articleOfferFlag
 blikk.hu###footerLogos
@@ -257,10 +259,13 @@ borsa.hu##.blockright
 borsa.hu##.google
 borsa.hu##.parom
 borsa.hu##[class*="hirdetes"]
+borsonline.hu##.real-estate-wrapper
 borsonline.hu##[class*="__ad"]
 borsonline.hu##[class*="adContainer"]
 borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
+borsonline.hu##a[target="_blank"][class="videa-wrapper"]
+borsonline.hu##iframe[src*="koponyeg.hu"]
 bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
@@ -498,6 +503,7 @@ hajdupress.hu##.catch-click
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
+hang.hu##.banner-widget-container
 ! https://github.com/hufilter/hufilter-dev/issues/249
 hang.hu##.banner-widget-container
 haon.hu##.Ad
@@ -778,20 +784,27 @@ libri.hu###current_promotions_block
 libri.hu###skin-left
 libri.hu###skin-right
 life.hu##.col-visible-xl.r-side.col-xl-4
+life.hu##.frip-inline:-abp-has([data-module-name="inline-article"])
 life.hu##.hird300
 life.hu##.kiskepes
 life.hu##.magnum
 life.hu##.panorama-wrapper
 life.hu##.pr-item
+life.hu##.spar
 life.hu##.szoveges
 life.hu##[class*="Advert"]
+life.hu##[data-module-name="ingatlanbazar"]
+life.hu##[data-module-name="koponyeg"]
+life.hu##[data-module-name="videa"]
 life.hu##[id*="banner"]
 life.hu##[id^="szponz-"]
+life.hu##[size="300x600"]
 life.hu###ac
 life.hu###cikkalatti
 life.hu###mc-holder
 life.hu###ovasar
 life.hu###pr-box
+life.hu###right-ecom
 life.hu###top
 life.hu##div.article-recommendation-zones
 life.hu##DIV[class*="etarget"]
@@ -1681,6 +1694,7 @@ bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
 borsonline.hu##.cookie__wrapper
 borsonline.hu##.newsletter-box
+borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
 budapestbank.hu###header_cookie_container
@@ -1759,7 +1773,10 @@ kisalfold.hu##div.endless-shared-area
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
 kreativ.hu##div.accept-cookies
+life.hu##.email-under-article
 life.hu##.facebook-layer-box
+life.hu##.newsletter-layer
+life.hu##[data-module-name="hirlevel"]
 life.hu###beuszoAjanlo
 life.hu###floating-recommendation
 magyarhang.org,hang.hu##[class^="moove-gdpr-"]

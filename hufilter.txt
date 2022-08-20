@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QlPUa+a6xOsfBWifG9aa4w
-! Version: 202208200839
+! Checksum: /wbGH4wTMt5UD0fZpQ2PoA
+! Version: 202208200843
 ! Title: Hufilter Basic
-! Last modified: 20 Aug 2022 08:39 UTC
+! Last modified: 20 Aug 2022 08:43 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -503,7 +503,6 @@ hajdupress.hu##.catch-click
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
-hang.hu##.banner-widget-container
 ! https://github.com/hufilter/hufilter-dev/issues/249
 hang.hu##.banner-widget-container
 haon.hu##.Ad
@@ -784,7 +783,6 @@ libri.hu###current_promotions_block
 libri.hu###skin-left
 libri.hu###skin-right
 life.hu##.col-visible-xl.r-side.col-xl-4
-life.hu##.frip-inline:-abp-has([data-module-name="inline-article"])
 life.hu##.hird300
 life.hu##.kiskepes
 life.hu##.magnum
@@ -1341,6 +1339,7 @@ kezilabda.hu#?#div[style*="margin-bottom:10px"]:-abp-has(>div:-abp-contains(HIRD
 kiszamolo.hu#?#aside:-abp-has(.widgettitle > span:-abp-contains(Hirdetés))
 koroshircentrum.hu#?#div:-abp-has(>a+h6)
 kosarsport.hu,hunbasket.hu#?##league-selector+.row+.row:-abp-has(.banner)
+life.hu#?#.frip-inline:-abp-has([data-module-name="inline-article"])
 lifestory.hu#?#div.lol:-abp-has(>a[onclick="getValue()"])
 lifestory.hu#?#div.widget:-abp-has(>div.textwidget>p>script)
 mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)

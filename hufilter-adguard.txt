@@ -1,7 +1,7 @@
-! Checksum: O6q9q+vs/J9Nio41+3iomA
-! Version: 202208200843
+! Checksum: ZUz+izLNOskqXj5dWnOXdQ
+! Version: 202208220853
 ! Title: Hufilter for AdGuard
-! Last modified: 20 Aug 2022 08:43 UTC
+! Last modified: 22 Aug 2022 08:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1041,6 +1041,8 @@ otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]
 partyponty.hu##[id*="banner"]
+pcforum.hu,prog.hu###zone-halfpage
+pcforum.hu,prog.hu###zone-roaddblock
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcguru.hu##.banner-content
@@ -1082,8 +1084,6 @@ privatbankar.hu##.lead_alatti_txt
 privatbankar.hu##[src*="/banner/"]
 profession.hu###newsletter_footer
 profession.hu###twister-banner
-! https://github.com/hufilter/hufilter/pull/10/commits/8b5ecfa97e469a836865f1aba8641d9bbc2e5a8b
-prog.hu###zone-roaddblock
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spleft
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##[class$="responsive-300px-600px"]

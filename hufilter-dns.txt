@@ -1,7 +1,7 @@
-! Checksum: +I+dP1symqxYugetZveQxg
-! Version: 202208222010
+! Checksum: CdAowe6Ae5EbhHTRqbZoHQ
+! Version: 202208222044
 ! Title: Hufilter DNS
-! Last modified: 22 Aug 2022 20:10 UTC
+! Last modified: 22 Aug 2022 20:44 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -78,6 +78,7 @@ vid4u.org
 wstat.ozon.ru
 chatrobot.mia.gov.hu
 chimpstatic.com
+adat.freemail.hu
 adtrackeraa.com
 counter.megagroup.ru
 doubleclick.net

@@ -1,7 +1,7 @@
-! Checksum: xsR5J2jPaf8+JxHHhoLMDQ
-! Version: 202208222010
+! Checksum: LiBMRAYM/vygN7X8kcM0ag
+! Version: 202208222044
 ! Title: Hufilter for uBO
-! Last modified: 22 Aug 2022 20:10 UTC
+! Last modified: 22 Aug 2022 20:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1895,10 +1895,12 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ! Section: Specific block
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js$script
+||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||myroitracking.com/newServing/
 ||websas.hu/statistics/
 ! Section: Tracking servers
+||adat.freemail.hu^
 ||adtrackeraa.com^
 ||counter.megagroup.ru^
 ||doubleclick.net^

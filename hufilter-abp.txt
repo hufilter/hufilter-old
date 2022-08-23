@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o7gb316FzOuUyhvYwpx94g
-! Version: 202208222044
+! Checksum: XJBdh81Tt29Owf57ZdhlTA
+! Version: 202208231044
 ! Title: Hufilter for ABP
-! Last modified: 22 Aug 2022 20:44 UTC
+! Last modified: 23 Aug 2022 10:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -312,8 +312,6 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-cosmopolitan.hu##.ctsGadx
-cosmopolitan.hu##[class*="banner"]
 cotcot.hu##[class*="banner"]
 cotcot.hu##[class*="card_box_"]
 cotcot.hu##[class*="hirdetes"]

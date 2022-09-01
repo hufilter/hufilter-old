@@ -1,7 +1,7 @@
-! Checksum: AcDZIqSNvF3wP90ra9Bdpw
-! Version: 202208231044
+! Checksum: Kn7CEV97aNpYvRIJ/K935A
+! Version: 202209010945
 ! Title: Hufilter for uBO
-! Last modified: 23 Aug 2022 10:44 UTC
+! Last modified: 01 Sep 2022 09:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1993,6 +1993,9 @@ life.hu##+js(ra, class, section[class="life-section l-section-main article-secti
 lifestory.hu##+js(ra, oncontextmenu)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
+! https://github.com/AdguardTeam/AdguardFilters/issues/128532
+magyarorszag.hu##+js(rc, bottom-l, body, stay)
+magyarorszag.hu##+js(rc, bottom-s, body, stay)
 napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)

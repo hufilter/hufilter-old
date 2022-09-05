@@ -1,7 +1,8 @@
-! Checksum: Kn7CEV97aNpYvRIJ/K935A
-! Version: 202209010945
+[uBlock Origin]
+! Checksum: MvQJly/no4CSZuKQkVY5AQ
+! Version: 202209051521
 ! Title: Hufilter for uBO
-! Last modified: 01 Sep 2022 09:45 UTC
+! Last modified: 05 Sep 2022 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

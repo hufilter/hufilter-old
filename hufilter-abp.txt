@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tqOrV9qk0SEY0kgg5s3d/g
-! Version: 202209051521
+! Checksum: YfIJjClCA3Zz+WGXFAKsfg
+! Version: 202209052240
 ! Title: Hufilter for ABP
-! Last modified: 05 Sep 2022 15:21 UTC
+! Last modified: 05 Sep 2022 22:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1004,6 +1004,7 @@ origo.hu##.afc
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
 origo.hu##.lead-alatti
 origo.hu##.origo-jatek-randi-bottom
+origo.hu##.panorama-wrapper
 origo.hu##.pr-blokk
 origo.hu##.pr-item
 ! Gallery ads

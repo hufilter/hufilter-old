@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ssl1aXyk2XdYHXZccHLN2Q
-! Version: 202209170945
+! Checksum: y05I8CoCDM/Win7Whs5dnA
+! Version: 202209221501
 ! Title: Hufilter for uBO
-! Last modified: 17 Sep 2022 09:45 UTC
+! Last modified: 22 Sep 2022 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -742,6 +742,7 @@ kisalfold.hu##[id*="advert"]
 kisalfold.hu##DIV[id*="banner"]
 kisalfold.hu##DIV[id*="billboard"]
 kisalfold.hu##DIV[id*="linkbox"]
+kiskegyed.hu##.ibb-banner-decor
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
 kiszamolo.hu##[class^="spu"]
@@ -1215,8 +1216,10 @@ topark.hu##img[class*="sgpb-"]
 totalcar.hu,totalbike.hu##.cross-site-programmatic-zones
 totalcar.hu##.cikk-torzs-content-container > .kep_szeles.kep
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+totalcar.hu##.hasznaltautok-iframe-cikk-torzs
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.microsite
+totalcar.hu##.szelso-jobb-lead_container
 totalcar.hu##.totalkarWidget
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##[class*="hirdetes"]
@@ -1769,6 +1772,8 @@ kfc.hu##.cookies-message-container
 kh.hu###cookieAcceptanceContainer
 kisalfold.hu###nap_ajanlata
 kisalfold.hu##div.endless-shared-area
+kiskegyed.hu##.leavingPopupLayer
+kiskegyed.hu###articleOfferFlag
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
 kreativ.hu##div.accept-cookies
@@ -1830,6 +1835,7 @@ portfolio.hu###BlockCikkajanlo
 privatbankar.hu##.mfor_cikk_beuszo
 privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profession.hu##.cookie-layer
+profitline.hu###fb_like_modal
 prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
@@ -1859,6 +1865,7 @@ telekom.hu###app-cookie-policy
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 titkokszigete.hu##.spu-bg
 titkokszigete.hu##.spu-box
+totalcar.hu##.header-tk-ajanlo
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
 unilife.hu##.facebook-layer-box
@@ -1878,10 +1885,12 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.chatbot.elmuemasz.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
+||cmp.quantcast.com/tcfv2/*/cmp2ui-hu.js$script,domain=totalcar.hu|totalbike.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
+||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2009,6 +2018,7 @@ sorozatwiki.hu##+js(ra, style, body)
 traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
+vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 ! Section: CSS modifiers
 ! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#subjectstylearg
 ! Description: More semantic AdGuard syntax also allowed
@@ -2051,3 +2061,4 @@ traffihunter.hu##.ooono_promo
 blikk.hu##.leavingPopupLayer
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
+vezess.hu##.m-fbPopup

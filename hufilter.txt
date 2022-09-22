@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2OpLZd6MN67CFpfP+elD8g
-! Version: 202209170945
+! Checksum: t99EKAA0v43OAoh2/TBPlw
+! Version: 202209221501
 ! Title: Hufilter Basic
-! Last modified: 17 Sep 2022 09:45 UTC
+! Last modified: 22 Sep 2022 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -742,6 +742,7 @@ kisalfold.hu##[id*="advert"]
 kisalfold.hu##DIV[id*="banner"]
 kisalfold.hu##DIV[id*="billboard"]
 kisalfold.hu##DIV[id*="linkbox"]
+kiskegyed.hu##.ibb-banner-decor
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
 kiszamolo.hu##[class^="spu"]
@@ -1215,8 +1216,10 @@ topark.hu##img[class*="sgpb-"]
 totalcar.hu,totalbike.hu##.cross-site-programmatic-zones
 totalcar.hu##.cikk-torzs-content-container > .kep_szeles.kep
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+totalcar.hu##.hasznaltautok-iframe-cikk-torzs
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.microsite
+totalcar.hu##.szelso-jobb-lead_container
 totalcar.hu##.totalkarWidget
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##[class*="hirdetes"]

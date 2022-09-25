@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qlFXh0fuOa74GxKUN27ndg
-! Version: 202209221501
+! Checksum: MfSPUj4637BrxCaeP9uydg
+! Version: 202209251344
 ! Title: Hufilter for ABP
-! Last modified: 22 Sep 2022 15:01 UTC
+! Last modified: 25 Sep 2022 13:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: aZf2xKNd2BiPYwTb5B3jiA
-! Version: 202209260940
+! Checksum: blgh/yYLPfQkuPNB0tDvBA
+! Version: 202210061147
 ! Title: Hufilter for uBO
-! Last modified: 26 Sep 2022 09:40 UTC
+! Last modified: 06 Oct 2022 11:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -111,6 +111,8 @@
 hu##.hird
 hu##.hirdetes
 hu##.hirdetesek
+! https://github.com/hufilter/hufilter-dev/issues/264
+hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
 ! Section: Specific hide

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KbZYIK8WP8IQ/RTcVipiow
-! Version: 202210131717
+! Checksum: ETNLNNEbPTksbQeyWanu8A
+! Version: 202210141441
 ! Title: Hufilter Basic
-! Last modified: 13 Oct 2022 17:17 UTC
+! Last modified: 14 Oct 2022 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1499,7 +1499,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
 ||prohardver.hu/dl/cnt/*/background.png$image
-||quantcast.mgr.consensu.org/cmp.js^$script,domain=szeretlekmagyarorszag.hu
 ||randihely.hu/adnews/
 ||revizoronline.com/*banner
 ||sg.hu/images/hirdetes.gif$image

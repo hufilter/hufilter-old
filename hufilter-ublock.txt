@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: JVsw1sUoHZGON8ZSv3OkAw
-! Version: 202211041051
+! Checksum: 3DkEBjGjJu1uBoDFOvtJmQ
+! Version: 202211041057
 ! Title: Hufilter for uBO
-! Last modified: 04 Nov 2022 10:51 UTC
+! Last modified: 04 Nov 2022 10:57 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1653,13 +1653,13 @@ hu##.cc_window
 hu##.cc-banner
 hu##.cc-banner-wrapper
 hu##.cc-window
-hu##.qc-cmp2-container
+! hu##.qc-cmp2-container
 hu###_iph_cp_popup
 hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
-hu###qc-cmp2-container
+! hu###qc-cmp2-container
 ! Section: Specific hide
 112press.hu###cookie-law
 24.hu##.fb-exit-popup-container

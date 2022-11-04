@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X6HJdM6gjViVIojhAxS45Q
-! Version: 202210141451
+! Checksum: wztyMEpd/a1H+yQJa6fd9A
+! Version: 202211041051
 ! Title: Hufilter for ABP
-! Last modified: 14 Oct 2022 14:51 UTC
+! Last modified: 04 Nov 2022 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1889,11 +1889,11 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.chatbot.elmuemasz.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
-||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu
+||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
-||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu
+||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
 !---------------------------------------------------------------------------!

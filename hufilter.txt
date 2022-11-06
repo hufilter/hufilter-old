@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /SdJcPzaI7TgrnsVU5xgtg
-! Version: 202211061138
+! Checksum: ppQRWwNpKz195ld8VeEFbQ
+! Version: 202211061257
 ! Title: Hufilter Basic
-! Last modified: 06 Nov 2022 11:38 UTC
+! Last modified: 06 Nov 2022 12:57 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1070,6 +1070,9 @@ player.hu##[class*="adbreak"]
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
+player.hu##.ad-container
+player.hu##.ads-container
+player.hu##.ads_show_ad_title
 player.hu###pushpushgo-container
 politaktika.hu###popup
 polusonline.com###HTML5

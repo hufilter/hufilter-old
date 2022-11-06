@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W63qle5oiZXL5OWnqLIjEA
-! Version: 202211061138
+! Checksum: GWfXi+avXRsZMiffFqALWw
+! Version: 202211061257
 ! Title: Hufilter for ABP
-! Last modified: 06 Nov 2022 11:38 UTC
+! Last modified: 06 Nov 2022 12:57 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1070,6 +1070,9 @@ player.hu##[class*="adbreak"]
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
+player.hu##.ad-container
+player.hu##.ads-container
+player.hu##.ads_show_ad_title
 player.hu###pushpushgo-container
 politaktika.hu###popup
 polusonline.com###HTML5
@@ -1889,11 +1892,11 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.chatbot.elmuemasz.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
-||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu
+||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
-||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu
+||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
 !---------------------------------------------------------------------------!

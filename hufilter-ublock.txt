@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ZVepa0DHIFua2rlMXsrhmg
-! Version: 202211061257
+! Checksum: GW4YizlWjo5rzlR36eDZpA
+! Version: 202211081013
 ! Title: Hufilter for uBO
-! Last modified: 06 Nov 2022 12:57 UTC
+! Last modified: 08 Nov 2022 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -373,12 +373,13 @@ eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.ibb-banner-decor
+egeszsegkalauz.hu##.min700height-desktop
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[id*="banner"]
-! https://github.com/hufilter/hufilter-dev/issues/248
-egeszsegkalauz.hu###ad-fekvo0
+egeszsegkalauz.hu##[id^="ad-"]
+egeszsegkalauz.hu##[style="min-height: 300px;"]
 egeszsegkalauz.hu##a[title="Hirdetés"]
 egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
@@ -1895,6 +1896,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
+||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 ||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
@@ -1975,6 +1977,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! Description: Only works on Firefox
 24.hu##^body > script:has-text(a2blckLayer)
 divany.hu##^body>script:has-text(window.onload = window.onfocus)
+egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
 filmvilag.me##^body>script:has-text(ShadowRoot)
 gamer.hu##^body>script:has-text(cli_cookiebar_)
 grundoajandek.hu##^script:has-text(contextmenu)

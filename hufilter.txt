@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ppQRWwNpKz195ld8VeEFbQ
-! Version: 202211061257
+! Checksum: HCIpncHqLgW4PlqXwie3mw
+! Version: 202211081013
 ! Title: Hufilter Basic
-! Last modified: 06 Nov 2022 12:57 UTC
+! Last modified: 08 Nov 2022 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -373,12 +373,13 @@ eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.ibb-banner-decor
+egeszsegkalauz.hu##.min700height-desktop
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[id*="banner"]
-! https://github.com/hufilter/hufilter-dev/issues/248
-egeszsegkalauz.hu###ad-fekvo0
+egeszsegkalauz.hu##[id^="ad-"]
+egeszsegkalauz.hu##[style="min-height: 300px;"]
 egeszsegkalauz.hu##a[title="Hirdetés"]
 egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]

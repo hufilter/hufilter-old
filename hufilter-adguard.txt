@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: xcP/xEx5gGeg6D6lsrSa6w
-! Version: 202211061257
+! Checksum: s1qPIGSXBn8t0tgoED7Vmw
+! Version: 202211081013
 ! Title: Hufilter for AdGuard
-! Last modified: 06 Nov 2022 12:57 UTC
+! Last modified: 08 Nov 2022 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -373,12 +373,13 @@ eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.ibb-banner-decor
+egeszsegkalauz.hu##.min700height-desktop
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[id*="banner"]
-! https://github.com/hufilter/hufilter-dev/issues/248
-egeszsegkalauz.hu###ad-fekvo0
+egeszsegkalauz.hu##[id^="ad-"]
+egeszsegkalauz.hu##[style="min-height: 300px;"]
 egeszsegkalauz.hu##a[title="Hirdetés"]
 egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
@@ -1895,6 +1896,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
+||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 ||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
@@ -1975,6 +1977,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! Description: Note that, these rules only works with Firefox browser and system-wide AdGuard blockers
 24.hu$$script[tag-content="a2blckLayer"]
 divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
+egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
 grundoajandek.hu$$script[tag-content="contextmenu"]
@@ -1996,6 +1999,7 @@ blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
 calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
 ! totalcar.hu antiadblock
 divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
+egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0')

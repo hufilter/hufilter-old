@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: s1qPIGSXBn8t0tgoED7Vmw
-! Version: 202211081013
+! Checksum: WThP4FT4lXEq4FcbBlWA8A
+! Version: 202211101630
 ! Title: Hufilter for AdGuard
-! Last modified: 08 Nov 2022 10:13 UTC
+! Last modified: 10 Nov 2022 16:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1828,6 +1828,7 @@ paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
 pcforum.hu##.slidein.popup.closeablenotification.scripted
 penzcentrum.hu###ajanlo
+penzcentrum.hu###recommend
 pestisracok.hu###onesignal-bell-container
 pestisracok.hu###onesignal-slidedown-container
 piacesprofit.hu###cikkertesito-reg-form

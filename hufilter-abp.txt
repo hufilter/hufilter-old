@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QI4UAY9I0TDW5Mg09pG+Kw
-! Version: 202211101630
+! Checksum: SC1N1TtHG6O8DJRnoVGjHQ
+! Version: 202211122047
 ! Title: Hufilter for ABP
-! Last modified: 10 Nov 2022 16:30 UTC
+! Last modified: 12 Nov 2022 20:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -227,11 +227,14 @@ bkv.hu##.modal
 bkv.hu##.modal-backdrop
 bkv.hu##.modal-dialog
 bkv.hu###karrier
-blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
-blikk.hu##[id^="rltd-ad-"]
 blikk.hu###articleOfferFlag
 blikk.hu###footerLogos
 blikk.hu###underArticleAdvertisement
+blikk.hu###underArticleAdvertisement
+blikk.hu##[id*="-ad-"][data-x="1"]
+blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
+blikk.hu##[id^="rltd-ad-"]
+blikk.hu##[style="width:100%;text-align: center; margin-bottom:15px;"]
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
 blikkruzs.blikk.hu###ad-cikk1
@@ -1696,7 +1699,10 @@ babaszoba.hu###facebook-sharebar
 bankmonitor.hu##main + .ok-prerender
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##.articleInArticleOfferer
 bebiztositva.hu##.pea_cook_wrapper
+blikk.hu###articleOfferFlag
 blikk.hu###pe_confirm
+blikk.hu###pe_confirm_optin_6
+blikk.hu###qc-cmp2-container
 blikk.hu###qc-cmp2-ui
 blikkruzs.blikk.hu###pe_confirm_optin_1
 blog.hu##[id*="cp_popup"]

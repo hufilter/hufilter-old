@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lgI9LNSpSRunJJHqVDOW0g
-! Version: 202211122053
+! Checksum: 7ExitOik7PkGS+8Q+U4/hw
+! Version: 202212081429
 ! Title: Hufilter Basic
-! Last modified: 12 Nov 2022 20:53 UTC
+! Last modified: 08 Dec 2022 14:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -386,14 +386,6 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
 elelmiszer.hu##div[class*="contentBanner"]
 elelmiszer.hu##div[style="text-align: center; margin-bottom:10px; position: relative;"]
-elemzeskozpont.hu##.block-block
-elemzeskozpont.hu##.block-ouibounce-exit-modal
-elemzeskozpont.hu##.node-buttons
-elemzeskozpont.hu##.region-highlighted
-elemzeskozpont.hu##.rtecenter
-elemzeskozpont.hu##.sidebar
-elemzeskozpont.hu##.underlay
-elemzeskozpont.hu###sliding-popup
 eletmod.hu##.rckaexclude
 eletmod.hu##.super
 eletmod.hu##[class*="hirdetes"]

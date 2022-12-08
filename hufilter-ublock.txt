@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 9iptKBKovQmJsuvhIVRj8Q
-! Version: 202211122053
+! Checksum: xfCmbTtleUSbgjYcYQvJEQ
+! Version: 202212081429
 ! Title: Hufilter for uBO
-! Last modified: 12 Nov 2022 20:53 UTC
+! Last modified: 08 Dec 2022 14:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -386,14 +386,6 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
 elelmiszer.hu##div[class*="contentBanner"]
 elelmiszer.hu##div[style="text-align: center; margin-bottom:10px; position: relative;"]
-elemzeskozpont.hu##.block-block
-elemzeskozpont.hu##.block-ouibounce-exit-modal
-elemzeskozpont.hu##.node-buttons
-elemzeskozpont.hu##.region-highlighted
-elemzeskozpont.hu##.rtecenter
-elemzeskozpont.hu##.sidebar
-elemzeskozpont.hu##.underlay
-elemzeskozpont.hu###sliding-popup
 eletmod.hu##.rckaexclude
 eletmod.hu##.super
 eletmod.hu##[class*="hirdetes"]
@@ -1729,6 +1721,7 @@ egeszsegkalauz.hu###pe_confirm_optin_1
 elemi.hu##.penci-wrap-gprd-law
 elemi.hu##.sgpb-popup-dialog-main-div-wrapper
 elemi.hu##.sgpb-popup-overlay
+elemzeskozpont.hu###sliding-popup
 elmuhalozat.hu##.cookiepanel_overlay
 elmuhalozat.hu###tab-widget-wrapper
 epiteszforum.hu##div.cookieLayer

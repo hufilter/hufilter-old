@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7ExitOik7PkGS+8Q+U4/hw
-! Version: 202212081429
+! Checksum: szUEfM6XZcPtEhA/Bnctpg
+! Version: 202212131759
 ! Title: Hufilter Basic
-! Last modified: 08 Dec 2022 14:29 UTC
+! Last modified: 13 Dec 2022 17:59 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -623,6 +623,7 @@ hvg.hu##[class*="adsense"]
 hvg.hu##[class*="adtype-"]
 hvg.hu##[class="articleitem clear smallimage imgleft"]
 hvg.hu##[class="site-scarab-bottom open"]
+hvg.hu##[id*="-ad-"]
 hvg.hu###webpushSelctorFormId
 hvo.hu##DIV[class*="ad_"]
 hwsw.hu##.billboard
@@ -635,8 +636,10 @@ hwsw.hu###cikktoolbaradomany
 hwsw.hu###sidebar > table
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
+idokep.hu##.ik:-abp-contains(/^[Hh]irdetés$/)
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
+idokep.hu##a[href*="gemius"]
 ilovebalaton.hu##[class*=" ad"]
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JOLAjB6NjgOqaaNykBaxVw
-! Version: 202212131759
+! Checksum: zpjveS8liLAoBeZEzkrRQg
+! Version: 202212160958
 ! Title: Hufilter for ABP
-! Last modified: 13 Dec 2022 17:59 UTC
+! Last modified: 16 Dec 2022 09:58 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -227,12 +227,11 @@ bkv.hu##.modal
 bkv.hu##.modal-backdrop
 bkv.hu##.modal-dialog
 bkv.hu###karrier
-blikk.hu###articleOfferFlag
-blikk.hu###footerLogos
-blikk.hu###underArticleAdvertisement
 blikk.hu##[id*="-ad-"][data-x="1"]
 blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
 blikk.hu##[style="width:100%;text-align: center; margin-bottom:15px;"]
+blikk.hu###footerLogos
+blikk.hu###underArticleAdvertisement
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
 blikkruzs.blikk.hu###ad-cikk1
@@ -551,10 +550,10 @@ hircsarda.hu###gyuri1
 hircsarda.hu###gyuri2
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
+hiros.hu##.banner_container
 hiros.hu##.banner_widget
+hiros.hu##.banner-container
 hiros.hu##.sy-box
-hiros.hu##div.szerzo_holder + div.szerzo_holder
-hiros.hu##div[style*="1px solid rgba(201,201,201,0.4);"]
 hirposta.hu##[id*="banner"]
 hirstart.hu##[class*="banner"]
 hirstart.hu##[class*="hirdetes"]
@@ -636,7 +635,6 @@ hwsw.hu###cikktoolbaradomany
 hwsw.hu###sidebar > table
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
-idokep.hu##.ik:-abp-contains(/^[Hh]irdetés$/)
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
 idokep.hu##a[href*="gemius"]
@@ -1062,14 +1060,14 @@ pharmaonline.hu##[class*="contentBanner"]
 piacesprofit.hu##.banner.clearfix
 piacesprofit.hu##.inner
 pirulapatika.hu##[id*="banner"]
+player.hu##.ad-container
+player.hu##.ads_show_ad_title
+player.hu##.ads-container
 player.hu##.ph-flexi-box-wrap
 player.hu##[class*="adbreak"]
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
-player.hu##.ad-container
-player.hu##.ads-container
-player.hu##.ads_show_ad_title
 player.hu###pushpushgo-container
 politaktika.hu###popup
 polusonline.com###HTML5
@@ -1249,6 +1247,7 @@ turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
+twn.hu##.banner_box
 ugytudjuk.hu##.leftSide > .bnr
 ugytudjuk.hu##.rightSide > .bnr
 usernet.hu###blanket
@@ -1343,6 +1342,7 @@ hetek.hu#?#div.row:-abp-has(>div.ads)
 hiros.hu#?#.frame:-abp-has(>span[style^="font-size: 11px;"])
 hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
+idokep.hu#?#.ik:-abp-contains(/^[Hh]irdetés$/)
 kezilabda.hu#?#div[style*="margin-bottom:10px"]:-abp-has(>div:-abp-contains(HIRDETÉS))
 kiszamolo.hu#?#aside:-abp-has(.widgettitle > span:-abp-contains(Hirdetés))
 koroshircentrum.hu#?#div:-abp-has(>a+h6)
@@ -1739,8 +1739,10 @@ femina.hu###femina-shop-ajanlo-slider
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
 fressnapf.hu##.grey-popup-layer
+glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
+glamour.hu###qc-cmp2-container
 grundoajandek.hu###cookie-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
@@ -1879,6 +1881,7 @@ titkokszigete.hu##.spu-box
 totalcar.hu##.header-tk-ajanlo
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
+twn.hu###popunder_featured
 unilife.hu##.facebook-layer-box
 unilife.hu###ac
 vg.hu##.newsletter-box

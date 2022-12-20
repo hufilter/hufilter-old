@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: u8RsmnFpwD9RIg+3T/7odw
-! Version: 202212160958
+! Checksum: x8EHOmgWmPPsNMb/U08VRQ
+! Version: 202212201129
 ! Title: Hufilter Basic
-! Last modified: 16 Dec 2022 09:58 UTC
+! Last modified: 20 Dec 2022 11:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -875,8 +875,10 @@ mindmegette.hu###ad-image-big
 mindmegette.hu###fadeandscale
 mindmegette.hu###fadeandscale_background
 mindmegette.hu###fadeandscale_wrapper
+mindmegette.hu###sidebar_ads_box_2
 mindmegette.hu##DIV[class="billboard fr"]
 mindmegette.hu##DIV[class="fej-elso-sor cf"]
+mindmegette.hu##DIV[id*="-ad-"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mkbnetbankar.hu##.x-marketing

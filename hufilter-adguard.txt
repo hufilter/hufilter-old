@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: Il99l8vOwEAwoWPtWmprpw
-! Version: 202212201129
+! Checksum: V7/QeTcpTpD891UPndY/Mw
+! Version: 202212241326
 ! Title: Hufilter for AdGuard
-! Last modified: 20 Dec 2022 11:29 UTC
+! Last modified: 24 Dec 2022 13:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -637,7 +637,7 @@ hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
-idokep.hu##a[href*="gemius"]
+idokep.hu##a[data-bs-content*="(hirdetés)"]
 ilovebalaton.hu##[class*=" ad"]
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]

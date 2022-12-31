@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8W+jIY2hwG7gHLqLGAc8zQ
-! Version: 202212241326
+! Checksum: YmuROQSyyvAO55MM57lBLQ
+! Version: 202212311439
 ! Title: Hufilter for ABP
-! Last modified: 24 Dec 2022 13:26 UTC
+! Last modified: 31 Dec 2022 14:39 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -202,7 +202,6 @@ autoszektor.hu###block-block-30
 autoszektor.hu###block-block-60
 azonnali.hu##.addd
 azonnali.hu##.bannpos
-babaszoba.hu##.rubAd
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
 bacsmegye.hu###total
@@ -211,9 +210,6 @@ baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bebiztositva.hu##.widget_media_image
 beol.hu##[class*="adcikk"]
 betegvagyok.hu##[id*="banner"]
-bevezetem.hu##[class*="adsense"]
-bevezetem.hu##[class*="affiliate"]
-bevezetem.hu##[class^="ban_evo_"]
 bien.hu##.ads_show_ad_title
 bien.hu##.tapeta.fixed
 bien.hu##[class*="hirdetes"]
@@ -279,7 +275,6 @@ budapestkornyeke.hu##div.bpkad
 budapestkornyeke.hu##div[style="margin-top:20px;"]
 budapestpark.hu##.banner_main_page_wrapper
 builder.hu##[class*="banner"]
-c-press.hu###bef_mainbody_mod_2
 calculat.org###zadost
 carstyling.com##.banner.boxed
 carstyling.com###article_end_popup
@@ -687,7 +682,6 @@ ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
 internet-marketing.hu###bottompopup
 intima.hu##[class*="banner"]
-investor.hu###magnum
 ipon.hu##.home-section-banner
 ipon.hu##.u-hide\@mobile.flag-wrapper--fill.flag-wrapper.grid-col-lg-1-4.grid-col-md-1-2.grid-col-1.article-list__item
 ipon.hu##[id*="banner"]
@@ -961,20 +955,6 @@ nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup
 nlc.hu##.rubAd
-nlcafe.hu##.boxcontent
-nlcafe.hu##.cikk_vegi_google
-nlcafe.hu##.ctsGadx
-nlcafe.hu##.pr
-nlcafe.hu##[class*="adlist"]
-nlcafe.hu##[class*="adsense"]
-nlcafe.hu##[class*="Adverticum"]
-nlcafe.hu##[class*="banner"]
-nlcafe.hu##[class*="boxhirdetes"]
-nlcafe.hu##[class^="ad_"]
-nlcafe.hu##[id*="hirdetes"]
-nlcafe.hu##DIV[class^="cikk_hirdetes"][class$="x120"]
-nlcafe.hu##DIV[class^="hirdet"][class$="wrp"]
-nlcafe.hu##H3[class*="adlabel"]
 noinetcafe.hu##[class*="banner"]
 noitema.hu##[class*="hirdetes"]
 noizz.hu##[data-placeholder-caption="hirdetés"]
@@ -991,9 +971,6 @@ olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
 online-filmek.me##.hover_bkgr_fricc
-online.budapestbank.hu##.campaign-item
-online.budapestbank.hu##.ext-el-mask-banner
-online.budapestbank.hu##[id^="ext-gen"]
 online.filmek-sorozatok.info##.adsListItem
 online.filmek-sorozatok.info##.videoBanner
 onlinecegjegyzek.hu##[class*="hirdetes"]
@@ -1480,9 +1457,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||napocska.hu/images/*_advert*.$image
 ||net-solutions.hu/banner/$image
 ||new-game-everyday.online^$popup
-||nlcafe.hu/*hirdetes
-||nlcafe.hu/data/files/*_hatter*.$image
-||nlcafe.hu/data/files/rovatszponzoracio/
 ||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html
@@ -1691,7 +1665,6 @@ autosjog.hu##p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu##[aria-label="cookieconsent"]
 babanet.hu###cookie
 babanet.hu###popupajanlo
-babaszoba.hu###facebook-sharebar
 bankmonitor.hu##main + .ok-prerender
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##.articleInArticleOfferer
 bebiztositva.hu##.pea_cook_wrapper
@@ -1709,9 +1682,7 @@ borsonline.hu##.newsletter-box
 borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
-budapestbank.hu###header_cookie_container
 budapestpark.hu###cooker_container
-builder.hu###cookie_warn_text
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies
 cartourmagazin.hu###pa-push-notification-subscription
@@ -1728,8 +1699,6 @@ elemi.hu##.penci-wrap-gprd-law
 elemi.hu##.sgpb-popup-dialog-main-div-wrapper
 elemi.hu##.sgpb-popup-overlay
 elemzeskozpont.hu###sliding-popup
-elmuhalozat.hu##.cookiepanel_overlay
-elmuhalozat.hu###tab-widget-wrapper
 epiteszforum.hu##div.cookieLayer
 epiteszforum.hu##div.supportModal
 esport1.hu##.cookie-popup
@@ -1760,7 +1729,6 @@ hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
 ! https://github.com/hufilter/hufilter-dev/issues/256
 hazipatika.com###webaruhaz-ajanlo
-hbogo.hu##.cookie-consent
 helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
 hirado.hu##.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
@@ -1805,7 +1773,6 @@ magyarnemzet.hu##div.gdprBoxContainer
 mandiner.hu###newsletter-box
 mediacenter.hu###cookie-msg
 medicalonline.hu##.accept-cookies
-menshealth.hu###fbpopup
 merce.hu##.cookie-bar
 merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
@@ -1822,13 +1789,12 @@ nlc.hu##.m-pcPromoArticlePointsLayer
 nlc.hu##.m-pcPromoFooterLayer
 nlc.hu##div.m-articleStickySocial
 nlc.hu##div.m-breakingLayer
-nlcafe.hu##.m-fbPopup
 nyest.hu###cookie-consent
 obi.hu##.colorbox-cookiepolicy
 offline.hu###catapult-cookie-bar
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu###slidebox
-origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
+origo.hu,life.hu,reblog.hu,ok.hu,videa.hu###accept-cookie
 origo.hu##.mw-allow-notification-dialog
 origo.hu##.newsletter-layer
 origo.hu##div.facebook-layer-box
@@ -1891,7 +1857,6 @@ unilife.hu###ac
 vg.hu##.newsletter-box
 ! https://github.com/hufilter/hufilter-dev/issues/250
 vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
-vilaglato.info##.state-fb-pop-up
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
@@ -1900,14 +1865,12 @@ azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ! Section: Specific block
-||*.chatbot.elmuemasz.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
 ||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
-||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 ||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
@@ -1924,10 +1887,8 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/userip.php
 ! Section: Specific block
 ! AdBlock detector - privacy invasion
-||444.hu/js/ease_detector.js$script
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
-||myroitracking.com/newServing/
 ||websas.hu/statistics/
 ! Section: Tracking servers
 ||adat.freemail.hu^
@@ -1937,7 +1898,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||gemius.hu^
 ||gemius.pl^
 ||smartadserver.com^
-||track.calithornia.com^
 ||track.trackbyme.info^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
@@ -1962,7 +1922,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 onvideo.hu###detect + .wrapper
 ! Section: Specific block
-/js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||onlinestream.live/js/adb.js
 ! Section: Specific allow
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211

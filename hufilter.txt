@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wWLt7NuonVKIWOSDPB50hA
-! Version: 202212241326
+! Checksum: 5i8/4CVtAUwZkeLeuMjwPA
+! Version: 202212311439
 ! Title: Hufilter Basic
-! Last modified: 24 Dec 2022 13:26 UTC
+! Last modified: 31 Dec 2022 14:39 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -202,7 +202,6 @@ autoszektor.hu###block-block-30
 autoszektor.hu###block-block-60
 azonnali.hu##.addd
 azonnali.hu##.bannpos
-babaszoba.hu##.rubAd
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
 bacsmegye.hu###total
@@ -211,9 +210,6 @@ baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bebiztositva.hu##.widget_media_image
 beol.hu##[class*="adcikk"]
 betegvagyok.hu##[id*="banner"]
-bevezetem.hu##[class*="adsense"]
-bevezetem.hu##[class*="affiliate"]
-bevezetem.hu##[class^="ban_evo_"]
 bien.hu##.ads_show_ad_title
 bien.hu##.tapeta.fixed
 bien.hu##[class*="hirdetes"]
@@ -279,7 +275,6 @@ budapestkornyeke.hu##div.bpkad
 budapestkornyeke.hu##div[style="margin-top:20px;"]
 budapestpark.hu##.banner_main_page_wrapper
 builder.hu##[class*="banner"]
-c-press.hu###bef_mainbody_mod_2
 calculat.org###zadost
 carstyling.com##.banner.boxed
 carstyling.com###article_end_popup
@@ -687,7 +682,6 @@ ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
 internet-marketing.hu###bottompopup
 intima.hu##[class*="banner"]
-investor.hu###magnum
 ipon.hu##.home-section-banner
 ipon.hu##.u-hide\@mobile.flag-wrapper--fill.flag-wrapper.grid-col-lg-1-4.grid-col-md-1-2.grid-col-1.article-list__item
 ipon.hu##[id*="banner"]
@@ -961,20 +955,6 @@ nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup
 nlc.hu##.rubAd
-nlcafe.hu##.boxcontent
-nlcafe.hu##.cikk_vegi_google
-nlcafe.hu##.ctsGadx
-nlcafe.hu##.pr
-nlcafe.hu##[class*="adlist"]
-nlcafe.hu##[class*="adsense"]
-nlcafe.hu##[class*="Adverticum"]
-nlcafe.hu##[class*="banner"]
-nlcafe.hu##[class*="boxhirdetes"]
-nlcafe.hu##[class^="ad_"]
-nlcafe.hu##[id*="hirdetes"]
-nlcafe.hu##DIV[class^="cikk_hirdetes"][class$="x120"]
-nlcafe.hu##DIV[class^="hirdet"][class$="wrp"]
-nlcafe.hu##H3[class*="adlabel"]
 noinetcafe.hu##[class*="banner"]
 noitema.hu##[class*="hirdetes"]
 noizz.hu##[data-placeholder-caption="hirdetés"]
@@ -991,9 +971,6 @@ olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
 online-filmek.me##.hover_bkgr_fricc
-online.budapestbank.hu##.campaign-item
-online.budapestbank.hu##.ext-el-mask-banner
-online.budapestbank.hu##[id^="ext-gen"]
 online.filmek-sorozatok.info##.adsListItem
 online.filmek-sorozatok.info##.videoBanner
 onlinecegjegyzek.hu##[class*="hirdetes"]
@@ -1480,9 +1457,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||napocska.hu/images/*_advert*.$image
 ||net-solutions.hu/banner/$image
 ||new-game-everyday.online^$popup
-||nlcafe.hu/*hirdetes
-||nlcafe.hu/data/files/*_hatter*.$image
-||nlcafe.hu/data/files/rovatszponzoracio/
 ||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html

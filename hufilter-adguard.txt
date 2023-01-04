@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 6TtbnPkNLAmEf91rGMJyxg
-! Version: 202212311439
+! Checksum: PEWovFW0kdn/FBDjdG0CYg
+! Version: 202301041020
 ! Title: Hufilter for AdGuard
-! Last modified: 31 Dec 2022 14:39 UTC
+! Last modified: 04 Jan 2023 10:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1865,12 +1865,14 @@ azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ! Section: Specific block
+/js/push.js$domain=infostart.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
 ||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
+||money.hu/assets-new/js/calculator-widget-init.js
 ||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
@@ -1885,6 +1887,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /xgemius.js^
 /xgemius.min.js^
 ||*.hu/userip.php
+||infostart.hu/js/ga.js
 ! Section: Specific block
 ! AdBlock detector - privacy invasion
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
@@ -1929,7 +1932,6 @@ onvideo.hu###detect + .wrapper
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
 @@||meszotar.hu/scripts/advertising.js
-@@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709
 videa.hu,videaloop.hu#@#.adBanner
@@ -1937,7 +1939,8 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
-! Empty file
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+@@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 !---------------------------------------------------------------------------!
 !-------------- AdGuard-specific rules -------------------------------------!
 !---------------------------------------------------------------------------!
@@ -1972,6 +1975,9 @@ egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0')
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 ! https://github.com/hufilter/hufilter/issues/215
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75763
 ! Thanks to AdamWr

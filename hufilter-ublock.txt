@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: oxO0UwO+PsCVm4c+sZYMsQ
-! Version: 202301041020
+! Checksum: UwOXBG/Sbh9fvP7/Ww/NEQ
+! Version: 202301081541
 ! Title: Hufilter for uBO
-! Last modified: 04 Jan 2023 10:20 UTC
+! Last modified: 08 Jan 2023 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -27,7 +27,6 @@
 !---------------------------------------------------------------------------!
 !-------------- Ads --------------------------------------------------------!
 !---------------------------------------------------------------------------!
-! Section: General hide
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -115,7 +114,6 @@ hu##.hirdetesek
 hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
-! Section: Specific hide
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
@@ -1297,7 +1295,6 @@ zoldmano.info##.d-none[style*="padding: 10px"]
 zoldmano.info##.d-xl-none[style*="padding: 10px"]
 zoldmano.info##.post_content_box_article_continue + .text-center
 zoldmano.info##.post_content_box_sidebar
-! Section: Specific hide (extended ABP selectors)
 5percblog.hu#?#.code-block:-abp-has(script+ins)
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
@@ -1343,10 +1340,8 @@ szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 szineshir.net#?#div.grid_item:-abp-contains(Google Hirdetés)
 szineshir.net#?#div.grid_item:-abp-has(>div:-abp-contains(Hirdetés))
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
-! Section: General block
 ||*/empty.json
 ||*/eu-banned-popup/
-! Section: Specific block
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||0i.hu/files/images/$image
@@ -1509,7 +1504,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 ||yayo.hu/static/banner/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
-! Section: Ad servers
 ||a.adnium.com^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
@@ -1571,7 +1565,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||up-banner.wavecdn.de^
 ||vid4u.org^
 ||wstat.ozon.ru^
-! Section: Ad servers third-party
 ||9klikk.com^$third-party
 ||abmr.net^$third-party
 ||ad.hu^$third-party
@@ -1622,7 +1615,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 !---------------------------------------------------------------------------!
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
-! Section: General hide
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
@@ -1636,7 +1628,6 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 ! hu###qc-cmp2-container
-! Section: Specific hide
 112press.hu###cookie-law
 24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
@@ -1860,11 +1851,9 @@ vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
-! Section: Specific hide (extended ABP selectors)
 azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
-! Section: Specific block
 /js/push.js$domain=infostart.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
@@ -1879,7 +1868,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
-! Section: General block
 /gemius.js^
 /gemius.min.js^
 /traffic.js
@@ -1888,12 +1876,10 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /xgemius.min.js^
 ||*.hu/userip.php
 ||infostart.hu/js/ga.js
-! Section: Specific block
 ! AdBlock detector - privacy invasion
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||websas.hu/statistics/
-! Section: Tracking servers
 ||adat.freemail.hu^
 ||adtrackeraa.com^
 ||counter.megagroup.ru^
@@ -1906,7 +1892,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
 ||zanox.com^
-! Section: Tracking servers third-party
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
 ||google-analytics.com^$third-party
@@ -1920,13 +1905,10 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !---------------------------------------------------------------------------!
 !-------------- Antiadblock ------------------------------------------------!
 !---------------------------------------------------------------------------!
-! Section: Specific hide
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 onvideo.hu###detect + .wrapper
-! Section: Specific block
 ||onlinestream.live/js/adb.js
-! Section: Specific allow
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
@@ -1944,9 +1926,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !---------------------------------------------------------------------------!
 !-------------- uBlock-specific rules --------------------------------------!
 !---------------------------------------------------------------------------!
-! Section: HTML filters
-! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters
-! Description: Only works on Firefox
 24.hu##^body > script:has-text(a2blckLayer)
 divany.hu##^body>script:has-text(window.onload = window.onfocus)
 egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
@@ -1962,8 +1941,6 @@ portfolio.hu##^body>script:has-text(fbmodal-title)
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 totalbike.hu##^body>script:has-text(window.onload = window.onfocus)
 totalcar.hu##^body>script:has-text(window.onload = window.onfocus)
-! Section: Scriptlets
-! Description: https://github.com/gorhill/uBlock/wiki/Resources-Library
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 ! angol-magyar-szotar.hu antiadblock
 angol-magyar-szotar.hu##+js(set, adblock, false)
@@ -2004,9 +1981,6 @@ traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
-! Section: CSS modifiers
-! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#subjectstylearg
-! Description: More semantic AdGuard syntax also allowed
 atv.hu##header:style(height: auto !important;)
 automotor.hu###_cikk_tartalom_rb1:style(margin-top: 0 !important;)
 automotor.hu##div.layoutContent:style(margin-top: 0 !important;)
@@ -2028,8 +2002,6 @@ mkb.hu##html,body:style(overflow:auto !important)
 origo.hu##.first-section:style(margin-top: 0 !important;)
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; height: auto!important;)
-! Section: Related ABP rules
-! Description: These regular ABP rules dont't work properly without uBO-specific rules!
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
@@ -2041,7 +2013,6 @@ player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
-! Section: Other
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 blikk.hu##.leavingPopupLayer

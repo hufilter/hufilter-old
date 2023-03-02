@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: yRS5Jgbws7QiB2s7DczLmQ
-! Version: 202301101205
+! Checksum: ltcceyfW4rqjnK/CshLCUQ
+! Version: 202303022229
 ! Title: Hufilter for AdGuard
-! Last modified: 10 Jan 2023 12:05 UTC
+! Last modified: 02 Mar 2023 22:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1304,6 +1304,10 @@ blikkruzs.blikk.hu#?#div:-abp-has(>div[id^="div-gpt-ad-"])
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 bpiautosok.hu#?#center:-abp-has(>font)
+bpiautosok.hu##center:-abp-has(> a[href="https://bpiautosok.hu/mediaajanlat"])
+bpiautosok.hu##center:-abp-has(> a[href="https://bpiautosok.hu/mediaajanlat"]) + br
+bpiautosok.hu##.otw-sidebar:-abp-has(a[href="https://bpiautosok.hu/tamogatonk-a-te-ceged-jelenj-meg-nalunk-a-youtube-on-es-a-bpiautosok-hu-n/"])
+bpiautosok.hu##.widget.widget_text:-abp-has(.adsbygoogle)
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))
@@ -1673,6 +1677,7 @@ borsonline.hu##.newsletter-box
 borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
+bpiautosok.hu##.extpp-container
 budapestpark.hu###cooker_container
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies

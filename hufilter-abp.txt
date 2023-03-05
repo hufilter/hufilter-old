@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W9Hp2aKKyJ4QfKpixgxEqw
-! Version: 202303022229
+! Checksum: xqmAH4W/NsTHYlVrmMicgg
+! Version: 202303051614
 ! Title: Hufilter for ABP
-! Last modified: 02 Mar 2023 22:29 UTC
+! Last modified: 05 Mar 2023 16:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1936,9 +1936,14 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------- ABP-specific rules -----------------------------------------!
 !---------------------------------------------------------------------------!
 24.hu#$#abort-current-inline-script window._ceCTSData hirdetések
+! chp-ads-block-detector
+cinemo.hu#$#abort-on-property-read adsBlocked
 embed.indavideo.hu#$#override-property-read AdHandler.adblocked 0
 embed.indavideo.hu#$#override-property-read AdHandler.adBlockEnabled 0
 embed.indavideo.hu#$#override-property-read AdHandler.checkAdblock noopFunc
 huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#$#abort-on-property-write document.body.style
+! chp-ads-block-detector
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
+||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu

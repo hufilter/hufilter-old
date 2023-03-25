@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 8jhgzOoeJOuYnHPAlIB3Ew
-! Version: 202303131157
+! Checksum: WwgS4XPNH5n+xwgelLZvBA
+! Version: 202303250841
 ! Title: Hufilter for AdGuard
-! Last modified: 13 Mar 2023 11:57 UTC
+! Last modified: 25 Mar 2023 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1891,6 +1891,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||adtrackeraa.com^
 ||counter.megagroup.ru^
 ||doubleclick.net^
+||freestat.hu^
 ||gemius.hu^
 ||gemius.pl^
 ||smartadserver.com^

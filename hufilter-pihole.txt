@@ -1,7 +1,7 @@
-# Checksum: PXmuT3EKYPAIhmkmYLJFEQ
-# Version: 202303131157
+# Checksum: MhViUf8fhGtHEMi4QXyWlw
+# Version: 202303250841
 # Title: Hufilter Pi-hole
-# Last modified: 13 Mar 2023 11:57 UTC
+# Last modified: 25 Mar 2023 08:41 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://github.com/hufilter/hufilter/wiki
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -83,6 +83,7 @@ adat.freemail.hu
 adtrackeraa.com
 counter.megagroup.ru
 doubleclick.net
+freestat.hu
 gemius.hu
 gemius.pl
 smartadserver.com

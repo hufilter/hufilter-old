@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7z0GU4ypvVPj3/fOdQ+DgA
-! Version: 202303250841
+! Checksum: dRHYYGBFQ5eXq11cS1NEAg
+! Version: 202304021349
 ! Title: Hufilter Basic
-! Last modified: 25 Mar 2023 08:41 UTC
+! Last modified: 02 Apr 2023 13:49 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -510,13 +510,14 @@ hasznaltauto.hu###superbox
 hatarido-szamitas.hu##.szkozepkis
 haziallat.hu##[id*="_ads"]
 haziallat.hu###kapubanner
+hazipatika.com##.-contentTop
 hazipatika.com##.ctsGadx
 hazipatika.com##.hashtags
 hazipatika.com##.wrap
+hazipatika.com##TD[id*="l_sponsor"]
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[class*="adv_"]
 hazipatika.com##[class*="advert"]
-hazipatika.com##TD[id*="l_sponsor"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]

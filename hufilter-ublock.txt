@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: hMksrakOldpc5h3/+cJGIA
-! Version: 202304021349
+! Checksum: VlYGED/i1QxXaGNMBHuXnw
+! Version: 202304300839
 ! Title: Hufilter for uBO
-! Last modified: 02 Apr 2023 13:49 UTC
+! Last modified: 30 Apr 2023 08:39 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1306,10 +1306,10 @@ blikkruzs.blikk.hu#?#div:-abp-has(>div[id^="div-gpt-ad-"])
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 bpiautosok.hu#?#center:-abp-has(>font)
-bpiautosok.hu##center:-abp-has(> a[href="https://bpiautosok.hu/mediaajanlat"])
-bpiautosok.hu##center:-abp-has(> a[href="https://bpiautosok.hu/mediaajanlat"]) + br
-bpiautosok.hu##.otw-sidebar:-abp-has(a[href="https://bpiautosok.hu/tamogatonk-a-te-ceged-jelenj-meg-nalunk-a-youtube-on-es-a-bpiautosok-hu-n/"])
-bpiautosok.hu##.widget.widget_text:-abp-has(.adsbygoogle)
+bpiautosok.hu#?#center:-abp-has(> a[href="https://bpiautosok.hu/mediaajanlat"])
+bpiautosok.hu#?#center:-abp-has(> a[href="https://bpiautosok.hu/mediaajanlat"]) + br
+bpiautosok.hu#?#.otw-sidebar:-abp-has(a[href="https://bpiautosok.hu/tamogatonk-a-te-ceged-jelenj-meg-nalunk-a-youtube-on-es-a-bpiautosok-hu-n/"])
+bpiautosok.hu#?#.widget.widget_text:-abp-has(.adsbygoogle)
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))
@@ -1659,7 +1659,6 @@ atv.hu###szechenyi-container
 autobazar.eu###cookieinfo
 autonavigator.hu###CybotCookiebotDialog
 autosjog.hu##.cookie-notice-container
-autosjog.hu##p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu##[aria-label="cookieconsent"]
 babanet.hu###cookie
 babanet.hu###popupajanlo
@@ -1730,7 +1729,6 @@ hazipatika.com###facebook-sharebar
 hazipatika.com###webaruhaz-ajanlo
 helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
-hirado.hu##.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
@@ -1859,8 +1857,10 @@ vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
+autosjog.hu#?#p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
+hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /js/push.js$domain=infostart.hu
 ||chatrobot.mia.gov.hu^
@@ -1901,6 +1901,9 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
 ||zanox.com^
+! https://github.com/hufilter/hufilter-dev/issues/305
+||beam.telex.hu
+||beam-tracker.telex.hu
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
 ||google-analytics.com^$third-party

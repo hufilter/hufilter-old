@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M9HZ7P6Gul4/uj5V511NwQ
-! Version: 202305111155
+! Checksum: SQeeaMx0CJTvAECXy/LJlw
+! Version: 202305161829
 ! Title: Hufilter Basic
-! Last modified: 11 May 2023 11:55 UTC
+! Last modified: 16 May 2023 18:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -359,6 +359,7 @@ donna.hu##[class*="banner"]
 donna.hu##[id*="banner"]
 duen.hu##[id*="banner"]
 e-cars.hu##[class="td-a-rec td-a-rec-id-content_top  tdi_62 td_block_template_1"]
+e-cars.hu##[class="td-a-rec td-a-rec-id-header  tdi_53 td_block_template_1"]
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
 eduline.hu##[class*="ad_"]

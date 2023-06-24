@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 3FmSz5VQC5EIf1TsLqHkdA
-! Version: 202305161829
+! Checksum: V71xWTJf9BCVASL/dJt73w
+! Version: 202306242125
 ! Title: Hufilter for uBO
-! Last modified: 16 May 2023 18:29 UTC
+! Last modified: 24 Jun 2023 21:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -476,12 +476,13 @@ grundoajandek.hu##.jqi-subfade
 grundoajandek.hu###jqi-sub
 grundoajandek.hu###jqi-subfade
 gumiszoba.com##.wpcnt
+gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
+gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 gyakorikerdesek.hu##[id*="aswift"]
-gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##div.reklam_jobbra
-gyakorikerdesek.hu##IFRAME
+gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyaloglo.hu###banner
 gyaloglo.hu##DIV[class*="Advert"]

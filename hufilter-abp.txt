@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yh8IX1Zg5oFQ70a8JHyhPw
-! Version: 202306242125
+! Checksum: ufcZx7nv1E5uIztdumGHCA
+! Version: 202306261444
 ! Title: Hufilter for ABP
-! Last modified: 24 Jun 2023 21:25 UTC
+! Last modified: 26 Jun 2023 14:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1754,6 +1754,7 @@ kh.hu###cookieAcceptanceContainer
 kisalfold.hu###nap_ajanlata
 kisalfold.hu##div.endless-shared-area
 kiskegyed.hu##.leavingPopupLayer
+kiskegyed.hu##.qc-cmp2-container
 kiskegyed.hu###articleOfferFlag
 kitekinto.hu##.pea_cook_wrapper
 koponyeg.hu##.recommendationzone

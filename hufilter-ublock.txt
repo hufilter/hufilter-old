@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: NKvm/LHHViJUSN+d0nd6aw
-! Version: 202306261444
+! Checksum: K/E5idyeali/bGcPXz/UQg
+! Version: 202306271416
 ! Title: Hufilter for uBO
-! Last modified: 26 Jun 2023 14:44 UTC
+! Last modified: 27 Jun 2023 14:16 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1655,6 +1655,7 @@ adozona.hu##.floating-help-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113594
 americantourister.hu##.ui-widget-overlay
 americantourister.hu##[aria-describedby="cookies-dialog"]
+antikvarium.hu##.competition
 arukereso.hu###cookie-disclaimer
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground
@@ -1779,6 +1780,8 @@ merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
 mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
+moly.hu###sticky
+moly.hu##.b336
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
@@ -1837,6 +1840,8 @@ starity.hu###upprev_box
 startlap.hu###push-notification
 szabadfold.hu##div.fb_shares
 szatmar.ro##.cookie-consent
+szeged365.hu##.active.popup-screen
+szeged365.hu##.popup-box
 szekelyfold.ma##.Cookie--bottom
 ! https://github.com/hufilter/hufilter/issues/5
 szepsegbroker.hu###cookie

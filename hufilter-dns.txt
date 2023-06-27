@@ -1,7 +1,7 @@
-! Checksum: 3FtY+k6XTSfNbzSUsVrmAw
-! Version: 202306261444
+! Checksum: U2U7AlEsycTWi/9SVsk+hQ
+! Version: 202306271416
 ! Title: Hufilter DNS
-! Last modified: 26 Jun 2023 14:44 UTC
+! Last modified: 27 Jun 2023 14:16 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

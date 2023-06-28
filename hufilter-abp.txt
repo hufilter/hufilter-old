@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yIICdLppQsUndq5qCBS17A
-! Version: 202306271416
+! Checksum: RPUO8Zbzlom3EZIIDvpwdA
+! Version: 202306280847
 ! Title: Hufilter for ABP
-! Last modified: 27 Jun 2023 14:16 UTC
+! Last modified: 28 Jun 2023 08:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1156,6 +1156,7 @@ szamoldki.hu##.modal_popup
 szatmar.ro##[class*="banner"]
 szatmar.ro###st-2
 szatmar.ro##div[id*="banner"]
+szeged.hu##[src^="/uploads/images/banners/"]
 szeged365.hu##.stream-item
 szeged365.hu##[id^="stream-item-"]
 szekelyfold.ma##div[id^="ga_g"]

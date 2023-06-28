@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: xJrrMi5k+9VY8ju3AhnWXQ
-! Version: 202306280847
+! Checksum: H7OZZyxJCdCIkW16qRIUDg
+! Version: 202306281033
 ! Title: Hufilter for AdGuard
-! Last modified: 28 Jun 2023 08:47 UTC
+! Last modified: 28 Jun 2023 10:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -868,6 +868,8 @@ mindenkilapja.hu##[class*="advert"]
 mindmegette.hu##.billboard-cikk
 mindmegette.hu##.hir-fekvo
 mindmegette.hu##[class*="ads_box"]
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#@#[href*="ad.adverticum.net"]
 mindmegette.hu###ad-image-big
 mindmegette.hu###fadeandscale
 mindmegette.hu###fadeandscale_background
@@ -2003,6 +2005,8 @@ magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.ge
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
 mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')

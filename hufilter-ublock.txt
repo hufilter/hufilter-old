@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: FalpQGXBcyFZeoG6lk/e+w
-! Version: 202306280847
+! Checksum: mMJHPSnU929N7HAS5zodtw
+! Version: 202306281033
 ! Title: Hufilter for uBO
-! Last modified: 28 Jun 2023 08:47 UTC
+! Last modified: 28 Jun 2023 10:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -868,6 +868,8 @@ mindenkilapja.hu##[class*="advert"]
 mindmegette.hu##.billboard-cikk
 mindmegette.hu##.hir-fekvo
 mindmegette.hu##[class*="ads_box"]
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#@#[href*="ad.adverticum.net"]
 mindmegette.hu###ad-image-big
 mindmegette.hu###fadeandscale
 mindmegette.hu###fadeandscale_background
@@ -2001,6 +2003,8 @@ magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
 magyarorszag.hu##+js(rc, bottom-l, body, stay)
 magyarorszag.hu##+js(rc, bottom-s, body, stay)
 mandiner.hu##+js(rc, modal-open, body, stay)
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)

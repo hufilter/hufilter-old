@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: uZUpjYmmIRGmJfndUYHrfQ
-! Version: 202306290719
+! Checksum: BdN5Ap2E6TYpsliPXK8hkQ
+! Version: 202306291302
 ! Title: Hufilter for AdGuard
-! Last modified: 29 Jun 2023 07:19 UTC
+! Last modified: 29 Jun 2023 13:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1495,6 +1495,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
 ||stylemagazin.hu/static/template_settings/
+||szegeder.hu/get-ads
+||szegeder.hu/js/ads-prebid.js^$script
 ||szegedma.hu/*banners/*.
 ! https://github.com/hufilter/hufilter/issues/5
 ||szepsegbroker.hu/banner/$image

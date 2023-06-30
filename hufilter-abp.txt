@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H536PXBBUyxvUScQe+qXjw
-! Version: 202306291302
+! Checksum: e2q1uajdM7S+ru0miqM16A
+! Version: 202306301921
 ! Title: Hufilter for ABP
-! Last modified: 29 Jun 2023 13:02 UTC
+! Last modified: 30 Jun 2023 19:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1598,6 +1598,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||clicksure.com^$third-party
 ||ctnetwork.hu^$third-party
 ||data.bookline.hu^$third-party
+||head-clickfusion.com^$third-party
 ||hitelkereso.hu^$third-party
 ||iforex.com^$third-party
 ||iitech.dk^$third-party

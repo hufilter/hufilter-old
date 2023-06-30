@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: V2rUcYv2SXEIsm3y+sjyfQ
-! Version: 202306301921
+! Checksum: X1b18oEmELznDRAlQ0L1+w
+! Version: 202306302002
 ! Title: Hufilter for AdGuard
-! Last modified: 30 Jun 2023 19:21 UTC
+! Last modified: 30 Jun 2023 20:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -901,6 +901,10 @@ mon.hu##.Ad
 mon.hu##[id*="Ad_"]
 mon.hu##[id*="Banner"]
 motorrevu.hu##[class*="hirdetes"]
+! https://github.com/hufilter/hufilter-dev/issues/314
+mozinet.me###adserving-tag-hb
+mozinet.me###pa_sticky_ad_box_middle_left
+mozinet.me##iframe[id^="postbid_if_"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
 muhelynet.hu###exposeMask

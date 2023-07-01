@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HeOYSghFZggi9PY2DZvIuw
-! Version: 202307010828
+! Checksum: O6sXGWxGir3HGkKreISWPw
+! Version: 202307011224
 ! Title: Hufilter Basic
-! Last modified: 01 Jul 2023 08:28 UTC
+! Last modified: 01 Jul 2023 12:24 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -252,10 +252,6 @@ blogstar.hu##[class*="banner"]
 blogstar.hu##[class*="popupBanner"]
 blogstar.hu###lightview1
 bookline.hu##.o-banner--hirdetes
-borsa.hu##.blockright
-borsa.hu##.google
-borsa.hu##.parom
-borsa.hu##[class*="hirdetes"]
 borsonline.hu##.real-estate-wrapper
 borsonline.hu##[class*="__ad"]
 borsonline.hu##[class*="adContainer"]

@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: y45uJYsGjZe7gFbdCvATtw
-! Version: 202307021312
+! Checksum: b8HqRtOybAy5fxdiZ7mFVQ
+! Version: 202307021314
 ! Title: Hufilter for AdGuard
-! Last modified: 02 Jul 2023 13:12 UTC
+! Last modified: 02 Jul 2023 13:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1637,7 +1637,6 @@ adozona.hu##.floating-help-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113594
 americantourister.hu##.ui-widget-overlay
 americantourister.hu##[aria-describedby="cookies-dialog"]
-antikvarium.hu##.competition
 arukereso.hu###cookie-disclaimer
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground

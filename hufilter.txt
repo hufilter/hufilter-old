@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VoGpjCGDtlzaPtdE3CGL2A
-! Version: 202307021311
+! Checksum: +nIj6KLvZwlbf5ALRNimfA
+! Version: 202307021312
 ! Title: Hufilter Basic
-! Last modified: 02 Jul 2023 13:11 UTC
+! Last modified: 02 Jul 2023 13:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -453,10 +453,6 @@ gondola.hu##[class*="banner"]
 gondola.hu##[id*="banner"]
 gondola.hu###partnerek
 gportal.hu##[class*="banner"]
-grundoajandek.hu##.jqi-sub
-grundoajandek.hu##.jqi-subfade
-grundoajandek.hu###jqi-sub
-grundoajandek.hu###jqi-subfade
 gumiszoba.com##.wpcnt
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget

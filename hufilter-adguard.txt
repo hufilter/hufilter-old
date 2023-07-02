@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 5LJCQVG5PwVqXKnkA7N/sQ
-! Version: 202307021311
+! Checksum: Z22jYISiwLiqVgaUaBBQEw
+! Version: 202307021312
 ! Title: Hufilter for AdGuard
-! Last modified: 02 Jul 2023 13:11 UTC
+! Last modified: 02 Jul 2023 13:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -453,10 +453,6 @@ gondola.hu##[class*="banner"]
 gondola.hu##[id*="banner"]
 gondola.hu###partnerek
 gportal.hu##[class*="banner"]
-grundoajandek.hu##.jqi-sub
-grundoajandek.hu##.jqi-subfade
-grundoajandek.hu###jqi-sub
-grundoajandek.hu###jqi-subfade
 gumiszoba.com##.wpcnt
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
@@ -1704,7 +1700,6 @@ glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
 glamour.hu###qc-cmp2-container
-grundoajandek.hu###cookie-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
 gyakorikerdesek.hu###cookiekezeles
@@ -1945,7 +1940,6 @@ divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.o
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
-grundoajandek.hu$$script[tag-content="contextmenu"]
 hazipatika.com$$script[tag-content="a2blckLayer"]
 hungliaonline.com$$script[tag-content="adblocker"]
 magyarhang.org,hang.hu$$script[tag-content="ai_run_"]

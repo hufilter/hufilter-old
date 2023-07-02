@@ -1,5 +1,5 @@
 [AdGuard]
-! Checksum: Z22jYISiwLiqVgaUaBBQEw
+! Checksum: y45uJYsGjZe7gFbdCvATtw
 ! Version: 202307021312
 ! Title: Hufilter for AdGuard
 ! Last modified: 02 Jul 2023 13:12 UTC
@@ -436,8 +436,6 @@ freemail.hu##[class*="adbox"]
 freemail.hu##[class*="magnum"]
 ! https://github.com/hufilter/hufilter-dev/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
-freewaresoftwarenews.blogspot.com##[id*="HTML"]
-freewaresoftwarenews.blogspot.com###column-left-inner
 galamus.hu##[class*="banner"]
 gamekapocs.hu###background_ad_top
 gamepod.hu###right > .xabrew300.box

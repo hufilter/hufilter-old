@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: dI/B0NdWd71b72AYkU8W7g
+! Checksum: nGFabLkM+ue7GQk3P/c4+Q
 ! Version: 202307030834
 ! Title: Hufilter Basic
 ! Last modified: 03 Jul 2023 08:34 UTC
@@ -820,9 +820,10 @@ medicalonline.hu##.ui-floating-message
 medicalonline.hu##.wsp-wrap
 medicalonline.hu##[class*="tBanner"]
 medicalonline.hu###floatingBox
-menetrendek.hu##.articles
+menetrendek.hu##.banner_row
 menetrendek.hu##.proposer
 menetrendek.hu##.read_vs
+menetrendek.hu##.rightbanner
 merce.hu##.mrc-bnr-plchldr
 merce.hu##[class^="banner"]
 meska.hu##.sticky

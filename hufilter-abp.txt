@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fKmhXnAhuDBqeRw5xUxPPg
-! Version: 202307030835
+! Checksum: +rnIhqJoakqrK8sX/JeDtw
+! Version: 202307040754
 ! Title: Hufilter for ABP
-! Last modified: 03 Jul 2023 08:35 UTC
+! Last modified: 04 Jul 2023 07:54 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -291,9 +291,6 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-cotcot.hu##[class*="banner"]
-cotcot.hu##[class*="card_box_"]
-cotcot.hu##[class*="hirdetes"]
 csajoknak.com###rstbox_2
 csaladinet.hu##[class*="-adv"]
 csaladinet.hu##[class*="adv-"]
@@ -410,7 +407,6 @@ figyelo.hu##[class*="banner"]
 filmoldal.hu##DIV[class*="reklam"]
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[href^="https://rosszlanyok.hu/"]
-firstman.hu##[class*="banner"]
 forbes.hu##div[id^="forbesad"]
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forum.index.hu###ot2015

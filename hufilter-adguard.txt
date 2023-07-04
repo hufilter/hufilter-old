@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: p3FzDcXdeM/BfJV4/e+1DA
-! Version: 202307040754
+! Checksum: rrPnNwbi2zwpZWO5hVZghw
+! Version: 202307040755
 ! Title: Hufilter for AdGuard
-! Last modified: 04 Jul 2023 07:54 UTC
+! Last modified: 04 Jul 2023 07:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

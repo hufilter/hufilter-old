@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LobqsCiUAc+Yyi00YEWrcA
-! Version: 202307040755
+! Checksum: uONgHRqebteYp3h+Y0NLkQ
+! Version: 202307211054
 ! Title: Hufilter for ABP
-! Last modified: 04 Jul 2023 07:55 UTC
+! Last modified: 21 Jul 2023 10:54 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -775,11 +775,7 @@ magyarnemzet.hu##div.promo-bar
 magyarszo.com##[class*="reklam"]
 magyarszo.com##[id*="reklam"]
 mainap.hu##[class*="banner"]
-mandiner.hu##[class*="hirdetes"]
-mandiner.hu##DIV[class*="banner"]
-mandiner.hu##DIV[id*="Banner"]
-mandiner.hu##div[style*="fiskars"]
-mandiner.hu##html body div#all div#mainbgbg div#mainbg>div[style^="width: 125px"]
+mandiner.hu##.real-estate-wrapper
 manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
 maszol.ro###article > section > div:not(.article_content)
@@ -1249,6 +1245,7 @@ lifestory.hu#?#div.widget:-abp-has(>div.textwidget>p>script)
 mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
 magyarhang.org,hang.hu#?#.mc-modal:-abp-has(iframe)
 magyarhang.org,hang.hu#?#[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
+mandiner.hu#?#.sub-text:contains(Hirdetés)
 najlepsie-clanky.com#?#.code-block:-abp-has(script + ins)
 napjainkportal.hu#?#.code-block:-abp-has(>div+ins.adsbygoogle+script)
 nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
@@ -1679,7 +1676,8 @@ magyarhirlap.hu###eucookielaw
 ! https://github.com/hufilter/hufilter-dev/issues/251
 magyarnemzet.hu##.newsletter-box
 magyarnemzet.hu##div.gdprBoxContainer
-mandiner.hu###newsletter-box
+mandiner.hu##app-facebook-popup
+mandiner.hu##app-newsletter-popup
 mediacenter.hu###cookie-msg
 medicalonline.hu##.accept-cookies
 merce.hu##.cookie-bar
@@ -1781,12 +1779,12 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /js/push.js$domain=infostart.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
-||cmp.quantcast.com^$script,domain=hazipatika.com|hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
+||cmp.quantcast.com^$script,domain=hazipatika.com|hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||money.hu/assets-new/js/calculator-widget-init.js
-||quantcast.mgr.consensu.org^$script,domain=hazipatika.com|hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
+||quantcast.mgr.consensu.org^$script,domain=hazipatika.com|hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
 !---------------------------------------------------------------------------!

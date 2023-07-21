@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: POGHpauU/vsrob8o8XK0ug
-! Version: 202307211054
+! Checksum: /unoWfcq8YmJdnfgfgOLwA
+! Version: 202307211106
 ! Title: Hufilter for AdGuard
-! Last modified: 21 Jul 2023 10:54 UTC
+! Last modified: 21 Jul 2023 11:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1687,6 +1687,8 @@ mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
 moly.hu###sticky
 moly.hu##.b336
+! https://github.com/hufilter/hufilter-dev/issues/363
+myonlineradio.hu##[src^="/public/img/efi/"]
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
@@ -1844,6 +1846,9 @@ onvideo.hu###detect + .wrapper
 @@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
 @@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
 @@||meszotar.hu/scripts/advertising.js
+! https://github.com/hufilter/hufilter-dev/issues/363
+myonlineradio.hu##.layer_cont
+myonlineradio.hu##._close.overlay
 hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709

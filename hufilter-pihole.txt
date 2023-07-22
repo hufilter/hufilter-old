@@ -1,7 +1,7 @@
-# Checksum: GOX2lvaVJ6kzWpX9kNYvrw
-# Version: 202307221013
+# Checksum: RJN4ol07W2QwrisARLVXeQ
+# Version: 202307221016
 # Title: Hufilter Pi-hole
-# Last modified: 22 Jul 2023 10:13 UTC
+# Last modified: 22 Jul 2023 10:16 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://github.com/hufilter/hufilter/wiki
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

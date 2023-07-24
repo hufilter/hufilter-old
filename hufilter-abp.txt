@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xkO3W/LpbGf8y/01Ud8O/g
-! Version: 202307221016
+! Checksum: lVX7ExcsV1dLtd9rUR3lxA
+! Version: 202307240642
 ! Title: Hufilter for ABP
-! Last modified: 22 Jul 2023 10:16 UTC
+! Last modified: 24 Jul 2023 06:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1085,7 +1085,6 @@ telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
 teltlanyok.com##[id^="adchange"]
-tenyek24.eu###text-4
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]

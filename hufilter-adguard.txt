@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: UYynScqD1dcuobAf/J5ewQ
-! Version: 202307241854
+! Checksum: IWO7sq0i51ZnF+sO9nCpjQ
+! Version: 202307241856
 ! Title: Hufilter for AdGuard
-! Last modified: 24 Jul 2023 18:54 UTC
+! Last modified: 24 Jul 2023 18:56 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -103,7 +103,6 @@
 ##a[href*="daserver.ultraweb.hu"]
 ##a[href*="dealcent.com"]
 ##a[href*="etargetnet.com"]
-##a[href*="internetespenzkereses.net"]
 ##iframe[id*="ETARGET-"]
 hu##.hird
 hu##.hirdetes

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bCba0Fbb4VsoCkJQ03vCFg
-! Version: 202307241856
+! Checksum: g2x/9FhUC9FA5BApofh7OA
+! Version: 202307241900
 ! Title: Hufilter Basic
-! Last modified: 24 Jul 2023 18:56 UTC
+! Last modified: 24 Jul 2023 19:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -102,7 +102,6 @@
 ##a[href*="adverticum.net"]
 ##a[href*="daserver.ultraweb.hu"]
 ##a[href*="dealcent.com"]
-##a[href*="etargetnet.com"]
 ##iframe[id*="ETARGET-"]
 hu##.hird
 hu##.hirdetes

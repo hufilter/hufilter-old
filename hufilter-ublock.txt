@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ijykRpqAYJOWQpuPgmFC1A
-! Version: 202307241853
+! Checksum: IVqPFZfXthJCSHuhGPtrsg
+! Version: 202307241854
 ! Title: Hufilter for uBO
-! Last modified: 24 Jul 2023 18:53 UTC
+! Last modified: 24 Jul 2023 18:54 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -60,7 +60,6 @@
 ##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
 ##[href*="ad.adverticum.net"]
-##[href*="kuponmania.hu"]
 ##[id*="google_ads"]
 ##[id*="GoogleAds"]
 ##[id^="ad_zone_"]

@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 90HfPK0HqK1dCo/yq4pySA
-! Version: 202307241900
+! Checksum: uyujZIs9DcWt7Upfx5GHLQ
+! Version: 202307241901
 ! Title: Hufilter for uBO
-! Last modified: 24 Jul 2023 19:00 UTC
+! Last modified: 24 Jul 2023 19:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -101,7 +101,6 @@
 ##a[href*="ad.netmedia.hu"]
 ##a[href*="adverticum.net"]
 ##a[href*="daserver.ultraweb.hu"]
-##a[href*="dealcent.com"]
 ##iframe[id*="ETARGET-"]
 hu##.hird
 hu##.hirdetes

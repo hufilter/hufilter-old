@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: CtCJPG8BUb69YOvb0MxQCg
-! Version: 202307250909
+! Checksum: CDLCSSgcEmc2gGy8K//krw
+! Version: 202307250913
 ! Title: Hufilter for uBO
-! Last modified: 25 Jul 2023 09:09 UTC
+! Last modified: 25 Jul 2023 09:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -950,8 +950,6 @@ player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
 player.hu###pushpushgo-container
 politaktika.hu###popup
-polusonline.com###HTML5
-polusonline.com###HTML9
 port.hu##.articleMetadata
 port.hu##.container.css-table>div:not(.container)
 port.hu##.edgebox-widget.show

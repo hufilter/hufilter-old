@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UyHX1Ba/9vS80zj0pXj0CA
-! Version: 202307250914
+! Checksum: /5X0PZRgVljORxAKA7eMDg
+! Version: 202307250934
 ! Title: Hufilter Basic
-! Last modified: 25 Jul 2023 09:14 UTC
+! Last modified: 25 Jul 2023 09:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -183,6 +183,7 @@ autoszektor.hu###block-block-30
 autoszektor.hu###block-block-60
 azonnali.hu##.addd
 azonnali.hu##.bannpos
+bacsmegye.hu##.category-section.ad
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
 bacsmegye.hu###total

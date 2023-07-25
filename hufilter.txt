@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZGGE76+Y71c3Q0MCutMFaA
-! Version: 202307241901
+! Checksum: 57dlBFo27NfqamEI1dgP9Q
+! Version: 202307250909
 ! Title: Hufilter Basic
-! Last modified: 24 Jul 2023 19:01 UTC
+! Last modified: 25 Jul 2023 09:09 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -242,8 +242,10 @@ borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
 borsonline.hu##a[target="_blank"][class="videa-wrapper"]
 borsonline.hu##iframe[src*="koponyeg.hu"]
-bpiautosok.hu##font + center
 bpiautosok.hu###wpgtr_stickyads_textcss_container
+bpiautosok.hu##body > center:first-child
+bpiautosok.hu##body > center:first-child + br
+bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
 budapestkornyeke.hu###custom_html-6

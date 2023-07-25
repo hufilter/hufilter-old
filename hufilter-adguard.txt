@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: TSkXd0gBQWL+6X3ChkPd7g
-! Version: 202307241902
+! Checksum: Yklg0Ti0HSxD5uBKVVBVEw
+! Version: 202307250909
 ! Title: Hufilter for AdGuard
-! Last modified: 24 Jul 2023 19:02 UTC
+! Last modified: 25 Jul 2023 09:09 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -242,8 +242,10 @@ borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
 borsonline.hu##a[target="_blank"][class="videa-wrapper"]
 borsonline.hu##iframe[src*="koponyeg.hu"]
-bpiautosok.hu##font + center
 bpiautosok.hu###wpgtr_stickyads_textcss_container
+bpiautosok.hu##body > center:first-child
+bpiautosok.hu##body > center:first-child + br
+bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
 budapestkornyeke.hu###custom_html-6

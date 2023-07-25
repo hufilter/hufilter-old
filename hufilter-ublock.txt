@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: BGh+wKCquldympReltuLpQ
-! Version: 202307250913
+! Checksum: PNFTAIcSR8uJNO4vrkJI/w
+! Version: 202307250914
 ! Title: Hufilter for uBO
-! Last modified: 25 Jul 2023 09:13 UTC
+! Last modified: 25 Jul 2023 09:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -999,7 +999,6 @@ sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
 sielok.hu##[class*="AdWrap"]
 sielok.hu##[id*="AdWrap"]
-site88.net##.popup
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]

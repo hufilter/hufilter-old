@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: prZRU1RbggGpN6TMdkThVQ
-! Version: 202307261014
+! Checksum: hiTuY3J2DXnPj+ZlqX+0Dg
+! Version: 202307261015
 ! Title: Hufilter Basic
-! Last modified: 26 Jul 2023 10:14 UTC
+! Last modified: 26 Jul 2023 10:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -900,8 +900,6 @@ olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
 online-filmek.me##.hover_bkgr_fricc
-online.filmek-sorozatok.info##.adsListItem
-online.filmek-sorozatok.info##.videoBanner
 onlinecegjegyzek.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##.highlighted-banner
@@ -1342,7 +1340,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html
-||online.filmek-sorozatok.info/java.js$script
 ||p3k.hu/*_hatter*.$image
 ||p3k.hu/*szponz*.
 ||partyzoo.hu/banner/$image

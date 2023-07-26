@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qac3Vlabu6IpDsnXWAXHuw
-! Version: 202307261246
+! Checksum: tydzccQ2fQIVIqbNC3oZDw
+! Version: 202307261249
 ! Title: Hufilter Basic
-! Last modified: 26 Jul 2023 12:46 UTC
+! Last modified: 26 Jul 2023 12:49 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -272,13 +272,6 @@ chat.hu##[class^="vippol_"]
 chat.hu##[id*="banner"]
 chat.hu###stvipcontainer
 chat.hu##DIV[class="box rightbox"]
-citromail.hu##[data-ce-measure-widget^="CTS Banner"]
-citromail.hu###aHirek
-citromail.hu###hir
-citromail.hu###hir2
-citromail.hu###linkek
-citromail.hu###oldal
-citromail.hu##DIV[class*="hirdetes"]
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside

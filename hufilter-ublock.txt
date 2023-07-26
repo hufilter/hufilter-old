@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: B2/By0Hzy7ZLCAnKLrOy8Q
-! Version: 202307261246
+! Checksum: Xv3QOIiTNMZpuhxAw+qG1Q
+! Version: 202307261249
 ! Title: Hufilter for uBO
-! Last modified: 26 Jul 2023 12:46 UTC
+! Last modified: 26 Jul 2023 12:49 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -272,13 +272,6 @@ chat.hu##[class^="vippol_"]
 chat.hu##[id*="banner"]
 chat.hu###stvipcontainer
 chat.hu##DIV[class="box rightbox"]
-citromail.hu##[data-ce-measure-widget^="CTS Banner"]
-citromail.hu###aHirek
-citromail.hu###hir
-citromail.hu###hir2
-citromail.hu###linkek
-citromail.hu###oldal
-citromail.hu##DIV[class*="hirdetes"]
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
@@ -1902,7 +1895,6 @@ automotor.hu###_cikk_tartalom_rb1:style(margin-top: 0 !important;)
 automotor.hu##div.layoutContent:style(margin-top: 0 !important;)
 automotor.hu##div.postContent:style(margin-top: 0 !important;)
 budapestkornyeke.hu##body:style(padding-top: 0 !important;)
-citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
 hosszupuskasub.com##*:style(cursor: auto !important;)
 hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)

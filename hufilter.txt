@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hiTuY3J2DXnPj+ZlqX+0Dg
-! Version: 202307261015
+! Checksum: lzd4wzBj6lMXE5DRR0M92g
+! Version: 202307261023
 ! Title: Hufilter Basic
-! Last modified: 26 Jul 2023 10:15 UTC
+! Last modified: 26 Jul 2023 10:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -316,7 +316,6 @@ delmagyar.hu##[id*="banner"]
 delmagyar.hu##[id^="linkbox_article"]
 delmagyar.hu###billboard
 demokrata.hu##.region-header.region
-demotivalo.net##[id*="banner"]
 deres.tv##[class*="banner"]
 dictzone.com###a1
 dictzone.com###a2
@@ -1262,7 +1261,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||chat.hu/imgadverts$image
 ||cosmopolitan.hu/*/sponsor/
 ||csongradihirek.hu/portal/images/stories/_reklamok/$image
-||demotivalo.net/*banner_*.$image
 ||dijnet.hu/ekonto/images/news/$image
 ||dijnet.hu/ekonto/images/szolg_logo/adomany_logo.jpg$image
 ||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg$image

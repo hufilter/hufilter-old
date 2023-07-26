@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: zmLQq8GnT+g9baCJYcUAkg
-! Version: 202307261012
+! Checksum: T8h1fiqpRwT2UjxL8aCewg
+! Version: 202307261013
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Jul 2023 10:12 UTC
+! Last modified: 26 Jul 2023 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -881,7 +881,6 @@ nepszava.us##.myftp-widget
 nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
 netbulvar.eu##[id*="advertisment"]
-netfirms.com##A[href*="=banner"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 09Wb/Va6rMd5y+G5lD3MtQ
-! Version: 202307261012
+! Checksum: uodyEsSL7Dh5CwSRQiGo6w
+! Version: 202307261013
 ! Title: Hufilter Basic
-! Last modified: 26 Jul 2023 10:12 UTC
+! Last modified: 26 Jul 2023 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -881,7 +881,6 @@ nepszava.us##.myftp-widget
 nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
 netbulvar.eu##[id*="advertisment"]
-netfirms.com##A[href*="=banner"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup

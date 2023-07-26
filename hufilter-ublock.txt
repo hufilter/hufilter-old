@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: aTOQOgFqeTLO6DbXXOWmsQ
-! Version: 202307261012
+! Checksum: AHAYqrD6ZdWli9FW+rqdiQ
+! Version: 202307261013
 ! Title: Hufilter for uBO
-! Last modified: 26 Jul 2023 10:12 UTC
+! Last modified: 26 Jul 2023 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -881,7 +881,6 @@ nepszava.us##.myftp-widget
 nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
 netbulvar.eu##[id*="advertisment"]
-netfirms.com##A[href*="=banner"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup

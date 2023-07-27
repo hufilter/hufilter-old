@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CNAZ94Q9yM7p7XoIZZTm9A
-! Version: 202307270734
+! Checksum: 4dHlPuPX13lJQQck/pyPEQ
+! Version: 202307270736
 ! Title: Hufilter for ABP
-! Last modified: 27 Jul 2023 07:34 UTC
+! Last modified: 27 Jul 2023 07:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -476,7 +476,6 @@ hazipatika.com##[class*="advert"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
-hir-24.eu###text-3
 hir.ma##[class*="PostAd"]
 hir.ma##[class^="ad"]
 hir.ma##[class="e3lan e3lan-top"]

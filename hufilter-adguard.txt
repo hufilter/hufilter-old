@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: zEJ3veJ2WHfRMqvgFF+Xfg
-! Version: 202307270741
+! Checksum: Z7u835MXFlDeSMasvB7tDA
+! Version: 202307270742
 ! Title: Hufilter for AdGuard
-! Last modified: 27 Jul 2023 07:41 UTC
+! Last modified: 27 Jul 2023 07:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1509,6 +1509,8 @@ azonnali.hu##[aria-label="cookieconsent"]
 babanet.hu###cookie
 babanet.hu###popupajanlo
 bankmonitor.hu##main + .ok-prerender
+baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-article-subscription-box
+baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-newsletter-modal
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##.articleInArticleOfferer
 bebiztositva.hu##.pea_cook_wrapper
 blikk.hu###articleOfferFlag

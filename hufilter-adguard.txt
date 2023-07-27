@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: Mg9NmU1PhOIhQh2aNp82aA
-! Version: 202307270736
+! Checksum: SPP56GbCzFzdZQZyXxLJBQ
+! Version: 202307270737
 ! Title: Hufilter for AdGuard
-! Last modified: 27 Jul 2023 07:36 UTC
+! Last modified: 27 Jul 2023 07:37 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -281,7 +281,6 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-csajoknak.com###rstbox_2
 csaladinet.hu##[class*="-adv"]
 csaladinet.hu##[class*="adv-"]
 csaladinet.hu###bdism1

@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: SPP56GbCzFzdZQZyXxLJBQ
-! Version: 202307270737
+! Checksum: F+D85vXjE7TV01HjBl5PcQ
+! Version: 202307270738
 ! Title: Hufilter for AdGuard
-! Last modified: 27 Jul 2023 07:37 UTC
+! Last modified: 27 Jul 2023 07:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -373,8 +373,6 @@ evamagazin.hu##.popupunderlay
 evamagazin.hu##[class*="adPlace"]
 evamagazin.hu##[class^="goAdverticum"]
 f1vilag.hu##[class*="adzone"]
-farm.hu##[class*="banner"]
-farm.hu##[id*="banner"]
 feliratok.info###advert
 feliratok.org##.wrapper>.slider
 femcafe.hu##.views-field-nothing

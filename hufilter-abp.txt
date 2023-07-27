@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tlif8gLquYXxrKMnms/LkQ
-! Version: 202307261249
+! Checksum: RcGApHs46o3YL6IutISBpw
+! Version: 202307270733
 ! Title: Hufilter for ABP
-! Last modified: 26 Jul 2023 12:49 UTC
+! Last modified: 27 Jul 2023 07:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1045,7 +1045,6 @@ szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
 szeretlekmagyarorszag.hu###hatterkep
 szervuszausztria.hu##[class^="ads"]
 szervuszausztria.hu##[id*="etarget"]
-szingliportal.hu##.article_contiune_link
 szoftverbazis.hu##.ad-wrap-100
 szoftverbazis.hu##.jobb_300
 szoftverbazis.hu##[class*="banner"]

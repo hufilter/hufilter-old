@@ -1,7 +1,7 @@
-# Checksum: RJN4ol07W2QwrisARLVXeQ
-# Version: 202307221016
+# Checksum: tIVjJWr5if7bhbw0XC/yAQ
+# Version: 202307281317
 # Title: Hufilter Pi-hole
-# Last modified: 22 Jul 2023 10:16 UTC
+# Last modified: 28 Jul 2023 13:17 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://github.com/hufilter/hufilter/wiki
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -81,6 +81,8 @@ chatrobot.mia.gov.hu
 chimpstatic.com
 adat.freemail.hu
 adtrackeraa.com
+beam-tracker.telex.hu
+beam.telex.hu
 counter.megagroup.ru
 doubleclick.net
 freestat.hu
@@ -92,5 +94,3 @@ tracker.azet.sk
 tracking.binarypromos.com
 tracking.tchibo.hu
 zanox.com
-beam.telex.hu
-beam-tracker.telex.hu

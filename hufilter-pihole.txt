@@ -1,7 +1,7 @@
-# Checksum: tIVjJWr5if7bhbw0XC/yAQ
-# Version: 202307281317
+# Checksum: pslbmPE5r6gYaOJTfzKVvQ
+# Version: 202307290715
 # Title: Hufilter Pi-hole
-# Last modified: 28 Jul 2023 13:17 UTC
+# Last modified: 29 Jul 2023 07:15 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://github.com/hufilter/hufilter/wiki
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -39,7 +39,6 @@ ad.supportal.hu
 ad.szexneked.hu
 adfair.hu
 adfree-stat.p3g.hu
-adk2x.com
 ads.geeks.hu
 adv.forpsi.hu
 adv.hu
@@ -52,7 +51,6 @@ banner.webtar.hu
 boxzsak.kirowski.com
 brostraffic.com
 cdn-dynamic.optimonk.com
-ctnsnet.com
 daserver.ultraweb.hu
 et.twyn.com
 fourtwentytradingcompany.net
@@ -93,4 +91,3 @@ track.trackbyme.info
 tracker.azet.sk
 tracking.binarypromos.com
 tracking.tchibo.hu
-zanox.com

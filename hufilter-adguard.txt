@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: QGzDoy5FhuF72sln78S7vA
-! Version: 202307281317
+! Checksum: hudSjWbVWfSIen94HmXJ1Q
+! Version: 202307290715
 ! Title: Hufilter for AdGuard
-! Last modified: 28 Jul 2023 13:17 UTC
+! Last modified: 29 Jul 2023 07:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1373,7 +1373,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
-||adk2x.com^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
@@ -1389,7 +1388,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||cdn-dynamic.optimonk.com^
-||ctnsnet.com^
 ||daserver.ultraweb.hu^
 ||et.twyn.com^
 ||etargetnet.*.hu^
@@ -1762,7 +1760,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
-||zanox.com^
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
 ! https://github.com/hufilter/hufilter-dev/issues/367

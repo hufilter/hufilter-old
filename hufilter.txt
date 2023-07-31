@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z+VWPpuNFRM5lLSbePS3YA
-! Version: 202307290715
+! Checksum: P8SVTQ7I9nrDhrTgR+/uZA
+! Version: 202307310846
 ! Title: Hufilter Basic
-! Last modified: 29 Jul 2023 07:15 UTC
+! Last modified: 31 Jul 2023 08:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1084,6 +1084,7 @@ turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
+twice.hu##.ads_show_ad_title
 twn.hu##.banner_box
 ugytudjuk.hu##.leftSide > .bnr
 ugytudjuk.hu##.rightSide > .bnr

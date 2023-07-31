@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: hudSjWbVWfSIen94HmXJ1Q
-! Version: 202307290715
+! Checksum: afuzBJRSiyMunoomunTu+A
+! Version: 202307310846
 ! Title: Hufilter for AdGuard
-! Last modified: 29 Jul 2023 07:15 UTC
+! Last modified: 31 Jul 2023 08:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1084,6 +1084,7 @@ turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
+twice.hu##.ads_show_ad_title
 twn.hu##.banner_box
 ugytudjuk.hu##.leftSide > .bnr
 ugytudjuk.hu##.rightSide > .bnr
@@ -1718,9 +1719,9 @@ femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /js/push.js$script,domain=infostart.hu
-||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
-||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu
+||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 ||chatrobot.mia.gov.hu^

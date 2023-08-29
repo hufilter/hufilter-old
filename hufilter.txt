@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P8SVTQ7I9nrDhrTgR+/uZA
-! Version: 202307310846
+! Checksum: EaQUBzl+Dzn7QoA6w+zWqQ
+! Version: 202308290938
 ! Title: Hufilter Basic
-! Last modified: 31 Jul 2023 08:46 UTC
+! Last modified: 29 Aug 2023 09:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -24,9 +24,7 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-!---------------------------------------------------------------------------!
-!-------------- Ads --------------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules against advertising
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -1465,8 +1463,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
 ||xxxshort.com^$third-party
-!---------------------------------------------------------------------------!
-!-------------- Other rules ------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains various fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu

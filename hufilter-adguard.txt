@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: AJGZffTPUHYvpKUCD08PgQ
-! Version: 202308011843
+! Checksum: k/43rFS76nppwBpAJyXsxw
+! Version: 202308290938
 ! Title: Hufilter for AdGuard
-! Last modified: 01 Aug 2023 18:43 UTC
+! Last modified: 29 Aug 2023 09:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -24,9 +24,7 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-!---------------------------------------------------------------------------!
-!-------------- Ads --------------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules against advertising
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -1465,9 +1463,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
 ||xxxshort.com^$third-party
-!---------------------------------------------------------------------------!
-!-------------- Annoyances -------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules against annoying elements,
+! for example: cookie notices, floating elements, pop-ups and so on.
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
@@ -1732,9 +1729,30 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
-!---------------------------------------------------------------------------!
-!-------------- Trackers ---------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules that bypass anti-adblock techniques.
+777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
+777blog.hu##div#rechtangle.widget:nth-of-type(5)
+onvideo.hu###detect + .wrapper
+! https://github.com/hufilter/hufilter-dev/issues/363
+myonlineradio.hu##.layer_cont
+myonlineradio.hu##._close.overlay
+hazipatika.com##.a2blckLayer
+! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
+! https://github.com/AdguardTeam/AdguardFilters/issues/126709
+videa.hu,videaloop.hu#@#.adBanner
+videa.hu,videaloop.hu##.top-video-container-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/113211
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
+@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
+@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
+! https://github.com/AdguardTeam/AdguardFilters/issues/139716
+@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
+@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
+@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
+@@||meszotar.hu/scripts/advertising.js$script
+||onlinestream.live/js/adb.js$script
+! This section contains common rules against trackers and other privacy-invasive
+! technologies.
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 /gemius.js^$script
@@ -1773,83 +1791,25 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
-!---------------------------------------------------------------------------!
-!-------------- Antiadblock ------------------------------------------------!
-!---------------------------------------------------------------------------!
-777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
-777blog.hu##div#rechtangle.widget:nth-of-type(5)
-onvideo.hu###detect + .wrapper
-! https://github.com/hufilter/hufilter-dev/issues/363
-myonlineradio.hu##.layer_cont
-myonlineradio.hu##._close.overlay
-hazipatika.com##.a2blckLayer
-! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
-! https://github.com/AdguardTeam/AdguardFilters/issues/126709
-videa.hu,videaloop.hu#@#.adBanner
-videa.hu,videaloop.hu##.top-video-container-banner
-! https://github.com/AdguardTeam/AdguardFilters/issues/113211
-@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
-@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
-@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
-! https://github.com/AdguardTeam/AdguardFilters/issues/139716
-@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
-@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
-@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
-@@||meszotar.hu/scripts/advertising.js$script
-||onlinestream.live/js/adb.js$script
-!---------------------------------------------------------------------------!
-!-------------- Other rules ------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains various fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
-!---------------------------------------------------------------------------!
-!-------------- AdGuard-specific rules -------------------------------------!
-!---------------------------------------------------------------------------!
-24.hu$$script[tag-content="a2blckLayer"]
-divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
+! This section contains AdGuard-specific rules against advertising
+startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
+! This section contains AdGuard-specific rules against annoying elements,
+! for example: cookie notices, floating elements, pop-ups and so on.
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
-hazipatika.com$$script[tag-content="a2blckLayer"]
-hungliaonline.com$$script[tag-content="adblocker"]
-magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
+! https://github.com/hufilter/hufilter/issues/8
 napiszar.com$$script[data-cfasync="false"]
-openspeedtest.com$$script[tag-content="testadblock"]
-port.hu$$script[tag-content="popUpBannerBox Ad300 hirdetes_box"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
-szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
-24.hu#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'hirdetések')
-! angol-magyar-szotar.hu antiadblock
-angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
-! calculat.org antiadblock
-calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
-! chp-ads-block-detector
-cinemo.hu#%#//scriptlet('abort-on-property-read', 'adsBlocked')
-! totalcar.hu antiadblock
-divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
-egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
-embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
-embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
-embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0')
-! https://github.com/AdguardTeam/AdguardFilters/issues/139139
-embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
-embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
-! https://github.com/hufilter/hufilter/issues/215
-! https://github.com/AdguardTeam/AdguardFilters/issues/75763
-! Thanks to AdamWr
-femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
-hazipatika.com#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'a2blckLayer')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
-huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefined')
-karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
-! Free space before article
-life.hu#%#//scriptlet('remove-attr', 'class', 'section[class="life-section l-section-main article-section l-section-article"]')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
-! magyarhang.org antiadblock
-magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
-magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
 mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
@@ -1857,14 +1817,70 @@ mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
-pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
-! https://github.com/hufilter/hufilter/issues/15
-port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')
-sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
 vezess.hu#%#//scriptlet('remove-class', 'blurry', 'body > :not(.m-fbPopup)', 'stay')
+origo.hu#$#.oh-holder.open { z-index: 9999 !important; }
+! https://github.com/hufilter/hufilter/issues/212
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
+traffihunter.hu##.ooono_promo
+vezess.hu##.m-fbPopup
+mandiner.hu##.modal-backdrop
+mandiner.hu##.modal[role="dialog"]
+hetek.hu##[class="modal-backdrop fade show"]
+hetek.hu###nyeremenyModal
+kektura.hu###cookie-consent-dialog
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[style]:has(.adslot_1)
+! This section contains AdGuard-specific rules that bypass anti-adblock techniques.
+24.hu$$script[tag-content="a2blckLayer"]
+divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
+hazipatika.com$$script[tag-content="a2blckLayer"]
+hungliaonline.com$$script[tag-content="adblocker"]
+magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
+openspeedtest.com$$script[tag-content="testadblock"]
+port.hu$$script[tag-content="popUpBannerBox Ad300 hirdetes_box"]
+szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
+24.hu#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'hirdetések')
+angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
+calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
+! chp-ads-block-detector
+cinemo.hu#%#//scriptlet('abort-on-property-read', 'adsBlocked')
+divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
+egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
+embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
+embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
+embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0')
+hazipatika.com#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'a2blckLayer')
+huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefined')
+karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
+magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
+magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
+pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
+! https://github.com/hufilter/hufilter/issues/15
+port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')
+karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+! chp-ads-block-detector
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
+||sovrn.com$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
+! This section contains various AdGuard-specific fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
+! https://github.com/hufilter/hufilter/issues/215
+! https://github.com/AdguardTeam/AdguardFilters/issues/75763
+femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
+! Free space before article
+life.hu#%#//scriptlet('remove-attr', 'class', 'section[class="life-section l-section-main article-section l-section-article"]')
+sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
+! https://github.com/hufilter/hufilter-dev/issues/317
+menetrendek.hu#$#.results_body { height: auto !important; }
+menetrendek.hu#$#body:has(> .background.height) .notation { display: block !important; }
+! .background without .height
+menetrendek.hu#$#body:has(> [class="background"]) footer { margin-top: 610px !important; }
 atv.hu#$#header { height: auto !important; }
 automotor.hu#$##_cikk_tartalom_rb1 { margin-top: 0 !important; }
 automotor.hu#$#div.layoutContent { margin-top: 0 !important; }
@@ -1884,31 +1900,7 @@ keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
-! https://github.com/hufilter/hufilter-dev/issues/317
-menetrendek.hu#$#.results_body { height: auto !important; }
-menetrendek.hu#$#body:has(> .background.height) .notation { display: block !important; }
-! .background without .height
-menetrendek.hu#$#body:has(> [class="background"]) footer { margin-top: 610px !important; }
 origo.hu#$#.first-section { margin-top: 0 !important; }
-origo.hu#$#.oh-holder.open { z-index: 9999!important; }
-startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
-hetek.hu##[class="modal-backdrop fade show"]
-hetek.hu###nyeremenyModal
-karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
-kektura.hu###cookie-consent-dialog
-mandiner.hu##.modal-backdrop
-mandiner.hu##.modal[role="dialog"]
-ncore.pro###x-pop
-player.hu##.adult-overelay
-! https://github.com/hufilter/hufilter/issues/212
-totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
-traffihunter.hu##.ooono_promo
-vezess.hu##.m-fbPopup
-! https://github.com/hufilter/hufilter/issues/11
-filmvilag.me##[style]:has(.adslot_1)
-! chp-ads-block-detector
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
-||sovrn.com$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
 ! https://github.com/hufilter/hufilter-dev/issues/317
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||adocean.pl^$script,domain=menetrendek.hu

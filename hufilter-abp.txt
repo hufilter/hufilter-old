@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HDE6q95yQPq6pgUfKsDVdA
-! Version: 202308011843
+! Checksum: UpJgXGLA2uacuzaepgECCQ
+! Version: 202308290938
 ! Title: Hufilter for ABP
-! Last modified: 01 Aug 2023 18:43 UTC
+! Last modified: 29 Aug 2023 09:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -24,9 +24,7 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-!---------------------------------------------------------------------------!
-!-------------- Ads --------------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules against advertising
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -1465,9 +1463,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
 ||xxxshort.com^$third-party
-!---------------------------------------------------------------------------!
-!-------------- Annoyances -------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules against annoying elements,
+! for example: cookie notices, floating elements, pop-ups and so on.
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
@@ -1732,9 +1729,30 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
-!---------------------------------------------------------------------------!
-!-------------- Trackers ---------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains common rules that bypass anti-adblock techniques.
+777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
+777blog.hu##div#rechtangle.widget:nth-of-type(5)
+onvideo.hu###detect + .wrapper
+! https://github.com/hufilter/hufilter-dev/issues/363
+myonlineradio.hu##.layer_cont
+myonlineradio.hu##._close.overlay
+hazipatika.com##.a2blckLayer
+! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
+! https://github.com/AdguardTeam/AdguardFilters/issues/126709
+videa.hu,videaloop.hu#@#.adBanner
+videa.hu,videaloop.hu##.top-video-container-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/113211
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
+@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
+@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
+! https://github.com/AdguardTeam/AdguardFilters/issues/139716
+@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
+@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
+@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
+@@||meszotar.hu/scripts/advertising.js$script
+||onlinestream.live/js/adb.js$script
+! This section contains common rules against trackers and other privacy-invasive
+! technologies.
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 /gemius.js^$script
@@ -1773,38 +1791,12 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
-!---------------------------------------------------------------------------!
-!-------------- Antiadblock ------------------------------------------------!
-!---------------------------------------------------------------------------!
-777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
-777blog.hu##div#rechtangle.widget:nth-of-type(5)
-onvideo.hu###detect + .wrapper
-! https://github.com/hufilter/hufilter-dev/issues/363
-myonlineradio.hu##.layer_cont
-myonlineradio.hu##._close.overlay
-hazipatika.com##.a2blckLayer
-! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
-! https://github.com/AdguardTeam/AdguardFilters/issues/126709
-videa.hu,videaloop.hu#@#.adBanner
-videa.hu,videaloop.hu##.top-video-container-banner
-! https://github.com/AdguardTeam/AdguardFilters/issues/113211
-@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
-@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
-@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
-! https://github.com/AdguardTeam/AdguardFilters/issues/139716
-@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
-@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
-@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
-@@||meszotar.hu/scripts/advertising.js$script
-||onlinestream.live/js/adb.js$script
-!---------------------------------------------------------------------------!
-!-------------- Other rules ------------------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains various fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
-!---------------------------------------------------------------------------!
-!-------------- ABP-specific rules -----------------------------------------!
-!---------------------------------------------------------------------------!
+! This section contains AdGuard-specific rules that bypass anti-adblock techniques.
 24.hu#$#abort-current-inline-script window._ceCTSData hirdetések
 ! chp-ads-block-detector
 cinemo.hu#$#abort-on-property-read adsBlocked
@@ -1817,5 +1809,8 @@ port.hu#$#abort-on-property-write document.body.style
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
+! This section contains various fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
 ! https://github.com/hufilter/hufilter-dev/issues/317
 @@||adocean.pl^$script,domain=menetrendek.hu

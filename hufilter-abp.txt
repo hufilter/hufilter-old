@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UpJgXGLA2uacuzaepgECCQ
-! Version: 202308290938
+! Checksum: SjAmdNRqvwc5AcE1Ca7r/Q
+! Version: 202309111520
 ! Title: Hufilter for ABP
-! Last modified: 29 Aug 2023 09:38 UTC
+! Last modified: 11 Sep 2023 15:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -55,7 +55,6 @@
 ##.reklam-doboz
 ##.reklamok
 ##[class*="GoogleAds"]
-##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
 ##[href*="ad.adverticum.net"]
 ##[id*="google_ads"]
@@ -108,6 +107,7 @@ hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
 hu##ins[id^="aswift_"]
+hu##[class*="overlayBg"]
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper

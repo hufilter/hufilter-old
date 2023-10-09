@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: //qmOkQ+yGQmmPrziia3kQ
-! Version: 202309111520
+! Checksum: XPeGAyEJQCZQDfS5+9lFXA
+! Version: 202310090806
 ! Title: Hufilter Basic
-! Last modified: 11 Sep 2023 15:20 UTC
+! Last modified: 09 Oct 2023 08:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -128,6 +128,7 @@ adozona.hu##.big_badge
 adozona.hu##[class*="ads"]
 adozona.hu###g0
 agrarszektor.hu###ajanlo
+agroinform.hu##.ez-egy-dc-doboz:-abp-has(> .double_click_doboz)
 alapjarat.hu###alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
 alfahir.hu###block-block-16

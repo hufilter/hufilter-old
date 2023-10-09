@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YRifDnhJGTVBIQSMAVK2eA
-! Version: 202309270912
+! Checksum: P83tV8S5qC+5WM0IYhcOCg
+! Version: 202310090806
 ! Title: Hufilter for ABP
-! Last modified: 27 Sep 2023 09:12 UTC
+! Last modified: 09 Oct 2023 08:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -128,6 +128,7 @@ adozona.hu##.big_badge
 adozona.hu##[class*="ads"]
 adozona.hu###g0
 agrarszektor.hu###ajanlo
+agroinform.hu##.ez-egy-dc-doboz:-abp-has(> .double_click_doboz)
 alapjarat.hu###alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
 alfahir.hu###block-block-16
@@ -1492,6 +1493,7 @@ ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert
 adozona.hu##.floating-help-wrapper
 agrarszektor.hu##.flyout
+agroinform.hu###CybotCookiebotDialog
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113594
 americantourister.hu##.ui-widget-overlay
 americantourister.hu##[aria-describedby="cookies-dialog"]

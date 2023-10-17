@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: D5ncHxbOyO5Z/YjeC3L6yw
-! Version: 202310090806
+! Checksum: cVeNCg20+SWPyUUYszXefw
+! Version: 202310171342
 ! Title: Hufilter for AdGuard
-! Last modified: 09 Oct 2023 08:06 UTC
+! Last modified: 17 Oct 2023 13:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -128,7 +128,7 @@ adozona.hu##.big_badge
 adozona.hu##[class*="ads"]
 adozona.hu###g0
 agrarszektor.hu###ajanlo
-agroinform.hu##.ez-egy-dc-doboz:-abp-has(> .double_click_doboz)
+agroinform.hu#?#.ez-egy-dc-doboz:-abp-has(> .double_click_doboz)
 alapjarat.hu###alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
 alfahir.hu###block-block-16

@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: i/8AS+WM+0eu8Pvsg7yzIQ
-! Version: 202310171342
+! Checksum: AZhwsaGhaBnUuZJldiqPRQ
+! Version: 202310180827
 ! Title: Hufilter for uBO
-! Last modified: 17 Oct 2023 13:42 UTC
+! Last modified: 18 Oct 2023 08:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1735,9 +1735,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 onvideo.hu###detect + .wrapper
-! https://github.com/hufilter/hufilter-dev/issues/363
-myonlineradio.hu##.layer_cont
-myonlineradio.hu##._close.overlay
 hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709
@@ -1802,6 +1799,9 @@ videa.hu,videaloop.hu##.top-video-container-banner
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
+myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
+myonlineradio.hu##.topHorizontalBanner
+/inside-banner.mini.js$domain=myonlineradio.hu
 ! This section contains uBlock-specific rules against annoying elements,
 ! for example: cookie notices, floating elements, pop-ups and so on.
 egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
@@ -1827,6 +1827,8 @@ vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
+myonlineradio.hu##.js-appAdv:style(display: none !important;)
+myonlineradio.hu##.cover-slider-cont:style(display: block !important;)
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
@@ -1861,6 +1863,8 @@ huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
 karpathir.com##+js(aopw, getComputedStyle)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
+! https://github.com/hufilter/hufilter-dev/issues/427
+myonlineradio.hu##+js(set, AddAdsV2I.addBlock, false)
 pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu##+js(aopw, document.body.style)

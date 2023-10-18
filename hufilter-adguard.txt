@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: cVeNCg20+SWPyUUYszXefw
-! Version: 202310171342
+! Checksum: WxaIb/H6mW5PsgF9YhPy9Q
+! Version: 202310180827
 ! Title: Hufilter for AdGuard
-! Last modified: 17 Oct 2023 13:42 UTC
+! Last modified: 18 Oct 2023 08:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1735,9 +1735,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 onvideo.hu###detect + .wrapper
-! https://github.com/hufilter/hufilter-dev/issues/363
-myonlineradio.hu##.layer_cont
-myonlineradio.hu##._close.overlay
 hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709
@@ -1800,6 +1797,9 @@ videa.hu,videaloop.hu##.top-video-container-banner
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
 ! This section contains AdGuard-specific rules against advertising
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
+myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
+myonlineradio.hu##.topHorizontalBanner
+/inside-banner.mini.js$domain=myonlineradio.hu
 ! This section contains AdGuard-specific rules against annoying elements,
 ! for example: cookie notices, floating elements, pop-ups and so on.
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
@@ -1824,6 +1824,8 @@ vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
 vezess.hu#%#//scriptlet('remove-class', 'blurry', 'body > :not(.m-fbPopup)', 'stay')
 origo.hu#$#.oh-holder.open { z-index: 9999 !important; }
+myonlineradio.hu#$#.js-appAdv { display: none !important; }
+myonlineradio.hu#$#.cover-slider-cont { display: block !important; }
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
@@ -1859,6 +1861,8 @@ huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefine
 karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
+! https://github.com/hufilter/hufilter-dev/issues/427
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.addBlock', 'false')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')

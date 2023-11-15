@@ -55,7 +55,7 @@ https://github.com/hufilter/hufilter/wiki (csak magyar nyelven / only in hungari
 
 ## Kapcsolat / Contact
 - E-mail: [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
-- [Beszélgetések fül / Discussions tab](https://github.com/hufilter/hufilter/discussions)
+- [Beszélgetések fül / Discussions tab](https://github.com/hufilter/hufilter-dev/discussions)
 
 ## Hibák bejelentése / Bug report
 [Kérjük, használd ezt az űrlapot / Please use this form](https://github.com/hufilter/hufilter-dev/issues/new/choose)

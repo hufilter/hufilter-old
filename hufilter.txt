@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dRN1VnCZsc1HuihH2rOCkQ
-! Version: 202311040847
+! Checksum: MBWYhYKjUr0GKbZOXv1QCg
+! Version: 202311251606
 ! Title: Hufilter Basic
-! Last modified: 04 Nov 2023 08:47 UTC
+! Last modified: 25 Nov 2023 16:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -128,6 +128,7 @@ adozona.hu##.big_badge
 adozona.hu##[class*="ads"]
 adozona.hu###g0
 agrarszektor.hu###ajanlo
+agroinform.hu##[style^="min-height: 128px; background: url(\"https://static.agroinform.hu/static/site/img/hirdetes_up.png\") no-repeat center bottom -1px;"]
 agroinform.hu#?#.ez-egy-dc-doboz:-abp-has(> .double_click_doboz)
 alapjarat.hu###alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
@@ -1394,6 +1395,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||avatraffic.com^
 ||banner.terminal.hu^
 ||banner.webtar.hu^
+||bannerzone.agroinform.hu^
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||cdn-dynamic.optimonk.com^

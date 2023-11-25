@@ -1,7 +1,7 @@
-! Checksum: DzonB7bj5mi+027GqKyPJA
-! Version: 202307290715
+! Checksum: 12iXs+RmN20ioNdlJByGcA
+! Version: 202311251606
 ! Title: Hufilter DNS
-! Last modified: 29 Jul 2023 07:15 UTC
+! Last modified: 25 Nov 2023 16:06 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -48,6 +48,7 @@ audit.median.hu
 avatraffic.com
 banner.terminal.hu
 banner.webtar.hu
+bannerzone.agroinform.hu
 boxzsak.kirowski.com
 brostraffic.com
 cdn-dynamic.optimonk.com

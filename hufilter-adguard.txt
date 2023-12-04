@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 7DNQA8/HH/nS7QxeLhNQUg
-! Version: 202311301537
+! Checksum: 4ObEaD+x5OJC6T7UAHcVHA
+! Version: 202312041733
 ! Title: Hufilter for AdGuard
-! Last modified: 30 Nov 2023 15:37 UTC
+! Last modified: 04 Dec 2023 17:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1823,6 +1823,11 @@ videa.hu,videaloop.hu##.top-video-container-banner
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
 myonlineradio.hu##.topHorizontalBanner
+! https://github.com/hufilter/hufilter-dev/issues/440
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+mobilarena.hu###page-forum #center > div:has(h4 + [onclick*="https://mobilarena.hu/muvelet/hozzaferes/kapcsolodas.php"])
+prohardver.hu###page-forum #center > div:has(h4 + [onclick*="https://prohardver.hu/muvelet/hozzaferes/kapcsolodas.php"])
+!#endif
 /inside-banner.mini.js$domain=myonlineradio.hu
 ! This section contains AdGuard-specific rules against annoying elements,
 ! for example: cookie notices, floating elements, pop-ups and so on.

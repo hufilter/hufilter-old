@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: FvF6K590O9DTGQGiJZpkYg
-! Version: 202401051413
+! Checksum: m4ngV+RFiYZDe7Uctw07lg
+! Version: 202401051434
 ! Title: Hufilter for uBO
-! Last modified: 05 Jan 2024 14:13 UTC
+! Last modified: 05 Jan 2024 14:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -24,7 +24,11 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-! This section contains common rules against advertising
+! This section file contains rules for blocking advertisements.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Generic cosmetic filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -108,6 +112,9 @@ hu###hirdetes
 hu###hirdetesek
 hu##ins[id^="aswift_"]
 hu##[class*="overlayBg"]
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
@@ -1166,6 +1173,9 @@ widescreen.hu##div.sgpb-popup-overlay-42657
 widescreen.hu##div.sgpb-popup-overlay-42658
 wikiszotar.hu##[id*="sense-"]
 zene.hu##.etarget
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters (with Extended CSS) --------------------------!
+!-------------------------------------------------------------------------------!
 5percblog.hu#?#.code-block:-abp-has(script+ins)
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
@@ -1215,13 +1225,19 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has
 prohardver.hu#?##page-forum #center > div:-abp-has(h4 + [onclick*="https://prohardver.hu/muvelet/hozzaferes/kapcsolodas.php"])
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
-||*/empty.json
-||*/eu-banned-popup/
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
+||*/empty.json
+||*/eu-banned-popup/
 ||0i.hu/files/images/$image
 ||444.hu/*/ease/
 ||888.hu^*/autoalkatreszek24$image
@@ -1484,8 +1500,12 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
 ||xxxshort.com^$third-party
-! This section contains common rules against annoying elements,
-! for example: cookie notices, floating elements, pop-ups and so on.
+! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! subscription prompts, floating elements and so on.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Generic cosmetic filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
@@ -1499,6 +1519,9 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 ! hu###qc-cmp2-container
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 112press.hu###cookie-law
 24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
@@ -1745,11 +1768,17 @@ vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters (with Extended CSS) --------------------------!
+!-------------------------------------------------------------------------------!
 autosjog.hu#?#p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 /js/push.js$script,domain=infostart.hu
 ||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu
@@ -1757,6 +1786,9 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
 ||hestore.hu/pic/cookie.png$image
@@ -1765,7 +1797,11 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
-! This section contains common rules that bypass anti-adblock techniques.
+! This section file contains rules for bypassing anti-adblock protections.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 rtl.hu##.adblock-confirm
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
@@ -1775,9 +1811,15 @@ hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709
 videa.hu,videaloop.hu#@#.adBanner
 videa.hu,videaloop.hu##.top-video-container-banner
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139716
 @@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
@@ -1785,10 +1827,16 @@ videa.hu,videaloop.hu##.top-video-container-banner
 @@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
 @@||meszotar.hu/scripts/advertising.js$script
 ||onlinestream.live/js/adb.js$script
-! This section contains common rules against trackers and other privacy-invasive
-! technologies.
+! This section file contains rules for blocking trackers and other privacy-invasive technologies.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
 /traffic.js$script
@@ -1801,8 +1849,8 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||adat.freemail.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter-dev/issues/305
-||beam-tracker.telex.hu
-||beam.telex.hu
+||beam-tracker.telex.hu^
+||beam.telex.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
 ||freestat.hu^
@@ -1825,20 +1873,35 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
-! This section contains various fixes for websites. For example:
-! - resolve incorrect blocking
-! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+! This section file contains rules for fixing breaking sites. For example:
+! - Layout issues
+! - Broken scripts
+! - etc.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
-! This section contains uBlock-specific rules against advertising
+! This section file contains rules for blocking advertisements.
+! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
 myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
 myonlineradio.hu##.topHorizontalBanner
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 /inside-banner.mini.js$domain=myonlineradio.hu
-! This section contains uBlock-specific rules against annoying elements,
-! for example: cookie notices, floating elements, pop-ups and so on.
+! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! subscription prompts, floating elements and so on.
+! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
 filmvilag.me##^script:has-text(ShadowRoot)
 gamer.hu##^script:has-text(cli_cookiebar_)
@@ -1875,7 +1938,12 @@ hetek.hu###nyeremenyModal
 kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
-! This section contains uBlock-specific rules that bypass anti-adblock techniques.
+! This section file contains rules for bypassing anti-adblock protections.
+! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 24.hu##^script:has-text(a2blckLayer)
 divany.hu,totalcar.hu,totalbike.hu##^script:has-text(window.onload = window.onfocus)
 hazipatika.com##^script:has-text(a2blckLayer)
@@ -1904,12 +1972,21 @@ pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu##+js(aopw, document.body.style)
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noop.txt,domain=cinemo.hu
 ||sovrn.com$xhr,redirect=noop.txt,domain=cinemo.hu
-! This section contains various uBlock-specific fixes for websites. For example:
-! - resolve incorrect blocking
-! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+! This section file contains rules for fixing breaking sites. For example:
+! - Layout issues
+! - Broken scripts
+! - etc.
+! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 embed.rtl.hu##+js(set, gemiusStream, {})
 embed.rtl.hu##+js(set, gemiusStream.event, noopFunc)
@@ -1943,5 +2020,8 @@ magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
 mandiner.hu##.raw-html-embed:style(min-height: auto !important;)
 mkb.hu##html,body:style(overflow:auto !important)
 origo.hu##.first-section:style(margin-top: 0 !important;)
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter-dev/issues/317
 @@||adocean.pl^$script,domain=menetrendek.hu

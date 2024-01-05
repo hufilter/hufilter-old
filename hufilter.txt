@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O1C8+VDJCXBdTB1xS/aC8Q
-! Version: 202401051413
+! Checksum: bjtWSfrpWLy2HOo9wTcE1w
+! Version: 202401051434
 ! Title: Hufilter Basic
-! Last modified: 05 Jan 2024 14:13 UTC
+! Last modified: 05 Jan 2024 14:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -24,7 +24,11 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-! This section contains common rules against advertising
+! This section file contains rules for blocking advertisements.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Generic cosmetic filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -108,6 +112,9 @@ hu###hirdetes
 hu###hirdetesek
 hu##ins[id^="aswift_"]
 hu##[class*="overlayBg"]
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
@@ -1166,6 +1173,9 @@ widescreen.hu##div.sgpb-popup-overlay-42657
 widescreen.hu##div.sgpb-popup-overlay-42658
 wikiszotar.hu##[id*="sense-"]
 zene.hu##.etarget
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters (with Extended CSS) --------------------------!
+!-------------------------------------------------------------------------------!
 5percblog.hu#?#.code-block:-abp-has(script+ins)
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
@@ -1215,13 +1225,19 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has
 prohardver.hu#?##page-forum #center > div:-abp-has(h4 + [onclick*="https://prohardver.hu/muvelet/hozzaferes/kapcsolodas.php"])
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
-||*/empty.json
-||*/eu-banned-popup/
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
+||*/empty.json
+||*/eu-banned-popup/
 ||0i.hu/files/images/$image
 ||444.hu/*/ease/
 ||888.hu^*/autoalkatreszek24$image
@@ -1484,8 +1500,10 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
 ||xxxshort.com^$third-party
-! This section contains various fixes for websites. For example:
-! - resolve incorrect blocking
-! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+! This section file contains rules for fixing breaking sites. For example:
+! - Layout issues
+! - Broken scripts
+! - etc.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu

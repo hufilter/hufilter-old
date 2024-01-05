@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T8TYFNZnnwnLcyeJ6Dw2BA
-! Version: 202311040847
+! Checksum: XbHfYHWccRnrIkost0iKIg
+! Version: 202401051434
 ! Title: Hufilter Self-promotions
-! Last modified: 04 Nov 2023 08:47 UTC
+! Last modified: 05 Jan 2024 14:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -24,7 +24,11 @@
 ! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !
-! This section contains common rules that block self-promotion and donation requests.
+! This section file contains rules for blocking self-promotion and donation requests.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! Donate box
 112press.hu###right > .box + .box
 24.hu##.m-donationBottomLine

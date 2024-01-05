@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 29GvOnxVE27X2e9jnjYf9Q
-! Version: 202312191000
+! Checksum: FvF6K590O9DTGQGiJZpkYg
+! Version: 202401051413
 ! Title: Hufilter for uBO
-! Last modified: 19 Dec 2023 10:00 UTC
+! Last modified: 05 Jan 2024 14:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -957,6 +957,9 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu###thanks > .hlist.noh
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[onclick*="$.ajax"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
 prohardver.hu###top > div:first-child
+! https://github.com/uBlockOrigin/uAssets/issues/21781#issuecomment-1878737349
+promotions.hu##.banner
+promotions.hu##.banner__ad
 propeller.hu##[class*="banner "]
 propeller.hu##[id^="overlay"]
 puruttya.hu##[class*="reklam"]

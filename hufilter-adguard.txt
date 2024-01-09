@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: lXE8MvsjmhldOF0yiMlDWQ
-! Version: 202401071021
+! Checksum: ss3dvjFMt40yzU4HYwaBuQ
+! Version: 202401091209
 ! Title: Hufilter for AdGuard
-! Last modified: 07 Jan 2024 10:21 UTC
+! Last modified: 09 Jan 2024 12:09 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1683,6 +1683,8 @@ moly.hu###sticky
 moly.hu##.b336
 ! https://github.com/hufilter/hufilter-dev/issues/363
 myonlineradio.hu##[src^="/public/img/efi/"]
+! https://github.com/hufilter/hufilter-dev/issues/427
+myonlineradio.hu##.fb-page-cont
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
@@ -1780,10 +1782,10 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 /js/push.js$script,domain=infostart.hu
-||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
-||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu
+||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 !-------------------------------------------------------------------------------!
@@ -1970,7 +1972,9 @@ karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/hufilter/hufilter-dev/issues/427
-myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.addBlock', 'false')
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.checkAddBlock', 'noopFunc')
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.hasAdblock', 'falseFunc')
+myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.setAddBlockMsg', 'noopFunc')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')
@@ -2023,6 +2027,9 @@ keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
+! https://github.com/hufilter/hufilter-dev/issues/427
+! Fix large space at the top of the page on desktop
+myonlineradio.hu#$#@media (min-width: 1200px) { .isSubPage ._bannerTop1 { height: 90px !important; } }
 origo.hu#$#.first-section { margin-top: 0 !important; }
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

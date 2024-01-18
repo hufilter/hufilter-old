@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: ss3dvjFMt40yzU4HYwaBuQ
-! Version: 202401091209
+! Checksum: Evij3C4Ujb+c8ccvamqDwg
+! Version: 202401181407
 ! Title: Hufilter for AdGuard
-! Last modified: 09 Jan 2024 12:09 UTC
+! Last modified: 18 Jan 2024 14:07 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1890,7 +1890,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
-myonlineradio.hu##.topHorizontalBanner
+myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -3000px !important; }
 ! https://github.com/hufilter/hufilter-dev/issues/440
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 mobilarena.hu###page-forum #center > div:has(h4 + [onclick*="https://mobilarena.hu/muvelet/hozzaferes/kapcsolodas.php"])
@@ -1972,9 +1972,8 @@ karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/hufilter/hufilter-dev/issues/427
-myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.checkAddBlock', 'noopFunc')
-myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.hasAdblock', 'falseFunc')
-myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.setAddBlockMsg', 'noopFunc')
+myonlineradio.hu#%#//scriptlet('abort-on-property-write', 'FbTrack')
+myonlineradio.hu#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')

@@ -1,7 +1,7 @@
-! Checksum: 12iXs+RmN20ioNdlJByGcA
-! Version: 202311251606
+! Checksum: xf07Qp/7EIRmswIEHmKztA
+! Version: 202401312252
 ! Title: Hufilter DNS
-! Last modified: 25 Nov 2023 16:06 UTC
+! Last modified: 31 Jan 2024 22:52 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -35,7 +35,6 @@ ad.napilapcsoport.hu
 ad.onadozo.hu
 ad.parom.hu
 ad.pphungary.hu
-ad.supportal.hu
 ad.szexneked.hu
 adfair.hu
 adfree-stat.p3g.hu
@@ -49,7 +48,6 @@ avatraffic.com
 banner.terminal.hu
 banner.webtar.hu
 bannerzone.agroinform.hu
-boxzsak.kirowski.com
 brostraffic.com
 cdn-dynamic.optimonk.com
 daserver.ultraweb.hu
@@ -69,7 +67,6 @@ rc.rootclick.com
 redwolfmoon.com
 related.hu
 smartcj.com
-srv1.srv-stat.com
 stat.adultium.com
 stats.badoostats.com
 syndication.trafficreps.com
@@ -88,7 +85,6 @@ freestat.hu
 gemius.hu
 gemius.pl
 smartadserver.com
-track.trackbyme.info
 tracker.azet.sk
 tracking.binarypromos.com
 tracking.tchibo.hu

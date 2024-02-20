@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CcdcaXZYOWezFRq5PTtd+w
-! Version: 202402151227
+! Checksum: SkqK/cr7IOPLPfllXnIRfA
+! Version: 202402201336
 ! Title: Hufilter Basic
-! Last modified: 15 Feb 2024 12:27 UTC
+! Last modified: 20 Feb 2024 13:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,6 +115,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XbHfYHWccRnrIkost0iKIg
-! Version: 202401051434
+! Checksum: 00hlZtXgxzeOezkUAK+kdQ
+! Version: 202403080908
 ! Title: Hufilter Self-promotions
-! Last modified: 05 Jan 2024 14:34 UTC
+! Last modified: 08 Mar 2024 09:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -64,14 +64,13 @@ onroad.hu##a[href="https://onroad.hu/tamogatas"]
 pestisracok.hu###head-wrap + .code-block
 ! Article recommender in the forum
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
-telex.hu##.kari
-telex.hu##.support
 telex.hu###minutes-campaign-container
 telex.hu###minutes-campaign-container-mini
-telex.hu##.support-box
+telex.hu##.fb-box
+telex.hu##.kari
 telex.hu##.modal--overlay
-! TODO! https://github.com/hufilter/hufilter/discussions/7
-!telex.hu##[href*="tamogatas"]
+telex.hu##.support
+telex.hu##.support-box
 totalcar.hu###bannerHeaderLink
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a

@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: rqmLLYUCDosNAz66QfZvgA
-! Version: 202403072053
+! Checksum: FkrFLvaHDUr+wQ3m4wsInQ
+! Version: 202403080908
 ! Title: Hufilter for uBO
-! Last modified: 07 Mar 2024 20:53 UTC
+! Last modified: 08 Mar 2024 09:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1056,6 +1056,8 @@ telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
 telex.hu##.banner-bottom
+telex.hu##.recommendation.recommendation--out
+telex.hu##.recommendation.recommendation--pr
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher

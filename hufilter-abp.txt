@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vP3JT2LC7JFRSoGRU6e+dA
-! Version: 202403080926
+! Checksum: 2LtLy1/m0rR+MDfbqiXyQQ
+! Version: 202403080933
 ! Title: Hufilter for ABP
-! Last modified: 08 Mar 2024 09:26 UTC
+! Last modified: 08 Mar 2024 09:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1655,6 +1655,8 @@ magyarhirlap.hu###eucookielaw
 ! https://github.com/hufilter/hufilter-dev/issues/251
 magyarnemzet.hu##.newsletter-box
 magyarnemzet.hu##div.gdprBoxContainer
+! annyoing large popup after opening the page
+mandiner.hu##app-calendar
 mandiner.hu##app-facebook-popup
 mandiner.hu##app-newsletter-popup
 mediacenter.hu###cookie-msg

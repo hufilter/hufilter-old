@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: FkrFLvaHDUr+wQ3m4wsInQ
-! Version: 202403080908
+! Checksum: ujLKf/WJeAvGAWFi5xNdZg
+! Version: 202403080926
 ! Title: Hufilter for uBO
-! Last modified: 08 Mar 2024 09:08 UTC
+! Last modified: 08 Mar 2024 09:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -891,11 +891,13 @@ oprend.hu##[class="ad-blocked"]
 oprend.hu##[class="p-t-10 ad-blocked"]
 gphirek.hu##[id^="zone"]
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
-! Gallery ads
+origo.hu##[class*="Advert"]
 origo.hu##[class*="banner"]
 origo.hu##[id*="banner"]
+origo.hu##app-article-page app-sidebar app-free-display-inventory
+origo.hu##app-sport-article-page app-sidebar app-free-display-inventory
 origo.hu##div.article-recommendation-zones
-origo.hu##[class*="Advert"]
+origo.hu##kesma-advertisement-adocean
 origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]

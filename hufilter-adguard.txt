@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: z+OlbH2gW9eANmVbY0XkJQ
-! Version: 202403181259
+! Checksum: dTenkBso72Na9+IsKQE0Gg
+! Version: 202403181333
 ! Title: Hufilter for AdGuard
-! Last modified: 18 Mar 2024 12:59 UTC
+! Last modified: 18 Mar 2024 13:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1980,9 +1980,9 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/AdguardTeam/AdguardFilters/issues/139139
-embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
-embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139, https://github.com/hufilter/hufilter-dev/issues/448
+player.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
+player.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 ! https://github.com/hufilter/hufilter/issues/215
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75763
 femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')

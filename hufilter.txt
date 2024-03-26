@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ur6U2TGXKAkVhMROfarE3g
-! Version: 202403251017
+! Checksum: XF16SdpDlS/IC5URLmSVwg
+! Version: 202403260833
 ! Title: Hufilter Basic
-! Last modified: 25 Mar 2024 10:17 UTC
+! Last modified: 26 Mar 2024 08:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -907,6 +907,7 @@ partyponty.hu##[id*="banner"]
 pcforum.hu,prog.hu##.centercol.sponsor
 pcforum.hu,prog.hu###zone-halfpage
 pcforum.hu,prog.hu###zone-roaddblock
+pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcguru.hu##.banner-content

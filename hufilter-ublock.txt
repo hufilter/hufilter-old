@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 7kbpZoYxRSJqQZ2hFMEZGA
-! Version: 202403260833
+! Checksum: gcXdQKXfNDD+n/yZ0k2B2w
+! Version: 202403271632
 ! Title: Hufilter for uBO
-! Last modified: 26 Mar 2024 08:33 UTC
+! Last modified: 27 Mar 2024 16:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1984,6 +1984,7 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139, https://github.com/hufilter/hufilter-dev/issues/448
 player.rtl.hu##+js(set, gemiusStream, {})
 player.rtl.hu##+js(set, gemiusStream.event, noopFunc)
+player.rtl.hu##+js(set, gemiusStream.init, noopFunc)
 ! https://github.com/hufilter/hufilter/issues/215
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75763
 femina.hu##+js(set, window.ado, null)

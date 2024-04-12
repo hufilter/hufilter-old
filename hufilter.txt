@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XF16SdpDlS/IC5URLmSVwg
-! Version: 202403260833
+! Checksum: fX+l/fyYSQVKaQCXzbNJQg
+! Version: 202404121300
 ! Title: Hufilter Basic
-! Last modified: 26 Mar 2024 08:33 UTC
+! Last modified: 12 Apr 2024 13:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -605,6 +605,7 @@ ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim t
 itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
+jofogas.hu###roadblock-adcum-zone
 jogiforum.hu##[class*="banner"]
 joy.hu##[class*="Adverticum"]
 joy.hu##[class^="ad-"]
@@ -1200,6 +1201,8 @@ hiros.hu#?#.frame:-abp-has(>span[style^="font-size: 11px;"])
 hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
 idokep.hu#?#.ik:-abp-contains(/^[Hh]irdetés$/)
+! https://github.com/uBlockOrigin/uAssets/issues/23271
+jofogas.hu#?#[style*="text-align: center;"]:-abp-has(> .adverticum-label + a)
 kezilabda.hu#?#div[style*="margin-bottom:10px"]:-abp-has(>div:-abp-contains(HIRDETÉS))
 kiszamolo.hu#?#div.ct-div-block:-abp-has(> div.ct-div-block > div.ct-text-block:-abp-contains(Hirdetés))
 koroshircentrum.hu#?#div:-abp-has(>a+h6)

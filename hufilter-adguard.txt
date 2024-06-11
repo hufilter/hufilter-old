@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 4kpE7YgplWuPQLOKcZ13Yg
-! Version: 202405300942
+! Checksum: W2jFjn8Q1rRcX++WqzGnng
+! Version: 202406111023
 ! Title: Hufilter for AdGuard
-! Last modified: 30 May 2024 09:42 UTC
+! Last modified: 11 Jun 2024 10:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1063,6 +1063,7 @@ telekom.hu##.ads
 telex.hu##.banner-bottom
 telex.hu##.recommendation.recommendation--out
 telex.hu##.recommendation.recommendation--pr
+telex.hu##.title-section__sponsored
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher

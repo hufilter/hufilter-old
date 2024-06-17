@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: W2jFjn8Q1rRcX++WqzGnng
-! Version: 202406111023
+! Checksum: yqQA0HUQHpunUWRksvFpyA
+! Version: 202406170905
 ! Title: Hufilter for AdGuard
-! Last modified: 11 Jun 2024 10:23 UTC
+! Last modified: 17 Jun 2024 09:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1870,6 +1870,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||gravity.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
+||performax.cz^$third-party
 ||targetix.net^$third-party
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party

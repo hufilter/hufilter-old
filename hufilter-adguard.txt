@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: yqQA0HUQHpunUWRksvFpyA
-! Version: 202406170905
+! Checksum: sr8rtyvl2xFD03Jb6UBQQg
+! Version: 202406190920
 ! Title: Hufilter for AdGuard
-! Last modified: 17 Jun 2024 09:05 UTC
+! Last modified: 19 Jun 2024 09:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -332,6 +332,7 @@ e-cars.hu##[class="td-a-rec td-a-rec-id-content_top  tdi_62 td_block_template_1"
 e-cars.hu##[class="td-a-rec td-a-rec-id-header  tdi_53 td_block_template_1"]
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
+economx.hu##.hirdetes-block
 eduline.hu##[class*="ad_"]
 eduline.hu##[class*="ads"]
 eduline.hu##[class*="Advert"]

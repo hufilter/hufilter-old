@@ -1,3 +1,8 @@
+> [!IMPORTANT]  
+> Filters subscription URL will change soon, more info: https://github.com/hufilter/hufilter-dev/issues/461
+>
+> A szűrők feliratkozási URL-je hamarosan meg fog változni, további információk: https://github.com/hufilter/hufilter-dev/issues/461
+
 &nbsp;
 <p align="center">
   <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter.svg" width="128rem" alt="hufilter" />

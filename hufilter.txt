@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KE+/Q5mNEvxMiRSCve0bNg
-! Version: 202406190920
+! Checksum: 5ZZGzAh5YCX/ktJwH+ktsg
+! Redirect: https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter.txt
+! Version: 202407101045
 ! Title: Hufilter Basic
-! Last modified: 19 Jun 2024 09:20 UTC
+! Last modified: 10 Jul 2024 10:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/

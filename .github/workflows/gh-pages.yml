@@ -26,6 +26,9 @@ jobs:
       - name: Copy .txt files with hufilter prefix to gh-pages folder
         run: cp hufilter*.txt gh-pages/
 
+      - name: Add CNAME file
+        run: echo "filters.hufilter.hu" > gh-pages/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
